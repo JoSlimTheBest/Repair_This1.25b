@@ -1,0 +1,1620 @@
+fileFormatVersion: 2
+guid: 8da2180da99218c4ba0e4a670eb7b987
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: glasses0
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 5032
+        width: 128
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b1edc9ceb333446afe989fb64f8a5e
+      internalID: -1536569666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses1
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 4864
+        width: 129
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addf353de523cae40bc1045e0044b860
+      internalID: -174304900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses2
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 4865
+        width: 127
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8677c7545006c4d9a597fbe80123b0
+      internalID: 246914172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses3
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 4867
+        width: 126
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f736c1e4fbb494c938a1e5c74f595f
+      internalID: 741048346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses4
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 4675
+        width: 132
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca7bd12017c1274aacb029e07e9cfe1
+      internalID: -1304694854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses5
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 4679
+        width: 89
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fac35ecaa626bf428dbaf8f5f01e05a
+      internalID: -1786951584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses6
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 4677
+        width: 135
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9512d43443f3dfb4a8bd0f4d04f4b6f0
+      internalID: -785133621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses7
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 4495
+        width: 125
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a5f986748cdf447b40711fa036fbc3
+      internalID: 172138777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses8
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 4492
+        width: 129
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bb35bb0c53f3d458021b870bc770ca
+      internalID: 920900893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses9
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 4503
+        width: 118
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6142ed36e3a1e747b13a8b156e9aee9
+      internalID: -1175027262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monoglasses
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 4154
+        width: 48
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59cb3aeb2a4d87468f82f7a0ad5a022
+      internalID: -784689437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_11
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 4253
+        width: 157
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffb70b6085eb4f49bd957653663ccec
+      internalID: -1516256229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_12
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 4152
+        width: 539
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddff04f65a291f43b644bb6137f8039
+      internalID: 1750803333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_13
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 4007
+        width: 121
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9402840649c13044097c41009e66d0cc
+      internalID: -57403024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_14
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 4025
+        width: 62
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4706a9b2b7941de41aeaea429f867028
+      internalID: -1481387149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_15
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 4002
+        width: 102
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c4c2eaceae58d4f9761713f3b5a00d
+      internalID: 20449905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_16
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 3793
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963650d4f0678664eb884a713c155abc
+      internalID: 187466367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_17
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 3793
+        width: 45
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ef84a620823114c892013b881f3282
+      internalID: 1297289567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_18
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3796
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdca14cbe067cf143bfda83de3bfa5ee
+      internalID: -504510552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_19
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 3622
+        width: 51
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c81922184dddb459b5bca89247b7bf
+      internalID: -1285723728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_20
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 3610
+        width: 51
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9307885913a0f6641a8e74b1a8b15bd2
+      internalID: -1972544341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_21
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3622
+        width: 54
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5abe593d4df2744bbb9451d3e44077d
+      internalID: -1026711619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_22
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 3407
+        width: 72
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d70bfe58a20e3249af6d9f70cc351db
+      internalID: 336298839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_23
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 3447
+        width: 98
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09818fbaaeccd0f45bd790108994a2ca
+      internalID: 1182942979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_24
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 3408
+        width: 84
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb943fe45d63d064ab6aabd93c048977
+      internalID: 1743849083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_25
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 3219
+        width: 70
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc25d9704539589469a3e711c0566350
+      internalID: 1278034410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_26
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 3221
+        width: 70
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9ba34dc324eb3448f1b5e0fa5027ab
+      internalID: -852943666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_27
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 3235
+        width: 93
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a649db928b6b84b46a7a3b51940bd810
+      internalID: 266025581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_28
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 3066
+        width: 153
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e1af65aabafc74cac5171df3232e46
+      internalID: -784896724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_30
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 3092
+        width: 154
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fa9fb933f4421499460530848b834b
+      internalID: 1381716259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_32
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 3097
+        width: 144
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde26bd16eb5b2445909094ab6636f0c
+      internalID: -193405083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_34
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 2914
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08837857dbe41e498f3b2549a6ec007
+      internalID: 659428480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_35
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 2914
+        width: 152
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714877d028709b94c96736813fbb991e
+      internalID: -1610331898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_37
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 2918
+        width: 158
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45bdc7479f9ff1498464dd3dc0548ea
+      internalID: 2034182069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_39
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 2727
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f09e45ec61bff40b1f42b3181b1a1c
+      internalID: -1274732492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_40
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 2724
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cd547fc329fb14c9d241f88bc8f249
+      internalID: 365497641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_41
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 2711
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc294cb8e15b51f459fea8056274f576
+      internalID: -1804228774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_42
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 2715
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90c55fbc302b6e4397750314cbfb588
+      internalID: -498759506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_43
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 2574
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d24f08c8741b954d8849846f8fd000b
+      internalID: 1880901890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_44
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 2520
+        width: 31
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103f8ef7a6c09204e8680517d0ce9fd2
+      internalID: -982042436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_45
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 2520
+        width: 31
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0439d6c436ae34192f951fa4a73a0c
+      internalID: 1018617708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_46
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 2299
+        width: 49
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3f0fcac4991974496e3cfaf4415b61
+      internalID: -515934926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_47
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 2299
+        width: 84
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad64e60386c93c24ba0541a4eb1f6ac7
+      internalID: -197327877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_48
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 2302
+        width: 31
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac327476d1dc2a2429074545e7741d24
+      internalID: -2040528845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_50
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 2113
+        width: 88
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f48a0041c05f1840bf0ec4e34d63340
+      internalID: -1032644715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_51
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 2083
+        width: 79
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014e5dc5137194642b617341071c43d9
+      internalID: -1300480733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_52
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 2083
+        width: 79
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a03acce54bb980419f59dff4b8f50dc
+      internalID: 633403579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_53
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 2097
+        width: 106
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76858909e2684d443a31be9a646af40b
+      internalID: 912054604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_55
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1886
+        width: 115
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51325abaa7770984491c4b79826fd3e0
+      internalID: 99297303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_57
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1869
+        width: 79
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ddaf9c917c7fe4e972cb16485f6a7e
+      internalID: 1190330992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_58
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 1869
+        width: 79
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7cb4b52a0b7244d95c41248709c5b3
+      internalID: -1970700978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_59
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1772
+        width: 86
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b72a002b35c0944bfac67a1d86a539
+      internalID: -1028158054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_63
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1783
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73fa6935a2168946928f76bf11c6ccc
+      internalID: -388869363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_64
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1491
+        width: 332
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40fc981c1c1f8184fa86d1951334ddf1
+      internalID: 1813844983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_65
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1491
+        width: 333
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a670a6cff864545846643948e0d72b
+      internalID: 2100152186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_66
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1484
+        width: 214
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49be1ebba7f11034fa079dbc018028b3
+      internalID: 1274016037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_67
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1196
+        width: 337
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ff15847ff66814499c2d8a38161cb6
+      internalID: 1130091584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_68
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1196
+        width: 338
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2a8c94312741c42978048323a36718
+      internalID: 1550736515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_69
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1196
+        width: 322
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6415546af4a138b4b87a40245b8436a3
+      internalID: 1098759355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_70
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 851
+        width: 332
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9aa256686db3840bc5bcf9957a1f68
+      internalID: 79638400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_71
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 851
+        width: 347
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2730a58db760b4490736ee95308c6b
+      internalID: 1853196142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_72
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 851
+        width: 337
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9847de45542ed914d879b1ea10d4e459
+      internalID: -1188324776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_73
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 539
+        width: 325
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b156d7feff9404885402434790d8e7
+      internalID: -582341599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_74
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 539
+        width: 319
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52331bf3dbd5c1e4ba1eacb045a5085c
+      internalID: 2056928783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_75
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 539
+        width: 319
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771782dbd88a2994ea5abadf0f5260f4
+      internalID: -1442860144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_76
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 229
+        width: 307
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3c9d1bfcbb40d4293d50dcf98c3695
+      internalID: 1601131921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body dop (2)_77
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 220
+        width: 194
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1161376f6f90f34c835f15d854e8cba
+      internalID: 1909793501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      body dop (2)_64: 1813844983
+      glasses3: 741048346
+      body dop (2)_56: -805373442
+      body dop (2)_20: -1972544341
+      body dop (2)_68: 1550736515
+      body dop (2)_70: 79638400
+      body dop (2)_39: -1274732492
+      body dop (2)_43: 1880901890
+      body dop (2)_27: 266025581
+      body dop (2)_72: -1188324776
+      body dop (2)_62: -715361869
+      body dop (2)_14: -1481387149
+      body dop (2)_24: 1743849083
+      body dop (2)_18: -504510552
+      body dop (2)_16: 187466367
+      body dop (2)_30: 1381716259
+      body dop (2)_32: -193405083
+      body dop (2)_71: 1853196142
+      body dop (2)_38: 371059678
+      body dop (2)_35: -1610331898
+      body dop (2)_63: -388869363
+      glasses0: -1536569666
+      glasses4: -1304694854
+      body dop (2)_65: 2100152186
+      body dop (2)_34: 659428480
+      body dop (2)_26: -852943666
+      body dop (2)_21: -1026711619
+      body dop (2)_44: -982042436
+      glasses2: 246914172
+      glasses9: -1175027262
+      body dop (2)_19: -1285723728
+      body dop (2)_12: 1750803333
+      body dop (2)_51: -1300480733
+      body dop (2)_41: -1804228774
+      body dop (2)_48: -2040528845
+      glasses1: -174304900
+      body dop (2)_57: 1190330992
+      body dop (2)_36: -1645151475
+      body dop (2)_23: 1182942979
+      body dop (2)_61: -88012081
+      body dop (2)_53: 912054604
+      body dop (2)_50: -1032644715
+      body dop (2)_76: 1601131921
+      body dop (2)_42: -498759506
+      body dop (2)_29: 1959027586
+      body dop (2)_28: -784896724
+      body dop (2)_59: -1028158054
+      body dop (2)_49: 1227319686
+      body dop (2)_69: 1098759355
+      body dop (2)_13: -57403024
+      body dop (2)_74: 2056928783
+      glasses8: 920900893
+      body dop (2)_46: -515934926
+      body dop (2)_37: 2034182069
+      body dop (2)_47: -197327877
+      body dop (2)_52: 633403579
+      body dop (2)_55: 99297303
+      glasses6: -785133621
+      body dop (2)_60: -1787686993
+      glasses7: 172138777
+      glasses5: -1786951584
+      body dop (2)_17: 1297289567
+      body dop (2)_77: 1909793501
+      monoglasses: -784689437
+      body dop (2)_25: 1278034410
+      body dop (2)_67: 1130091584
+      body dop (2)_11: -1516256229
+      body dop (2)_15: 20449905
+      body dop (2)_33: 1508932400
+      body dop (2)_54: -60684496
+      body dop (2)_45: 1018617708
+      body dop (2)_73: -582341599
+      body dop (2)_58: -1970700978
+      body dop (2)_66: 1274016037
+      body dop (2)_40: 365497641
+      body dop (2)_22: 336298839
+      body dop (2)_31: 1638476686
+      body dop (2)_75: -1442860144
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

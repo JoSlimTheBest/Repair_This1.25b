@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 67d26e15b0c0551429895e6ce89b0f44
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - a_MachinaNovaCm
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f83e3b38aa1d7ae4995421be6c197c84, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
