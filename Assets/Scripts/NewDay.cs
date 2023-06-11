@@ -90,7 +90,7 @@ public class NewDay : MonoBehaviour
             }
         }
 
-        if(compT.currentDay == 10)
+        if(compT.currentDay == 7) //10
         {
             SceneManager.LoadScene(5);
         }

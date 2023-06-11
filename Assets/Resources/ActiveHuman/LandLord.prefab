@@ -767,7 +767,7 @@ MonoBehaviour:
   moneyBuyer: -1
   clock: -1
   day: 0
-  hour: 16
+  hour: 19
   minute: 0
   addNew: {fileID: 0}
   addNew2: {fileID: 0}

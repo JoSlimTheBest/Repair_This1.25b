@@ -972,7 +972,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogReRus:
   - "\u0410 \u0432\u043E\u0442 \u0438 \u044F \u043C\u0430\u043B\u044B\u0448"
-  - "\u0422\u044B \u043F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u0438\u043B\u0441\u044F?"
+  - "\u0412\u0441\u0435 \u0433\u043E\u0442\u043E\u0432\u043E?"
   dialogReEng:
   - Hello again
   - I came for my phone
@@ -991,7 +991,6 @@ MonoBehaviour:
   dialogprefab: {fileID: 4565734257841698319, guid: f7f6bf247246d3442b464419d88700da, type: 3}
   xOffset: 3
   yOffset: 0
-  topperDialog: 1
   dialogDestroy: 6
   dialogChanger: {fileID: 5151819932364008204}
   say: {fileID: 8300000, guid: e1e774844015972459ba2a48a8cdd4c1, type: 3}
@@ -1025,7 +1024,6 @@ MonoBehaviour:
   - High prices for repairing a four-year-old smartphone!
   - No issues with the reception and delivery of the items
   - Thanks to this service!
-  shotScreen: {fileID: 0}
 --- !u!1 &8206147332930462204
 GameObject:
   m_ObjectHideFlags: 0

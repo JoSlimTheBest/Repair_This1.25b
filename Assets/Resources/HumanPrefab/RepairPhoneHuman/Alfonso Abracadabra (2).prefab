@@ -817,7 +817,7 @@ MonoBehaviour:
     \u0410\u043B\u044C\u0444\u043E\u043D\u0441\u043E!"
   - "\u041F\u043E\u0441\u0435\u0442\u0438\u043B \u044D\u0442\u043E \u0443\u043D\u044B\u043B\u043E\u0435
     \u043C\u0435\u0441\u0442\u043E!"
-  - "\u0423 \u043C\u043E\u0435\u0433\u043E \u0442\u0435\u043B\u0435\u0444\u043D\u0430
+  - "\u0423 \u043C\u043E\u0435\u0433\u043E \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0430
     \u043A\u0430\u043C\u0435\u0440\u0430 \u043D\u0435 \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442!"
   - "\u0422\u0430\u043A \u044F \u043D\u0435 \u0441\u043C\u043E\u0433\u0443 \u0443
     \u0441\u0432\u043E\u0438\u0445 \u043A\u043E\u043B\u043B\u0435\u0433 \u0444\u043E\u043A\u0443\u0441\u044B
@@ -896,7 +896,6 @@ MonoBehaviour:
   dialogprefab: {fileID: 4565734257841698319, guid: f7f6bf247246d3442b464419d88700da, type: 3}
   xOffset: 3
   yOffset: 0
-  topperDialog: 1
   dialogDestroy: 6
   dialogChanger: {fileID: 7239615404492545596}
   say: {fileID: 8300000, guid: e1e774844015972459ba2a48a8cdd4c1, type: 3}
@@ -932,7 +931,6 @@ MonoBehaviour:
   - Not too shabby!
   - The great Alfonso expresses his utmost gratitude!
   - Turns out there are wizards here too, thank you so much!
-  shotScreen: {fileID: 0}
 --- !u!1 &4312388363572691831
 GameObject:
   m_ObjectHideFlags: 0

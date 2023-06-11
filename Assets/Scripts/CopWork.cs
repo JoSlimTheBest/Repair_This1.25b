@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 
 public class CopWork : MonoBehaviour
 {
-
     public List<string> sayEng = new List<string>();
 
     public List<string> sayRus = new List<string>();
@@ -24,6 +23,7 @@ public class CopWork : MonoBehaviour
 
     public void Start()
     {
+        GameObject.Find("recorder").GetComponent<BumBoxController>().StopStartMusic();
         GameObject.Find("door").GetComponent<DoorController>().DoorEvent();
         audioS = GameObject.Find("AudioEvent").GetComponent<AudioSource>();
         timingActive = timing;
