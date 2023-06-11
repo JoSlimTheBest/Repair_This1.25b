@@ -274,7 +274,7 @@ MonoBehaviour:
   rusName: 0
   engName: 0
   messageCurrent: 0
-  photoCurrent: {fileID: 21300000, guid: d121e8a907b51934fad13839878cafcd, type: 3}
+  photoCurrent: {fileID: 21300000, guid: fb120f5e1e69d254cabf2a3651875c10, type: 3}
   invert: {fileID: 11400000, guid: 020e8b5ee6d9db14daa9710e46e4458b, type: 2}
   usual: {fileID: 11400000, guid: 727c7b5f033ba5a45bdd643316c28f92, type: 2}
   randomPhoto:

@@ -88,6 +88,12 @@ public class FirstDialog : MonoBehaviour
                     gifter.transform.position += new Vector3(-6.4f, 0, 0);
                 }
 
+                if (GetComponent<FDhelper>() != null)
+                {
+                    GetComponent<FDhelper>().HelpNow();
+                    Debug.Log("HELPPPPP");
+                }
+
                 gift = null;
             }
             else
