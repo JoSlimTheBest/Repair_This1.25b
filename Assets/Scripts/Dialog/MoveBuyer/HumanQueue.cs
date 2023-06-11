@@ -296,7 +296,7 @@ public class HumanQueue : MonoBehaviour
            
             humanList[0].GetComponent<FirstDialog>().DenayByTime();
 
-            GameObject asked = Instantiate(answerHuman, humanList[0].transform.position, Quaternion.identity);
+            GameObject asked = Instantiate(answerHuman, new Vector3(2,-0.5f,0), Quaternion.identity);
             asked.GetComponent<AnswerHumanFact>().denayByTime = true;
 
             agreed = false;
@@ -307,7 +307,7 @@ public class HumanQueue : MonoBehaviour
         }
         if (humanMoney < c && agreed == true)
         {
-            GameObject asked = Instantiate(answerHuman, humanList[0].transform.position, Quaternion.identity);
+            GameObject asked = Instantiate(answerHuman, new Vector3(2, -0.5f, 0), Quaternion.identity);
             asked.GetComponent<AnswerHumanFact>().denayByCost = true;
             humanList[0].GetComponent<FirstDialog>().DenayByMoney();
             agreed = false;
@@ -322,13 +322,13 @@ public class HumanQueue : MonoBehaviour
         if (agreed == true)
         {
 
-            GameObject asked = Instantiate(answerHuman, humanList[0].transform.position, Quaternion.identity);
+            GameObject asked = Instantiate(answerHuman, new Vector3(2, -0.5f, 0), Quaternion.identity);
             asked.GetComponent<AnswerHumanFact>().agreed = true;
             currentAddTime = t;
             currentMoney = c;
             
             humanList[0].GetComponent<FirstDialog>().AgreedClockMoney();
-            Invoke("HumanExitAndRegoing", 2f);
+            Invoke("HumanExitAndRegoing", 1f);
         }
 
         
