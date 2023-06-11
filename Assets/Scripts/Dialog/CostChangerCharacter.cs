@@ -57,17 +57,27 @@ public class CostChangerCharacter : MonoBehaviour
 
     public Color greeen;
     public Color reeed;
-   
 
+    private bool openHelp;
+    public GameObject helpOpen;
     private void Awake()
     {
         plTranslate = GameObject.Find("Player").GetComponent<TransNamePartPhone>();
        
     }
-
+    private void LookHelp()
+    {
+        helpOpen.SetActive(true);
+        openHelp = true;
+    }
     public void Changer(int brokenPartPhone,string modelPhone)
     {
+        if(openHelp == false)
+        {
+            Invoke("LookHelp", 1f);
 
+
+        }
         agreeButton.GetComponent<Button>().enabled = false;
         agreeButton.GetComponent<Image>().color = new Color(1, 1, 1, 1);
         agreeButton.GetComponent<Image>().sprite = notWork;

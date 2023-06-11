@@ -18,7 +18,7 @@ public class MessageHolder : MonoBehaviour
 
     public GameObject dataPass;
     public GameObject deleteBut;
-    public GameObject sign2;
+    public GameObject signNewMessage;
 
 
 
@@ -42,7 +42,7 @@ public class MessageHolder : MonoBehaviour
         GameObject.Find("AudioEvent").GetComponent<AudioSource>().PlayOneShot(message);
         for (int i = 0; i<messages.Count; i++)
         {
-            sign2.SetActive(true);
+            signNewMessage.SetActive(true);
 
             messages[i].GetComponent<RectTransform>().localPosition = new Vector3(0, direction - i * spaceForMess);
 
