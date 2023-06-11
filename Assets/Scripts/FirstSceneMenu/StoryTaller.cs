@@ -21,7 +21,7 @@ public class StoryTaller : MonoBehaviour
 
     private AudioSource audioS;
     public AudioClip useKey;
-    private float nextwindow = 12;
+    public float nextwindow = 12;
     public int whatThScene = 2;
  
     public void Start()

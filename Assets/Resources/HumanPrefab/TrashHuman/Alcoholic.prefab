@@ -103,7 +103,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 34
+  m_SortingOrder: 30
   m_Sprite: {fileID: 21300000, guid: 5030af4694c725a4cba94549e51faf50, type: 3}
   m_Color: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 0.7529412}
   m_FlipX: 0
@@ -841,6 +841,8 @@ MonoBehaviour:
   random: 0
   man: 1
   randomSex: 0
+  namePersonEng: name
+  surnamePersonEng: surname
   _brokenPartPhone: -1
   _brokenModelPhone: 
   previewDetail: 0
@@ -1145,7 +1147,6 @@ MonoBehaviour:
   dialogprefab: {fileID: 4565734257841698319, guid: f7f6bf247246d3442b464419d88700da, type: 3}
   xOffset: 3
   yOffset: 0
-  topperDialog: 1
   dialogDestroy: 6
   dialogChanger: {fileID: 0}
   say: {fileID: 8300000, guid: e1e774844015972459ba2a48a8cdd4c1, type: 3}
@@ -1174,7 +1175,6 @@ MonoBehaviour:
   - 
   - 
   - 
-  shotScreen: {fileID: 0}
 --- !u!1 &8472482865546341248
 GameObject:
   m_ObjectHideFlags: 0

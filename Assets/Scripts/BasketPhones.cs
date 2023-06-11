@@ -9,6 +9,7 @@ public class BasketPhones : MonoBehaviour
     public int payingMoney;
     public RepairList list;
     public GameObject sign;
+    
 
     public Sprite modelA;
     public Sprite modelM;
@@ -30,6 +31,7 @@ public class BasketPhones : MonoBehaviour
         else
         {
             sign.SetActive(true);
+            
         }
 
         
@@ -44,6 +46,8 @@ public class BasketPhones : MonoBehaviour
                 if( repairPhone[i].GetComponent<BrokenPhone>().brockenPart == part)
                 {
                     sign.SetActive(true);
+                    
+
                 }
             }
         }

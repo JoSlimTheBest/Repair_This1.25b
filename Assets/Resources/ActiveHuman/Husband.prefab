@@ -850,6 +850,8 @@ MonoBehaviour:
   random: 0
   man: 1
   randomSex: 0
+  namePersonEng: name
+  surnamePersonEng: surname
   _brokenPartPhone: -1
   _brokenModelPhone: 
   previewDetail: 2
@@ -1168,7 +1170,6 @@ MonoBehaviour:
   - 
   - 
   - 
-  shotScreen: {fileID: 0}
 --- !u!1 &8239459865202241470
 GameObject:
   m_ObjectHideFlags: 0

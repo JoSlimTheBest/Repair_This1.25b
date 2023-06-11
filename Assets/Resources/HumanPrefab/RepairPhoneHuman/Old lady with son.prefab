@@ -1224,17 +1224,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogReRus:
-  - "\u041E\u0439 \u044E\u043D\u043E\u0448\u0430, \u043C\u043E\u043B\u043E\u0434\u0435\u0446!"
+  - "\u041E\u0439 \u044E\u043D\u043E\u0448\u0430,"
   - "\u041F\u043E\u0447\u0438\u043D\u0438\u043B \u0432\u0435\u0434\u044C?"
   dialogReEng:
-  - Oh, young man, well done!
+  - Oh, young man
   - You fixed it, didn't you?
   happyBuyerRus:
-  - "\u041E\u0442\u043B\u0438\u0447\u043D\u043E, \u044F \u043F\u043E\u0441\u043E\u0432\u0435\u0442\u0443\u044E
+  - "\u041C\u043E\u043B\u043E\u0434\u0435\u0446!, \u044F \u043F\u043E\u0441\u043E\u0432\u0435\u0442\u0443\u044E
     \u0442\u0435\u0431\u044F \u0441\u0432\u043E\u0435\u043C\u0443 \u0441\u044B\u043D\u0443,
     \u043E\u043D \u0432\u0435\u0441\u044C\u043C\u0430 \u0441\u043E\u0441\u0442\u043E\u044F\u0442\u0435\u043B\u044C\u043D\u044B\u0439!"
   happyBuyerEng:
-  - Great, I will recommend you to my son, he is quite well-off!
+  - Well done! I will recommend you to my son, he is quite well-off!
   dissapoinBuyerRus:
   - "\u0421\u043E\u0432\u0441\u0435\u043C \u043D\u0435 \u043F\u043E\u043B\u0443\u0447\u0430\u0442\u0435\u0441\u044F
     \u043F\u043E\u0447\u0438\u043D\u0438\u0442\u044C? \u041E\u0439 \u043F\u0440\u0438\u0434\u0435\u0442\u044C\u0441\u044F
@@ -1245,7 +1245,6 @@ MonoBehaviour:
   dialogprefab: {fileID: 4565734257841698319, guid: f7f6bf247246d3442b464419d88700da, type: 3}
   xOffset: 3
   yOffset: 0
-  topperDialog: 1
   dialogDestroy: 6
   dialogChanger: {fileID: 1711611244594739252}
   say: {fileID: 8300000, guid: e1e774844015972459ba2a48a8cdd4c1, type: 3}
@@ -1277,7 +1276,6 @@ MonoBehaviour:
   - Everything seems alright, but there's a strange feeling about it.
   - Excellent service!
   - Everything was done on time!
-  shotScreen: {fileID: 0}
 --- !u!1 &8478624036198552356
 GameObject:
   m_ObjectHideFlags: 0

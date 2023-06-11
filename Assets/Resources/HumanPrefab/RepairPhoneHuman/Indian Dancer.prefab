@@ -184,7 +184,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1946841183363524919}
   m_LocalRotation: {x: -0, y: -0, z: 0.0784168, w: -0.99692065}
-  m_LocalPosition: {x: 0.10000001, y: -1.5199939, z: 0}
+  m_LocalPosition: {x: 0.103, y: -1.236, z: 0}
   m_LocalScale: {x: 0.84161, y: 0.89331, z: 1.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -881,7 +881,6 @@ MonoBehaviour:
   dialogprefab: {fileID: 4565734257841698319, guid: f7f6bf247246d3442b464419d88700da, type: 3}
   xOffset: 3
   yOffset: 0
-  topperDialog: 1
   dialogDestroy: 6
   dialogChanger: {fileID: 6486104116506465448}
   say: {fileID: 8300000, guid: e1e774844015972459ba2a48a8cdd4c1, type: 3}
@@ -915,7 +914,6 @@ MonoBehaviour:
   - 
   - I'm very happy, I'm back with music!
   - A very polite young man, fixed everything on time!
-  shotScreen: {fileID: 0}
 --- !u!1 &6026427412612934598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1224,7 +1222,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8418255076508058008}
   m_LocalRotation: {x: -0, y: -0, z: 0.11517874, w: -0.99334484}
-  m_LocalPosition: {x: -0.114, y: -1.332, z: 0}
+  m_LocalPosition: {x: -0.111, y: -1.048, z: 0}
   m_LocalScale: {x: 0.33679038, y: 0.33679038, z: 0.33679038}
   m_ConstrainProportionsScale: 0
   m_Children: []
