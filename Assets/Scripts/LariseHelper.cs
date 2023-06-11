@@ -9,7 +9,7 @@ public class LariseHelper : MonoBehaviour
     public void SayHelp(string whatSay)
     {
        GameObject buuble = Instantiate(sayPrefab,transform.position,transform.rotation,transform);
-        buuble.transform.localPosition = new Vector3(-2.5f, -0.7f, 0);
+        buuble.transform.localPosition = new Vector3(-2.5f, -0.4f, 0);
         buuble.GetComponentInChildren<TextMeshPro>().text = whatSay;
     }
 }
