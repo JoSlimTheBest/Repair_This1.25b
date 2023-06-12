@@ -2,5 +2,7 @@
 /obj
 /Logs
 /UserSettings
+/UserSettings/.
 /Temp
 /*.csproj
+
