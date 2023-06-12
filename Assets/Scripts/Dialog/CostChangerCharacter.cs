@@ -16,6 +16,7 @@ public class CostChangerCharacter : MonoBehaviour
     public TransNamePartPhone plTranslate;
 
     public GameObject _costRepairHolder;
+   
 
 
     public BuyPhonePart A;
@@ -32,6 +33,7 @@ public class CostChangerCharacter : MonoBehaviour
     public GameObject timeColorSaver;
 
     public TextMeshProUGUI sparePartText;
+    public TextMeshProUGUI costSelfish;
 
     public int plusMoneyMin = 100;
     public int plusMoneyMid = 150;
@@ -53,7 +55,7 @@ public class CostChangerCharacter : MonoBehaviour
    public List<Sprite> spritePhone = new List<Sprite>();
 
     private bool partHAVE = false;
-    private float colorWait = 1;
+    private float colorWait = 0.5f;
 
     public Color greeen;
     public Color reeed;
@@ -74,7 +76,7 @@ public class CostChangerCharacter : MonoBehaviour
     {
         if(openHelp == false)
         {
-            Invoke("LookHelp", 1f);
+            Invoke("LookHelp", 0.5f);
 
 
         }
@@ -136,7 +138,7 @@ public class CostChangerCharacter : MonoBehaviour
         if (LanguageManager.currentLang == Language.English)
         {
             namePart.text = plTranslate.partNameEng[brokenPartPhone];
-            sparePartText.text =   "spare part in stock " +stockPartTaker.partCount[brokenPartPhone].ToString();
+            sparePartText.text =   "in stock " +stockPartTaker.partCount[brokenPartPhone].ToString();
             if (stockPartTaker.partCount[brokenPartPhone] > 0)
             {
                 sparePartText.color = reeed;
@@ -147,13 +149,15 @@ public class CostChangerCharacter : MonoBehaviour
                 sparePartText.color = greeen;
                 partHAVE = false;
             }
+
+            costSelfish.text = "Cost " + cost;
             
         }
         else
         {
 
             namePart.text = plTranslate.partNameRus[brokenPartPhone];
-            sparePartText.text = "запчастей в наличии " + stockPartTaker.partCount[brokenPartPhone].ToString();
+            sparePartText.text = "в наличии " + stockPartTaker.partCount[brokenPartPhone].ToString();
 
             if (stockPartTaker.partCount[brokenPartPhone] > 0)
             {
@@ -165,6 +169,7 @@ public class CostChangerCharacter : MonoBehaviour
                 sparePartText.color = greeen;
                 partHAVE = false;
             }
+            costSelfish.text = "Цена " + cost;
         }
 
     }
@@ -198,7 +203,7 @@ public class CostChangerCharacter : MonoBehaviour
     {
         if (partHAVE == true && colorWait <0)
         {
-            colorWait = 1;
+            colorWait = 0.5f;
             if(sparePartText.color == greeen)
             {
                 sparePartText.color = reeed;

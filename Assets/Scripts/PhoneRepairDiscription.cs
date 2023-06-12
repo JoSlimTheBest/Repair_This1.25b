@@ -27,7 +27,7 @@ public class PhoneRepairDiscription : MonoBehaviour
     public void Init(BrokenPhone phone)
     {
         currentPh = phone;
-        idPhone.text = phone.index.ToString();
+        idPhone.text = " ¹ "+ phone.index.ToString();
 
         //photoOnDisplay.sprite = currentPh.humanPhotoHere;  if need add photo on table SLOT!
         if (phone.model == "A")
