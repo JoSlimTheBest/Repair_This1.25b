@@ -64,7 +64,7 @@ public class ContactChecker : MonoBehaviour
         GetComponentInParent<PrivateScreen3>().CloseAll();
         GetComponentInParent<PrivateScreen3>().OpenDiscription(numberContact, null);
 
-        GameObject parent = GetComponentInParent<PrivateScreen3>().gameObject;
+        GameObject parent = GetComponentInParent<FontTaker>().gameObject;
 
         List<GameObject> TList = new List<GameObject>();
         for (int i = 0; i < parent.transform.childCount; i++)

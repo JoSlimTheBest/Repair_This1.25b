@@ -72,7 +72,7 @@ public class PhotoChecker : MonoBehaviour
             PS3.CloseCopy();
         }
 
-        GameObject parent = GetComponentInParent<PrivateScreen3>().gameObject;
+        GameObject parent = GetComponentInParent<FontTaker>().gameObject;
 
         List<GameObject> TList = new List<GameObject>();
         for (int i = 0; i < parent.transform.childCount; i++)

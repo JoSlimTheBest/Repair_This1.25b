@@ -240,7 +240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0002e2d83f4065d4b858a80cc2c25242, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: 0
+  info: 1
   contacts:
   - {fileID: 7348110545448515777, guid: 43cf06b77f9c28449adda888e095edf0, type: 3}
   - {fileID: 7348110545448515777, guid: 43cf06b77f9c28449adda888e095edf0, type: 3}
