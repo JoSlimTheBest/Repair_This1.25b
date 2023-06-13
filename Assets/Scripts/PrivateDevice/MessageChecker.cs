@@ -65,7 +65,7 @@ public class MessageChecker : MonoBehaviour
             }
 
             
-            //messageCurrent = "Приглашаем Вас на собеседование по адресу Куйбышева 48, не забудьте принести с собой паспорт";
+            
 
         }
 
@@ -106,14 +106,14 @@ public class MessageChecker : MonoBehaviour
         }
 
 
-        GameObject parent = PS3.gameObject;
+        GameObject parent = GetComponentInParent<FontTaker>().gameObject;
 
         List<GameObject> TList = new List<GameObject>();
         for (int i = 0; i < parent.transform.childCount; i++)
         {
             TList.Add(parent.transform.GetChild(i).gameObject);
         }
-
+        
         foreach (GameObject child in TList)
         {
 

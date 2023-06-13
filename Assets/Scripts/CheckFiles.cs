@@ -10,6 +10,9 @@ public class CheckFiles : MonoBehaviour
 
     public GameObject phoneCheckFiles;
 
+
+
+   
     
     public void Start()
     {
@@ -35,6 +38,7 @@ public class CheckFiles : MonoBehaviour
             if((int)phoneCheckFiles.GetComponent<PhonePrivateInf>().info == 1)
             {
                 checkFilesDevice.GetComponent<FilesScreenHolder>().Active(phoneCheckFiles);
+                
             }
             else
             {
@@ -46,4 +50,9 @@ public class CheckFiles : MonoBehaviour
             checkFilesDevice.GetComponent<FilesScreenHolder>().NotActive(phoneCheckFiles);
         }
     }
+
+
+    
 }
+
+
