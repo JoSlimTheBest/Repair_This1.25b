@@ -12,7 +12,8 @@ public class XReport : MonoBehaviour
 
     private int currentMoney;
     private int tax;
-    public bool CheckDay()
+    public bool taxM = false;
+    public void CheckDay()
     {
         ComputerTime cT = GameObject.Find("QueueControll").GetComponent<ComputerTime>();
         currentMoney = GameObject.Find("BoxButton").GetComponent<BoxOffice>().dayMoney;
@@ -33,11 +34,11 @@ public class XReport : MonoBehaviour
         GameObject.Find("BoxButton").GetComponent<BoxOffice>().dayMoney = 0;
         if (currentMoney == 0)
         {
-            return true;
+            taxM = true;
         }
         else
         {
-            return false;
+            taxM = false;
         }
     }
 }
