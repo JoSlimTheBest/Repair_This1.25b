@@ -31,7 +31,7 @@ public class ComputerTime : MonoBehaviour
     public BumBoxController bbControl;
 
     public bool gameStop = false;
-    
+    public bool alarmClock = false;
 
     public void Addheroes(GameObject her)
     {
@@ -133,6 +133,12 @@ public class ComputerTime : MonoBehaviour
 
         if (hours >= 22)
         {
+            if(alarmClock == false)
+            {
+                timeOncomputer2.GetComponent<AlarmClock>().AlarmActive();
+                alarmClock = true;
+            }
+           
             slowTime = true;
             if (hours >= 24)
             {
