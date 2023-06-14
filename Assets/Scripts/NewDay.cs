@@ -50,6 +50,7 @@ public class NewDay : MonoBehaviour
         compT.hours = 9;
         compT.minute = 59;
         compT.currentDay += 1;
+        compT.alarmClock = false;
         compT.GetComponent<ElectricBill>().EndDay();
 
 

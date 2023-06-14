@@ -138,6 +138,8 @@
     <Compile Include="Assets\Scripts\TimeDay\DeliveryGuy.cs" />
     <Compile Include="Assets\Scripts\MessageDeleteButton.cs" />
     <Compile Include="Assets\Scripts\EnvelopLandLord.cs" />
+    <Compile Include="Assets\Scripts\TimeDay\AlarmClock.cs" />
+    <Compile Include="Assets\Scripts\PrivateDevice\FontTaker.cs" />
     <Compile Include="Assets\Scripts\StupidHuman.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\Data\MultiLangComponent.cs" />
     <Compile Include="Assets\Scripts\HumanCharacter.cs" />
@@ -174,7 +176,6 @@
     <Compile Include="Assets\Scripts\PrivateDevice\DataMoneyGive.cs" />
     <Compile Include="Assets\Scripts\HumanScripts\LandLord.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\Data\MultiLangTextBase.cs" />
-    <Compile Include="Assets\Scripts\PrivateDevice\FontTaker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
