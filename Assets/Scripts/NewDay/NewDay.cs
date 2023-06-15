@@ -11,7 +11,7 @@ public class NewDay : MonoBehaviour
     public PlayerCharacter player;
     public GameObject systemError;
     public GameObject Xrep;
-    public AudioClip checkOut;
+    
     public List<GameObject> agentXPeople = new List<GameObject>();
 
     private bool husbandGo = false;
@@ -27,7 +27,7 @@ public class NewDay : MonoBehaviour
     }
     public void NewDayStart()
     {
-        GetComponent<ManagerStock>().mess.DestroyAllMess();
+        
         if(compT.hours < 22)
         {
             
@@ -35,8 +35,8 @@ public class NewDay : MonoBehaviour
             return;
         }
 
-        Xrep.GetComponent<AutoDestroy>().DontKill();
-        bool taxMen = Xrep.GetComponent<XReport>().CheckDay();
+        GetComponent<ManagerStock>().mess.DestroyAllMess();
+        bool taxMen = Xrep.GetComponent<XReport>().taxM;
 
         if (taxMen == true && nalogcheck == false && compT.currentDay != 1)
         {
@@ -44,7 +44,7 @@ public class NewDay : MonoBehaviour
             doorC.HumanInsta(copchecker);
             nalogcheck = true;
         }
-        GameObject.Find("AudioEvent").GetComponent<AudioSource>().PlayOneShot(checkOut);
+       
 
         compT.DayComingWindow();
         compT.hours = 9;

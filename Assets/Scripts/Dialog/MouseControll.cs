@@ -90,20 +90,7 @@ public class MouseControll : MonoBehaviour
                 return;
             }
 
-           /* if(hit.collider.GetComponent<BoxOffice>() != null)
-            {
-                hit.collider.GetComponent<BoxOffice>().OpenBoxOffice();
-                return;
-            }
-           */
-            /*
-            if (hit.collider.GetComponent<BumBoxController>() != null)
-            {
-                hit.collider.GetComponent<BumBoxController>().StopStartMusic();
-                return;
-            }
-            */
-            // Do something with the object that was hit by the raycast.
+           
         }
     }
 

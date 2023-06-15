@@ -55,6 +55,7 @@ public class DialogRemove : MonoBehaviour
                     if (phone == stock.CheckFiles.GetComponent<FilesScreenHolder>().currPhoneFilesCheck)
                     {
                         stock.CheckFiles.GetComponentInChildren<CloseCostChanger>().Task();
+                        stock.CheckFiles.GetComponentInChildren<AndCloseFiles>().Task();
                     }
 
                     GameObject leaveDial = Instantiate(dialogprefab, transform.position, transform.rotation, dialogChanger.transform);

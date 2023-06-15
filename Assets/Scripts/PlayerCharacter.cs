@@ -88,6 +88,8 @@ public class PlayerCharacter : MonoBehaviour
         }
         
         GameObject flyM = Instantiate(moneyOnScreen, safebox.transform);
+
+        safebox.GetComponent<SafeBoxHoldMoney>().AddMoneySafe(choiceMoneyAdd);
         flyM.transform.position += new Vector3(0, 0, 0);
         flyM.GetComponent<TextMeshPro>().text = "+" + choiceMoneyAdd.ToString() + "$"; ;
     }
