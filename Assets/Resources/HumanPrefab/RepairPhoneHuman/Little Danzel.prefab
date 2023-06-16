@@ -678,6 +678,7 @@ GameObject:
   - component: {fileID: 589160326048921557}
   - component: {fileID: 5581462036986299837}
   - component: {fileID: 5209520533035274684}
+  - component: {fileID: 8661654859067496214}
   m_Layer: 3
   m_Name: Little Danzel
   m_TagString: Untagged
@@ -1072,6 +1073,20 @@ MonoBehaviour:
   - You should lower your prices!
   - This dude really knows his stuff!
   - Awesome, a truly reliable service!
+--- !u!114 &8661654859067496214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5592483648720962851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04dd9fc503f8654db50076268257e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RusHelp: "\u0414\u0430 \u0447\u0443\u0432\u0430\u043A - \u044D\u0442\u043E \u0440\u0435\u043F\u0447\u0438\u043A!"
+  EngHelp: Yeah dude - it's a rap!
 --- !u!1 &6991163676683888180
 GameObject:
   m_ObjectHideFlags: 0

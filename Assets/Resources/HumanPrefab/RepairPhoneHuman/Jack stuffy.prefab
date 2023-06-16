@@ -793,6 +793,7 @@ GameObject:
   - component: {fileID: 7559557219468278670}
   - component: {fileID: 3055409354737507310}
   - component: {fileID: -6657702510395331591}
+  - component: {fileID: 2220194014499049313}
   m_Layer: 3
   m_Name: Jack stuffy
   m_TagString: Untagged
@@ -1194,6 +1195,20 @@ MonoBehaviour:
   - They could have made it cheaper
   - The quality was pleasing
   - Great service, I can recommend it
+--- !u!114 &2220194014499049313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8125267846032972576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04dd9fc503f8654db50076268257e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RusHelp: "\u041D\u0443 \u0438 \u0434\u0443\u0448\u043D\u0438\u043B\u0430!"
+  EngHelp: What a douche!
 --- !u!1 &8125267846161086986
 GameObject:
   m_ObjectHideFlags: 0

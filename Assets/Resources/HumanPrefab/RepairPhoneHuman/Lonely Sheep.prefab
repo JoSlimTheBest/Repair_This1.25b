@@ -625,6 +625,7 @@ GameObject:
   - component: {fileID: 5600120723442206600}
   - component: {fileID: 194898027123297281}
   - component: {fileID: 3956841120954458384}
+  - component: {fileID: 2203607682251488414}
   m_Layer: 3
   m_Name: Lonely Sheep
   m_TagString: Untagged
@@ -1019,6 +1020,20 @@ MonoBehaviour:
   - They really make an effort to help with the repair, not just take the money!
   - Excellent company, not only did they assist with the repair but also provided
     helpful advice!
+--- !u!114 &2203607682251488414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6252906923582166458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04dd9fc503f8654db50076268257e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RusHelp: "\u0422\u043E\u0436\u0435 \u043C\u043D\u0435 \u043A\u0440\u0430\u0441\u043E\u0442\u043A\u0430."
+  EngHelp: Wow, such a beauty we've got
 --- !u!1 &7664521571900992710
 GameObject:
   m_ObjectHideFlags: 0

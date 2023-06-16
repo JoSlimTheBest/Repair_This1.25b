@@ -2,9 +2,9 @@
 /obj
 /Logs
 /UserSettings
-/UserSettings/.
+/UserSettings/*.*
 /Temp
 /*.csproj
-
-UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+/UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+/UserSettings/Layouts/default-2021.dwlt
 UserSettings/Layouts/default-2021.dwlt

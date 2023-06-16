@@ -877,6 +877,7 @@ GameObject:
   - component: {fileID: 7907898139158899204}
   - component: {fileID: 3400341783721560676}
   - component: {fileID: 2450083508549553112}
+  - component: {fileID: 6474917799708040972}
   m_Layer: 3
   m_Name: Bernard_Profanovitch
   m_TagString: Untagged
@@ -1253,7 +1254,6 @@ MonoBehaviour:
   dialogprefab: {fileID: 4565734257841698319, guid: f7f6bf247246d3442b464419d88700da, type: 3}
   xOffset: 3
   yOffset: 0
-  topperDialog: 1
   dialogDestroy: 6
   dialogChanger: {fileID: 0}
   say: {fileID: 8300000, guid: e1e774844015972459ba2a48a8cdd4c1, type: 3}
@@ -1282,7 +1282,21 @@ MonoBehaviour:
   - 
   - 
   - 
-  shotScreen: {fileID: 0}
+--- !u!114 &6474917799708040972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8472482865414556330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04dd9fc503f8654db50076268257e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RusHelp: "\u0415\u0449\u0435 \u043E\u0434\u0438\u043D \u0442\u043E\u0436\u0435
+    \"\u0441\u0432\u043E\u0435\u0433\u043E \u0440\u043E\u0434\u0430 \u043C\u0430\u0441\u0442\u0435\u0440\""
+  EngHelp: Another one is also a master
 --- !u!1 &8472482865546341248
 GameObject:
   m_ObjectHideFlags: 0

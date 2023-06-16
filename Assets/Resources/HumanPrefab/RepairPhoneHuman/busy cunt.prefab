@@ -519,6 +519,7 @@ GameObject:
   - component: {fileID: 3150587476085468928}
   - component: {fileID: 4729614803202518177}
   - component: {fileID: -3898753713357408801}
+  - component: {fileID: 6548762525026461053}
   m_Layer: 3
   m_Name: busy cunt
   m_TagString: Untagged
@@ -928,6 +929,20 @@ MonoBehaviour:
   - I don't even have money left for the subway after visiting this salon
   - They fixed it, but couldn't even clean the screens for you!
   - Fast, affordable, and most importantly, it works. Thanks, guys!
+--- !u!114 &6548762525026461053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5425248895563849421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04dd9fc503f8654db50076268257e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RusHelp: "\u041E\u043D\u0430 \u0447\u0442\u043E-\u0442\u043E \u0437\u043D\u0430\u0435\u0442"
+  EngHelp: She knows something
 --- !u!1 &5968289026019625593
 GameObject:
   m_ObjectHideFlags: 0
