@@ -510,6 +510,7 @@ GameObject:
   - component: {fileID: 3932905697609382236}
   - component: {fileID: 1186519686034866322}
   - component: {fileID: 8215165457452905822}
+  - component: {fileID: -4063183343434229943}
   m_Layer: 3
   m_Name: Indian Dancer
   m_TagString: Untagged
@@ -914,6 +915,20 @@ MonoBehaviour:
   - 
   - I'm very happy, I'm back with music!
   - A very polite young man, fixed everything on time!
+--- !u!114 &-4063183343434229943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5942625052054043486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04dd9fc503f8654db50076268257e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RusHelp: "\u0425\u0430\u043B\u044F\u0432\u0449\u0438\u043A"
+  EngHelp: Freeloader
 --- !u!1 &6026427412612934598
 GameObject:
   m_ObjectHideFlags: 0

@@ -289,6 +289,7 @@ GameObject:
   - component: {fileID: 8166249625802886551}
   - component: {fileID: 7422890250547838473}
   - component: {fileID: -1260288904711791248}
+  - component: {fileID: 5631001423612300623}
   m_Layer: 3
   m_Name: Morgennigga
   m_TagString: Untagged
@@ -656,7 +657,6 @@ MonoBehaviour:
   dialogprefab: {fileID: 4565734257841698319, guid: f7f6bf247246d3442b464419d88700da, type: 3}
   xOffset: 3
   yOffset: 0
-  topperDialog: 1
   dialogDestroy: 6
   dialogChanger: {fileID: 1920005724550253994}
   say: {fileID: 8300000, guid: e1e774844015972459ba2a48a8cdd4c1, type: 3}
@@ -690,7 +690,20 @@ MonoBehaviour:
   - It was fast, but they could've been cheaper too!
   - I was satisfied after visiting this service center!
   - They completed it within the promised timeframe!
-  shotScreen: {fileID: 0}
+--- !u!114 &5631001423612300623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2185083966531407490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04dd9fc503f8654db50076268257e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RusHelp: show me the money
+  EngHelp: show me the money
 --- !u!1 &2249287919150451232
 GameObject:
   m_ObjectHideFlags: 0

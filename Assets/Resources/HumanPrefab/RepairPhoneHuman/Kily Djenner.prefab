@@ -625,6 +625,7 @@ GameObject:
   - component: {fileID: 5517156363010900363}
   - component: {fileID: 1017514279888265707}
   - component: {fileID: 8830222590159510165}
+  - component: {fileID: 3734570567561269066}
   m_Layer: 3
   m_Name: Kily Djenner
   m_TagString: Untagged
@@ -1035,6 +1036,21 @@ MonoBehaviour:
   - It seemed like a good service, but quite expensive!
   - The technician found the issue and fixed it for a reasonable price!
   - Thank you for the promptness and the quality of the work done!
+--- !u!114 &3734570567561269066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6105422353995047205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04dd9fc503f8654db50076268257e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RusHelp: "\u041C\u0435\u043D\u044C\u0448\u0435 \u0440\u0443\u043A\u0438 \u043A\u0440\u0435\u043C\u043E\u043C
+    \u043D\u0430\u0434\u043E \u043C\u0430\u0437\u0430\u0442\u044C"
+  EngHelp: You should put less cream on your hands
 --- !u!1 &6105422354001863462
 GameObject:
   m_ObjectHideFlags: 0

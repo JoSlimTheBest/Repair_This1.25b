@@ -382,6 +382,7 @@ GameObject:
   - component: {fileID: 7184503397414243485}
   - component: {fileID: 2804673641465593589}
   - component: {fileID: -5468107153652999161}
+  - component: {fileID: 8785940035924106891}
   m_Layer: 3
   m_Name: Rocker Green Hair
   m_TagString: Untagged
@@ -758,7 +759,6 @@ MonoBehaviour:
   dialogprefab: {fileID: 4565734257841698319, guid: f7f6bf247246d3442b464419d88700da, type: 3}
   xOffset: 3
   yOffset: 0
-  topperDialog: 1
   dialogDestroy: 6
   dialogChanger: {fileID: 1196851691264307129}
   say: {fileID: 8300000, guid: e1e774844015972459ba2a48a8cdd4c1, type: 3}
@@ -792,7 +792,20 @@ MonoBehaviour:
   - The service is not bad, but something is missing
   - They keep their promises!
   - An affordable service for patient people!
-  shotScreen: {fileID: 0}
+--- !u!114 &8785940035924106891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2739626495099092587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04dd9fc503f8654db50076268257e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RusHelp: "\u0435, \u0420\u043E\u0426\u043A!"
+  EngHelp: e, RoCk!
 --- !u!1 &5464915862274052553
 GameObject:
   m_ObjectHideFlags: 0

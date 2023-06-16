@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\BuyPhonePart.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\ComponentsToUse\MultiLangAudio.cs" />
     <Compile Include="Assets\Scripts\MoneyButtonChangerColor.cs" />
+    <Compile Include="Assets\Scripts\PrivateDevice\AndCloseFiles.cs" />
     <Compile Include="Assets\Scripts\Dialog\MoveBuyer\CloseCostChanger.cs" />
     <Compile Include="Assets\Scripts\RewiewHolder.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\ComponentsToUse\MultiLangTextMesh.cs" />
@@ -82,6 +83,7 @@
     <Compile Include="Assets\Scripts\FirstSceneMenu\NextLvl.cs" />
     <Compile Include="Assets\Scripts\Dialog\MoveBuyer\ButtonHumanEx.cs" />
     <Compile Include="Assets\Scripts\AutoDestroy.cs" />
+    <Compile Include="Assets\Scripts\NewDay\SafeBoxHoldMoney.cs" />
     <Compile Include="Assets\Scripts\CheckFiles.cs" />
     <Compile Include="Assets\Scripts\NewDay\NewDay.cs" />
     <Compile Include="Assets\Scripts\ChangeBackGround\AppliqationQuit.cs" />
@@ -111,6 +113,7 @@
     <Compile Include="Assets\Scripts\ChangeBackGround\ChangerAlpha.cs" />
     <Compile Include="Assets\Scripts\TimeDay\ComputerTime.cs" />
     <Compile Include="Assets\Scripts\PrivateDevice\MessageChecker.cs" />
+    <Compile Include="Assets\Scripts\NewDay\BGChangeColor.cs" />
     <Compile Include="Assets\Scripts\Dialog\FDhelper.cs" />
     <Compile Include="Assets\Scripts\PetSay.cs" />
     <Compile Include="Assets\Scripts\StarOnDisplay.cs" />
@@ -171,15 +174,12 @@
     <Compile Include="Assets\Scripts\CopWork.cs" />
     <Compile Include="Assets\Scripts\Dialog\MouseControll.cs" />
     <Compile Include="Assets\Scripts\Dialog\SetCostPlayer.cs" />
+    <Compile Include="Assets\Scripts\NewDay\BoxOfficeCloseDay.cs" />
     <Compile Include="Assets\Scripts\Shader\ChangeColorShader.cs" />
     <Compile Include="Assets\Scripts\TimeDay\DayGoing.cs" />
     <Compile Include="Assets\Scripts\PrivateDevice\DataMoneyGive.cs" />
     <Compile Include="Assets\Scripts\HumanScripts\LandLord.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\Data\MultiLangTextBase.cs" />
-    <Compile Include="Assets\Scripts\NewDay\BGChangeColor.cs" />
-    <Compile Include="Assets\Scripts\NewDay\BoxOfficeCloseDay.cs" />
-    <Compile Include="Assets\Scripts\PrivateDevice\AndCloseFiles.cs" />
-    <Compile Include="Assets\Scripts\NewDay\SafeBoxHoldMoney.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

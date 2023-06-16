@@ -258,6 +258,7 @@ GameObject:
   - component: {fileID: 6252663597954948846}
   - component: {fileID: 8081372879500797728}
   - component: {fileID: 802326714301827852}
+  - component: {fileID: 2769830194186084488}
   m_Layer: 3
   m_Name: Fatso
   m_TagString: Untagged
@@ -640,7 +641,6 @@ MonoBehaviour:
   dialogprefab: {fileID: 4565734257841698319, guid: f7f6bf247246d3442b464419d88700da, type: 3}
   xOffset: 3
   yOffset: 0
-  topperDialog: 1
   dialogDestroy: 6
   dialogChanger: {fileID: 4202656540233184026}
   say: {fileID: 8300000, guid: e1e774844015972459ba2a48a8cdd4c1, type: 3}
@@ -681,7 +681,21 @@ MonoBehaviour:
     towards customers!
   - Friendly service, good consultation, and pleasant background music
   - Excellent service, fast and high quality!
-  shotScreen: {fileID: 0}
+--- !u!114 &2769830194186084488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3614668050517171436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04dd9fc503f8654db50076268257e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RusHelp: "\u041D\u0435 \u0431\u044B\u0432\u0430\u0435\u0442 \u043D\u0435\u0432\u043A\u0443\u0441\u043D\u044B\u0445
+    \u043F\u043E\u043D\u0447\u0438\u043A\u043E\u0432"
+  EngHelp: There's no such thing as a bad doughnut
 --- !u!1 &3711883737544149570
 GameObject:
   m_ObjectHideFlags: 0

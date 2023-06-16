@@ -603,6 +603,7 @@ GameObject:
   - component: {fileID: 433561096009250394}
   - component: {fileID: 3582526756277796666}
   - component: {fileID: 8416562368914450557}
+  - component: {fileID: 2692503266114252757}
   m_Layer: 3
   m_Name: Pinkman D.
   m_TagString: Untagged
@@ -1004,6 +1005,22 @@ MonoBehaviour:
   - Even though the prices here are the cheapest, the quality is much worse!
   - Everything is excellent, the guy really helped!
   - Perfect service, price, and quality!
+--- !u!114 &2692503266114252757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5510800978470588100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04dd9fc503f8654db50076268257e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RusHelp: "\u041A\u0430\u0437\u0430\u043D\u043E\u0432\u0430, \u043D\u0430\u0432\u0435\u0440\u043D\u044F\u043A\u0430
+    \u0432\u0441\u0435 \u0434\u0435\u043D\u044C\u0433\u0438 \u0432\u0447\u0435\u0440\u0430
+    \u043F\u043E\u0442\u0440\u0430\u0442\u0438\u043B"
+  EngHelp: Casanova must have spent all the money yesterday
 --- !u!1 &5602312195742698017
 GameObject:
   m_ObjectHideFlags: 0

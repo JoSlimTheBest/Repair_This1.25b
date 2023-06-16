@@ -761,6 +761,7 @@ GameObject:
   - component: {fileID: 7964673113681442177}
   - component: {fileID: 6864692298554989917}
   - component: {fileID: 5079456253772046864}
+  - component: {fileID: -8559769415947848240}
   m_Layer: 3
   m_Name: AgentX
   m_TagString: Untagged
@@ -1131,6 +1132,20 @@ MonoBehaviour:
   - 
   - 
   - 
+--- !u!114 &-8559769415947848240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5483124820482625093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04dd9fc503f8654db50076268257e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RusHelp: "\u0412\u043E\u0442 \u044D\u0442\u043E \u043A\u043E\u0441\u0442\u044E\u043C\u0447\u0438\u043A"
+  EngHelp: That's quite a costume
 --- !u!1 &6957529896760667474
 GameObject:
   m_ObjectHideFlags: 0

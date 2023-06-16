@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3091078924424840495}
   - component: {fileID: 3669211886231475428}
   - component: {fileID: 8895829599266120167}
+  - component: {fileID: 4347890221119897011}
   m_Layer: 3
   m_Name: MahmudJon
   m_TagString: Untagged
@@ -382,7 +383,6 @@ MonoBehaviour:
   dialogprefab: {fileID: 4565734257841698319, guid: f7f6bf247246d3442b464419d88700da, type: 3}
   xOffset: 3
   yOffset: 0
-  topperDialog: 1
   dialogDestroy: 6
   dialogChanger: {fileID: 5652294859407301135}
   say: {fileID: 8300000, guid: e1e774844015972459ba2a48a8cdd4c1, type: 3}
@@ -416,7 +416,22 @@ MonoBehaviour:
   - They did it, but it was expensive!
   - I want to thank the service employee!
   - The only place you can trust with your devices!
-  shotScreen: {fileID: 0}
+--- !u!114 &4347890221119897011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230256639268048366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04dd9fc503f8654db50076268257e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RusHelp: "\u041D\u0435 \u0437\u0430\u043B\u0430\u043C\u044B\u0432\u0430\u0439 \u0446\u0435\u043D\u0443,
+    \u0431\u0440\u0430\u0442\u0438\u0448\u043A\u0430 \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442
+    \u043A\u0430\u043A \u043C\u043E\u0436\u0435\u0442"
+  EngHelp: Don't haggle over the price, dude working as hard as he can
 --- !u!1 &1266882678952258167
 GameObject:
   m_ObjectHideFlags: 0
