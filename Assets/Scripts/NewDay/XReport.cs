@@ -13,6 +13,9 @@ public class XReport : MonoBehaviour
     private int currentMoney;
     private int tax;
     public bool taxM = false;
+    public AllStatsDayEnd stats;
+
+    public SBoxAdderOpen sbOpen;
     public void CheckDay()
     {
         ComputerTime cT = GameObject.Find("QueueControll").GetComponent<ComputerTime>();
@@ -29,9 +32,22 @@ public class XReport : MonoBehaviour
         {
             text.text = "X-report" + "\n" + "Day" + day.ToString() + "\n" + "Время" + time + "\n" + lineD + "\n" + "Получено " + currentMoney.ToString() + "\n" + lineD + "\n" + "Налоги " + (currentMoney / tax).ToString() + "\n" + lineD + "\n" + "Чистая Прибыль " + (currentMoney - (currentMoney / tax)).ToString() + "\n" + lineD + "\n";
         }
+       
+
+
+        Invoke("AdderOpen", 2f);
 
        
-        GameObject.Find("BoxButton").GetComponent<BoxOffice>().dayMoney = 0;
+    }
+
+
+    public void AdderOpen()
+    {
+        stats.gameObject.SetActive(true);
+        stats.ChangerAdder(0, currentMoney);
+        stats.ChangerAdder(1, -currentMoney / tax);
+
+        
         if (currentMoney == 0)
         {
             taxM = true;
@@ -40,5 +56,14 @@ public class XReport : MonoBehaviour
         {
             taxM = false;
         }
+
+        Invoke("SafeBoxOpen", 2f);
+    }
+
+
+    public void SafeBoxOpen()
+    {
+        sbOpen.gameObject.SetActive(true);
+        sbOpen.OpenSafeCheckMoney();
     }
 }

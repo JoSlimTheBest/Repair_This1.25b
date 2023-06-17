@@ -314,9 +314,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77e5f7c73f284384f82a5b49ab3e2f64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  random: 0
   man: 0
-  randomSex: 0
+  IDperson: 1
   namePersonEng: Wada
   surnamePersonEng: Mung
   _brokenPartPhone: -1
@@ -329,6 +328,8 @@ MonoBehaviour:
   day: 0
   hour: 0
   minute: 0
+  randomSex: 0
+  random: 0
   addNew: {fileID: 8467061183209504210}
   addNew2: {fileID: 0}
   hair: {fileID: 7452799152350829973}

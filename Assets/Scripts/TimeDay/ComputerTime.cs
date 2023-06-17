@@ -33,6 +33,9 @@ public class ComputerTime : MonoBehaviour
     public bool gameStop = false;
     public bool alarmClock = false;
 
+    public BoxOfficeCloseDay closerDay;
+
+
     public void Addheroes(GameObject her)
     {
         heroes.Add(her.GetComponent<HumanCharacter>());
@@ -140,10 +143,10 @@ public class ComputerTime : MonoBehaviour
             }
            
             slowTime = true;
-            if (hours >= 24)
+            if (hours == 23)
             {
-                // GameObject.Find("RestartDaY").GetComponent<NewDay>().Task();
-                hours = 0;
+                //closerDay.CloseDay();
+                minute = 0;
             }
            
         }

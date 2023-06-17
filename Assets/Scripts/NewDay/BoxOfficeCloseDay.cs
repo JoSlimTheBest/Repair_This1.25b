@@ -11,11 +11,11 @@ public class BoxOfficeCloseDay : MonoBehaviour
     public AudioClip checkOut;
     public void Start()
     {
-        GetComponent<Button>().onClick.AddListener(Task);
+        GetComponent<Button>().onClick.AddListener(CloseDay);
         
     }
 
-    public void Task()
+    public void CloseDay()
     {
 
         if (compT.hours < 22)

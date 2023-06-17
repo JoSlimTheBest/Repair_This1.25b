@@ -137,9 +137,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77e5f7c73f284384f82a5b49ab3e2f64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  random: 0
   man: 0
-  randomSex: 0
+  IDperson: 502
   namePersonEng: Verdi
   surnamePersonEng: TeeShirtova
   _brokenPartPhone: -1
@@ -152,6 +151,8 @@ MonoBehaviour:
   day: 0
   hour: 0
   minute: 0
+  randomSex: 0
+  random: 0
   addNew: {fileID: 6078634620926753616}
   addNew2: {fileID: 0}
   hair: {fileID: 5095550187233712919}
@@ -489,7 +490,6 @@ MonoBehaviour:
   - Got it done, but it was a bit pricey!
   - Good enough!
   - Thank you, I'm very satisfied!
-  shotScreen: {fileID: 0}
 --- !u!114 &-6658286421785286010
 MonoBehaviour:
   m_ObjectHideFlags: 0

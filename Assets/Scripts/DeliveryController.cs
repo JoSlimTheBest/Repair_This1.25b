@@ -118,6 +118,9 @@ public class DeliveryController : MonoBehaviour
         if (player.money - (pricePart + buyCostDelivery) >=0)
         {
             player.AddMoney(-(pricePart + buyCostDelivery));
+            GameObject.Find("safebox").GetComponent<SafeBoxHoldMoney>().MinusMoneyPart(pricePart);
+            GameObject.Find("safebox").GetComponent<SafeBoxHoldMoney>().MinusDelivery(buyCostDelivery);
+            
             gameObject.SetActive(false);
 
            GameObject deliverMan =  Instantiate(deliveryGuy,compTime.transform);

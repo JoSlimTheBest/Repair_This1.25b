@@ -680,9 +680,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77e5f7c73f284384f82a5b49ab3e2f64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  random: 0
   man: 1
-  randomSex: 0
+  IDperson: 8
   namePersonEng: name
   surnamePersonEng: surname
   _brokenPartPhone: -1
@@ -695,6 +694,8 @@ MonoBehaviour:
   day: 0
   hour: 0
   minute: 0
+  randomSex: 0
+  random: 0
   addNew: {fileID: 4542185760023263346}
   addNew2: {fileID: 0}
   hair: {fileID: 7995449002755341148}
@@ -996,7 +997,6 @@ MonoBehaviour:
   dialogprefab: {fileID: 4565734257841698319, guid: f7f6bf247246d3442b464419d88700da, type: 3}
   xOffset: 3
   yOffset: 0
-  topperDialog: 1
   dialogDestroy: 6
   dialogChanger: {fileID: 3097127496064017857}
   say: {fileID: 8300000, guid: e1e774844015972459ba2a48a8cdd4c1, type: 3}
@@ -1030,7 +1030,6 @@ MonoBehaviour:
   - I paid a gold-plated price for this phone!
   - I can't stop admiring!
   - You did an amazing job!
-  shotScreen: {fileID: 0}
 --- !u!1 &7208583432031112418
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,13 +5,15 @@ using UnityEngine;
 
 public class HumanCharacter : MonoBehaviour
 {
-    public bool random = true;
+   
     public bool man = true;
-    public bool randomSex = false;
+    public int IDperson;
 
 
     public string namePersonEng = "name";
     public string surnamePersonEng = "surname";
+
+    
 
     [HideInInspector]public int _brokenPartPhone = -1;
     [HideInInspector] public string _brokenModelPhone;
@@ -35,6 +37,9 @@ public class HumanCharacter : MonoBehaviour
     public int hour;
     public int minute;
 
+
+    public bool randomSex = false;
+    public bool random = false;
     [Header("PartBody")]
     public SpriteRenderer addNew;
     public SpriteRenderer addNew2;
