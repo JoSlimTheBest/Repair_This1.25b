@@ -1,5 +1,5 @@
 using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 using TMPro;
 
@@ -9,11 +9,13 @@ public class AdderMoneyCount : MonoBehaviour
     private int onScreenNumber;
 
     private TextMeshProUGUI text;
-
+    public AudioClip CoinCall;
+    private AudioSource call;
 
     private void Awake()
     {
         text = GetComponent<TextMeshProUGUI>();
+        call = GetComponent<AudioSource>();
     }
     IEnumerator ChangeFloat(float v_start, float v_end, float duration)
     {
@@ -24,6 +26,7 @@ public class AdderMoneyCount : MonoBehaviour
             onScreenNumber = (int)Mathf.Lerp(v_start, v_end, elapsed / duration);
             elapsed += Time.deltaTime;
             text.text = onScreenNumber.ToString();
+            call.PlayOneShot(CoinCall);
             yield return null;
         }
         onScreenNumber = currentMoney;
@@ -35,7 +38,7 @@ public class AdderMoneyCount : MonoBehaviour
         currentMoney += countM;
         if(onScreenNumber != currentMoney)
         {
-            StartCoroutine(ChangeFloat(onScreenNumber, currentMoney, 2));
+            StartCoroutine(ChangeFloat(onScreenNumber, currentMoney, 1));
         }
     }
 

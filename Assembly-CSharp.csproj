@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\BuyPhonePart.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\ComponentsToUse\MultiLangAudio.cs" />
     <Compile Include="Assets\Scripts\MoneyButtonChangerColor.cs" />
+    <Compile Include="Assets\Scripts\NewDay\PartAdder.cs" />
     <Compile Include="Assets\Scripts\PrivateDevice\AndCloseFiles.cs" />
     <Compile Include="Assets\Scripts\Dialog\MoveBuyer\CloseCostChanger.cs" />
     <Compile Include="Assets\Scripts\RewiewHolder.cs" />
@@ -93,6 +94,7 @@
     <Compile Include="Assets\Scripts\StockPhonePart.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\ComponentsToUse\MultiLangMesh.cs" />
     <Compile Include="Assets\Scripts\PlayTime.cs" />
+    <Compile Include="Assets\Scripts\NewDay\AllStatsDayEnd.cs" />
     <Compile Include="Assets\Scripts\PrivateDevice\PrivateScreen2.cs" />
     <Compile Include="Assets\Scripts\FirstSceneMenu\DontDestroy.cs" />
     <Compile Include="Assets\Scripts\AgentXSctipts\RejectOffer.cs" />
@@ -119,8 +121,10 @@
     <Compile Include="Assets\Scripts\StarOnDisplay.cs" />
     <Compile Include="Assets\Scripts\TransNamePartPhone.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\ComponentsToUse\MultiLangTextUI.cs" />
+    <Compile Include="Assets\Scripts\NewDay\PureMoneyEndDay.cs" />
     <Compile Include="Assets\Scripts\DismantlePhone.cs" />
     <Compile Include="Assets\Scripts\NewDay\XReport.cs" />
+    <Compile Include="Assets\Scripts\NewDay\SBoxAdderOpen.cs" />
     <Compile Include="Assets\Scripts\PrivateDevice\PasswordHolder.cs" />
     <Compile Include="Assets\Scripts\ChangeBackGround\Switcher.cs" />
     <Compile Include="Assets\Scripts\PlayerEnergy.cs" />
@@ -150,6 +154,7 @@
     <Compile Include="Assets\Scripts\PrivateDevice\PrivatePasswordGo.cs" />
     <Compile Include="Assets\Scripts\EasyBuyButton.cs" />
     <Compile Include="Assets\Scripts\AudioButton.cs" />
+    <Compile Include="Assets\Scripts\NewDay\AdderMoneyCount.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\Data\TranslationsSaver.cs" />
     <Compile Include="Assets\Scripts\Dialog\BrokenPhone.cs" />
     <Compile Include="Assets\Scripts\SafeBoxChangeImage.cs" />
@@ -166,6 +171,7 @@
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\ComponentsToUse\LabelsData.cs" />
     <Compile Include="Assets\Scripts\PauseGame.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\Data\Extensions.cs" />
+    <Compile Include="Assets\Scripts\StudyScripts\LearnMiddleTime.cs" />
     <Compile Include="Assets\Scripts\DoorController.cs" />
     <Compile Include="Assets\Scripts\MessageHolder.cs" />
     <Compile Include="Assets\Scripts\PrivateDevice\PrivateScreen3.cs" />
@@ -180,12 +186,6 @@
     <Compile Include="Assets\Scripts\PrivateDevice\DataMoneyGive.cs" />
     <Compile Include="Assets\Scripts\HumanScripts\LandLord.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\Data\MultiLangTextBase.cs" />
-    <Compile Include="Assets\Scripts\StudyScripts\LearnMiddleTime.cs" />
-    <Compile Include="Assets\Scripts\NewDay\AllStatsDayEnd.cs" />
-    <Compile Include="Assets\Scripts\NewDay\AdderMoneyCount.cs" />
-    <Compile Include="Assets\Scripts\NewDay\SBoxAdderOpen.cs" />
-    <Compile Include="Assets\Scripts\NewDay\PartAdder.cs" />
-    <Compile Include="Assets\Scripts\NewDay\PureMoneyEndDay.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
