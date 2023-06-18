@@ -63,7 +63,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   man: 0
-  IDperson: 0
+  IDperson: 101
   namePersonEng: Elizabet
   surnamePersonEng: Drew
   _brokenPartPhone: -1
@@ -78,8 +78,9 @@ MonoBehaviour:
   minute: 0
   randomSex: 0
   random: 0
+  addPartBody: []
   addNew: {fileID: 2848099764357197834}
-  addNew2: {fileID: 0}
+  addNew2: {fileID: 1528127735003142002}
   hair: {fileID: 1729329430356086733}
   brow: {fileID: 2189023808243510903}
   eye: {fileID: 8518131065647910608}
@@ -962,7 +963,7 @@ GameObject:
   - component: {fileID: 2768217659027671416}
   - component: {fileID: 1528127735003142002}
   m_Layer: 3
-  m_Name: Mustage (1)
+  m_Name: Beard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

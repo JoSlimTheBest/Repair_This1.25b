@@ -30,7 +30,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7219629622620843792}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &2659998445656588135
 Camera:
@@ -104,7 +104,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7219629622620843792}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3009394521656833214
 GameObject:
@@ -136,7 +136,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7219629622620843792}
-  m_RootOrder: 11
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -199.6}
 --- !u!212 &8510352406108339029
 SpriteRenderer:
@@ -158,7 +158,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6b520d9e3e602f46b543c81a869475d, type: 2}
+  - {fileID: 2100000, guid: 7b4421029e1d2934abd7b29746636095, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -242,7 +242,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6b520d9e3e602f46b543c81a869475d, type: 2}
+  - {fileID: 2100000, guid: 7b4421029e1d2934abd7b29746636095, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -304,7 +304,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7219629622620843792}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2435322669962737641
 SpriteRenderer:
@@ -326,7 +326,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6b520d9e3e602f46b543c81a869475d, type: 2}
+  - {fileID: 2100000, guid: 7b4421029e1d2934abd7b29746636095, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -410,7 +410,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6b520d9e3e602f46b543c81a869475d, type: 2}
+  - {fileID: 2100000, guid: 7b4421029e1d2934abd7b29746636095, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -472,7 +472,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7219629622620843792}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7219629621315652326
 SpriteRenderer:
@@ -494,7 +494,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6b520d9e3e602f46b543c81a869475d, type: 2}
+  - {fileID: 2100000, guid: 7b4421029e1d2934abd7b29746636095, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -556,7 +556,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7219629622620843792}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7219629621361349468
 SpriteRenderer:
@@ -578,7 +578,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6b520d9e3e602f46b543c81a869475d, type: 2}
+  - {fileID: 2100000, guid: 7b4421029e1d2934abd7b29746636095, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -640,7 +640,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7219629622620843792}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.99}
 --- !u!212 &7219629621943321876
 SpriteRenderer:
@@ -662,7 +662,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6b520d9e3e602f46b543c81a869475d, type: 2}
+  - {fileID: 2100000, guid: 7b4421029e1d2934abd7b29746636095, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -746,7 +746,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6b520d9e3e602f46b543c81a869475d, type: 2}
+  - {fileID: 2100000, guid: 7b4421029e1d2934abd7b29746636095, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -830,7 +830,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6b520d9e3e602f46b543c81a869475d, type: 2}
+  - {fileID: 2100000, guid: 7b4421029e1d2934abd7b29746636095, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -900,6 +900,7 @@ Transform:
   - {fileID: 7219629621079601452}
   - {fileID: 7219629622497152570}
   - {fileID: 3057370862421301396}
+  - {fileID: 6703062869091437862}
   - {fileID: 4086740260769601087}
   - {fileID: 156669237372277162}
   - {fileID: 7219629621315652327}
@@ -907,7 +908,6 @@ Transform:
   - {fileID: 7219629621943321877}
   - {fileID: 6393368540305989923}
   - {fileID: 2860901189880284115}
-  - {fileID: 6703062869091437862}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -923,9 +923,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77e5f7c73f284384f82a5b49ab3e2f64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  random: 1
   man: 0
-  randomSex: 1
+  IDperson: 105
   namePersonEng: name
   surnamePersonEng: surname
   _brokenPartPhone: -1
@@ -938,7 +937,10 @@ MonoBehaviour:
   day: 0
   hour: 0
   minute: 0
-  addNew: {fileID: 0}
+  randomSex: 1
+  random: 1
+  addPartBody: []
+  addNew: {fileID: 8510352406108339029}
   addNew2: {fileID: 0}
   hair: {fileID: 7219629622611930388}
   brow: {fileID: 7219629621079601455}
@@ -1327,7 +1329,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7219629622620843792}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1.46}
 --- !u!212 &4845108114349812552
 SpriteRenderer:
@@ -1349,7 +1351,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6b520d9e3e602f46b543c81a869475d, type: 2}
+  - {fileID: 2100000, guid: 7b4421029e1d2934abd7b29746636095, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

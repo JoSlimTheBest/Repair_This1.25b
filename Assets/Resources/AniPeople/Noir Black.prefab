@@ -978,7 +978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   man: 0
-  IDperson: 0
+  IDperson: 107
   namePersonEng: Elizabet
   surnamePersonEng: Drew
   _brokenPartPhone: -1
@@ -993,6 +993,7 @@ MonoBehaviour:
   minute: 0
   randomSex: 0
   random: 0
+  addPartBody: []
   addNew: {fileID: 8956773575858537283}
   addNew2: {fileID: 0}
   hair: {fileID: 5491416600689376388}

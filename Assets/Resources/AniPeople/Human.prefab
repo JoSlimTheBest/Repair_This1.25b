@@ -83,7 +83,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6b520d9e3e602f46b543c81a869475d, type: 2}
+  - {fileID: 2100000, guid: 7b4421029e1d2934abd7b29746636095, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -242,7 +242,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6b520d9e3e602f46b543c81a869475d, type: 2}
+  - {fileID: 2100000, guid: 7b4421029e1d2934abd7b29746636095, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -326,7 +326,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6b520d9e3e602f46b543c81a869475d, type: 2}
+  - {fileID: 2100000, guid: 7b4421029e1d2934abd7b29746636095, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -410,7 +410,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6b520d9e3e602f46b543c81a869475d, type: 2}
+  - {fileID: 2100000, guid: 7b4421029e1d2934abd7b29746636095, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -494,7 +494,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6b520d9e3e602f46b543c81a869475d, type: 2}
+  - {fileID: 2100000, guid: 7b4421029e1d2934abd7b29746636095, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -578,7 +578,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6b520d9e3e602f46b543c81a869475d, type: 2}
+  - {fileID: 2100000, guid: 7b4421029e1d2934abd7b29746636095, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -670,9 +670,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77e5f7c73f284384f82a5b49ab3e2f64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  random: 1
   man: 0
-  randomSex: 1
+  IDperson: 200
+  namePersonEng: name
+  surnamePersonEng: surname
   _brokenPartPhone: -1
   _brokenModelPhone: 
   previewDetail: 0
@@ -683,6 +684,9 @@ MonoBehaviour:
   day: 0
   hour: 0
   minute: 0
+  randomSex: 1
+  random: 1
+  addPartBody: []
   addNew: {fileID: 0}
   addNew2: {fileID: 0}
   hair: {fileID: 6105422354001863456}
@@ -1014,7 +1018,6 @@ MonoBehaviour:
   dialogprefab: {fileID: 4565734257841698319, guid: f7f6bf247246d3442b464419d88700da, type: 3}
   xOffset: 3
   yOffset: 0
-  topperDialog: 1
   dialogDestroy: 6
   dialogChanger: {fileID: 1359024726687312166}
   say: {fileID: 8300000, guid: e1e774844015972459ba2a48a8cdd4c1, type: 3}
@@ -1043,7 +1046,6 @@ MonoBehaviour:
   - 
   - 
   - 
-  shotScreen: {fileID: 0}
 --- !u!1 &6105422354001863462
 GameObject:
   m_ObjectHideFlags: 0
@@ -1096,7 +1098,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6b520d9e3e602f46b543c81a869475d, type: 2}
+  - {fileID: 2100000, guid: 7b4421029e1d2934abd7b29746636095, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1180,7 +1182,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6b520d9e3e602f46b543c81a869475d, type: 2}
+  - {fileID: 2100000, guid: 7b4421029e1d2934abd7b29746636095, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1264,7 +1266,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6b520d9e3e602f46b543c81a869475d, type: 2}
+  - {fileID: 2100000, guid: 7b4421029e1d2934abd7b29746636095, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

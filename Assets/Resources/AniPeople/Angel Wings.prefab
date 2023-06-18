@@ -672,7 +672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   man: 0
-  IDperson: 0
+  IDperson: 102
   namePersonEng: Elizabet
   surnamePersonEng: Drew
   _brokenPartPhone: -1
@@ -687,15 +687,16 @@ MonoBehaviour:
   minute: 0
   randomSex: 0
   random: 0
+  addPartBody: []
   addNew: {fileID: 4625635701854964601}
-  addNew2: {fileID: 0}
+  addNew2: {fileID: 4437880590089992590}
   hair: {fileID: 8090782120543040702}
   brow: {fileID: 8779500303662077188}
   eye: {fileID: 1261447280081614243}
   nose: {fileID: 4706868789523081185}
   glasses: {fileID: 6784025857990146689}
   mustage: {fileID: 8709977800360600271}
-  mouth: {fileID: 4437880590089992590}
+  mouth: {fileID: 7402360807104896625}
   body: {fileID: 2661389847915768492}
   cloth: {fileID: 4330614449988716022}
   hairM:
@@ -1203,8 +1204,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1224779621913768491}
   - component: {fileID: 4437880590089992590}
+  - component: {fileID: 191339138482397403}
   m_Layer: 3
-  m_Name: Mounth
+  m_Name: Wings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1277,6 +1279,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &191339138482397403
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8275367877225847197}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1ddafe46591a5d941b541a1f1a5997cd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8650249681099846199
 GameObject:
   m_ObjectHideFlags: 0
