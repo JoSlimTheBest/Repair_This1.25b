@@ -31195,6 +31195,8 @@ MonoBehaviour:
   stats: {fileID: 1596248371}
   textSafe: {fileID: 1948997602}
   pure: {fileID: 1724675428}
+  sound: {fileID: 8300000, guid: b6f58d023977ce64887ddf33784baa08, type: 3}
+  sound2: {fileID: 8300000, guid: b6f58d023977ce64887ddf33784baa08, type: 3}
   partImage: {fileID: 299689641}
 --- !u!1 &1707401878
 GameObject:

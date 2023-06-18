@@ -937,8 +937,8 @@ MonoBehaviour:
   day: 0
   hour: 0
   minute: 0
-  randomSex: 1
-  random: 1
+  randomSex: 0
+  random: 0
   addPartBody: []
   addNew: {fileID: 8510352406108339029}
   addNew2: {fileID: 0}

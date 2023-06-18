@@ -26,9 +26,10 @@ public class AdderMoneyCount : MonoBehaviour
             onScreenNumber = (int)Mathf.Lerp(v_start, v_end, elapsed / duration);
             elapsed += Time.deltaTime;
             text.text = onScreenNumber.ToString();
-            call.PlayOneShot(CoinCall);
+           
             yield return null;
         }
+        call.PlayOneShot(CoinCall);
         onScreenNumber = currentMoney;
         text.text = onScreenNumber.ToString();
     }

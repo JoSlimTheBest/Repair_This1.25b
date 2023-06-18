@@ -331,7 +331,6 @@ MonoBehaviour:
   random: 0
   addPartBody:
   - {fileID: 7298293933235090852}
-  - {fileID: 0}
   addNew: {fileID: 3886598520004662732}
   addNew2: {fileID: 0}
   hair: {fileID: 402593406746716683}
