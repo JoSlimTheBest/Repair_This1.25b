@@ -78,6 +78,7 @@ MonoBehaviour:
   minute: 0
   randomSex: 0
   random: 0
+  addPartBody: []
   addNew: {fileID: 6957220750860189615}
   addNew2: {fileID: 4487470472473837802}
   hair: {fileID: 575043751482674132}
