@@ -334,9 +334,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77e5f7c73f284384f82a5b49ab3e2f64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  random: 0
   man: 1
-  randomSex: 0
+  IDperson: 507
+  namePersonEng: name
+  surnamePersonEng: surname
   _brokenPartPhone: -1
   _brokenModelPhone: 
   previewDetail: 0
@@ -347,6 +348,8 @@ MonoBehaviour:
   day: 0
   hour: 0
   minute: 0
+  randomSex: 0
+  random: 0
   addNew: {fileID: 0}
   addNew2: {fileID: 0}
   hair: {fileID: 2482530558587071081}
@@ -655,7 +658,6 @@ MonoBehaviour:
   dialogprefab: {fileID: 4565734257841698319, guid: f7f6bf247246d3442b464419d88700da, type: 3}
   xOffset: 3
   yOffset: 0
-  topperDialog: 1
   dialogDestroy: 6
   dialogChanger: {fileID: 0}
   say: {fileID: 8300000, guid: e1e774844015972459ba2a48a8cdd4c1, type: 3}
@@ -692,7 +694,6 @@ MonoBehaviour:
   - It would be a 5-star if they served coffee and the air conditioning worked!
   - Everything is fine, I've seen better, but it's still good here!
   - The repair was done at a good level, and the technician was very tidy!
-  shotScreen: {fileID: 0}
 --- !u!1 &2249287919150451232
 GameObject:
   m_ObjectHideFlags: 0

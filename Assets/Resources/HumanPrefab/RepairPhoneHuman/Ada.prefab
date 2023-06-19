@@ -314,10 +314,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77e5f7c73f284384f82a5b49ab3e2f64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  random: 0
   man: 0
-  randomSex: 0
-  namePersonEng: Wada
+  IDperson: 1
+  namePersonEng: Wanda
   surnamePersonEng: Mung
   _brokenPartPhone: -1
   _brokenModelPhone: 
@@ -329,6 +328,9 @@ MonoBehaviour:
   day: 0
   hour: 0
   minute: 0
+  randomSex: 0
+  random: 0
+  addPartBody: []
   addNew: {fileID: 8467061183209504210}
   addNew2: {fileID: 0}
   hair: {fileID: 7452799152350829973}
@@ -612,9 +614,11 @@ MonoBehaviour:
   dialogReRus:
   - "\u0421\u043D\u043E\u0432\u0430 \u0437\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435!"
   - "\u042F \u043D\u0430\u0434\u0435\u044E\u0441\u044C \u0433\u043E\u0442\u043E\u0432\u043E?"
+  - "\u0423 \u0432\u0430\u0441 \u0432\u0441\u0435  \u043F\u043E\u043B\u0443\u0447\u0438\u043B\u043E\u0441\u044C?"
   dialogReEng:
   - Hello again!
   - I hope it's ready?
+  - Did it work out for you?
   happyBuyerRus:
   - "\u0421\u043F\u0430\u0441\u0438\u0431\u043E!"
   happyBuyerEng:

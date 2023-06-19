@@ -33,10 +33,11 @@ public class DoorController : MonoBehaviour
     {
         CloseDoor();
 
-      
+
 
          prefabBuyers = Resources.LoadAll<GameObject>("HumanPrefab/RepairPhoneHuman").ToList();
-         prefabTrash= Resources.LoadAll<GameObject>("HumanPrefab/TrashHuman").ToList();
+        //prefabBuyers = Resources.LoadAll<GameObject>("AniPeople").ToList();
+        prefabTrash = Resources.LoadAll<GameObject>("HumanPrefab/TrashHuman").ToList();
 
         if (GameObject.Find("QueueControll").GetComponent<ComputerTime>().currentDay == 1)
         {

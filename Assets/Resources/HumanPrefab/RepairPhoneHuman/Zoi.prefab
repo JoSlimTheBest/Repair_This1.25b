@@ -62,9 +62,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77e5f7c73f284384f82a5b49ab3e2f64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  random: 0
   man: 0
-  randomSex: 0
+  IDperson: 44
   namePersonEng: Maxine
   surnamePersonEng: Shortcut
   _brokenPartPhone: -1
@@ -77,6 +76,9 @@ MonoBehaviour:
   day: 0
   hour: 0
   minute: 0
+  randomSex: 0
+  random: 0
+  addPartBody: []
   addNew: {fileID: 6957220750860189615}
   addNew2: {fileID: 4487470472473837802}
   hair: {fileID: 575043751482674132}

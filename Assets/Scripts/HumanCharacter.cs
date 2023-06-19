@@ -5,13 +5,15 @@ using UnityEngine;
 
 public class HumanCharacter : MonoBehaviour
 {
-    public bool random = true;
+   
     public bool man = true;
-    public bool randomSex = false;
+    public int IDperson;
 
 
     public string namePersonEng = "name";
     public string surnamePersonEng = "surname";
+
+    
 
     [HideInInspector]public int _brokenPartPhone = -1;
     [HideInInspector] public string _brokenModelPhone;
@@ -35,7 +37,13 @@ public class HumanCharacter : MonoBehaviour
     public int hour;
     public int minute;
 
+
+    public bool randomSex = false;
+    public bool random = false;
     [Header("PartBody")]
+
+    public List<SpriteRenderer> addPartBody = new List<SpriteRenderer>();
+
     public SpriteRenderer addNew;
     public SpriteRenderer addNew2;
 
@@ -247,6 +255,11 @@ public class HumanCharacter : MonoBehaviour
         {
             addNew2.sortingOrder -= count;
         }
+
+        for(int i = 0; i < addPartBody.Count; i++)
+        {
+            addPartBody[i].sortingOrder -= count;
+        }
         
     }
 
@@ -384,6 +397,11 @@ public class HumanCharacter : MonoBehaviour
                 addNew2.material = usuallyMater;
             }
 
+            for (int i = 0; i < addPartBody.Count; i++)
+            {
+                addPartBody[i].material = usuallyMater;
+            }
+
             photoReady = true;
 
 
@@ -409,6 +427,13 @@ public class HumanCharacter : MonoBehaviour
             {
                 addNew2.material = lightMater;
             }
+
+
+            for (int i = 0; i < addPartBody.Count; i++)
+            {
+                addPartBody[i].material = lightMater;
+            }
+
 
             photoReady = false;
             

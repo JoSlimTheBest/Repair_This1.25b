@@ -430,9 +430,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77e5f7c73f284384f82a5b49ab3e2f64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  random: 0
   man: 1
-  randomSex: 0
+  IDperson: 37
   namePersonEng: Melvin
   surnamePersonEng: Funktop
   _brokenPartPhone: -1
@@ -445,6 +444,8 @@ MonoBehaviour:
   day: 0
   hour: 0
   minute: 0
+  randomSex: 0
+  random: 0
   addNew: {fileID: 7643829666864634151}
   addNew2: {fileID: 816299511842270446}
   hair: {fileID: 3104423796559193387}

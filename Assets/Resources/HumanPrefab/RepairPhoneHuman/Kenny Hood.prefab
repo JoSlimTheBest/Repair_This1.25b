@@ -144,9 +144,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77e5f7c73f284384f82a5b49ab3e2f64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  random: 0
   man: 1
-  randomSex: 0
+  IDperson: 22
   namePersonEng: Kenny
   surnamePersonEng: Hood
   _brokenPartPhone: -1
@@ -159,6 +158,8 @@ MonoBehaviour:
   day: 0
   hour: 0
   minute: 0
+  randomSex: 0
+  random: 0
   addNew: {fileID: 0}
   addNew2: {fileID: 0}
   hair: {fileID: 7804547531903618019}
@@ -463,7 +464,6 @@ MonoBehaviour:
   dialogprefab: {fileID: 4565734257841698319, guid: f7f6bf247246d3442b464419d88700da, type: 3}
   xOffset: 3
   yOffset: 0
-  topperDialog: 1
   dialogDestroy: 6
   dialogChanger: {fileID: 6265610652987012089}
   say: {fileID: 8300000, guid: e1e774844015972459ba2a48a8cdd4c1, type: 3}
@@ -500,7 +500,6 @@ MonoBehaviour:
   - They fixed the phone, but my mom still found out everything
   - Uncle is really knowledgeable about technology!
   - A huge thank you for the fast and high-quality service!
-  shotScreen: {fileID: 0}
 --- !u!1 &822054805916611476
 GameObject:
   m_ObjectHideFlags: 0

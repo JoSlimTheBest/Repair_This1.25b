@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 645715524281404628}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.0105, y: 0.94, z: 0}
-  m_LocalScale: {x: 1.1461935, y: 1.1, z: 1.1}
+  m_LocalScale: {x: 1.18, y: 1.1, z: 1.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2334373692907178367}
@@ -838,9 +838,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77e5f7c73f284384f82a5b49ab3e2f64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  random: 0
   man: 1
-  randomSex: 0
+  IDperson: 42
   namePersonEng: Tedy
   surnamePersonEng: Dush
   _brokenPartPhone: -1
@@ -853,6 +852,9 @@ MonoBehaviour:
   day: 0
   hour: 0
   minute: 0
+  randomSex: 0
+  random: 0
+  addPartBody: []
   addNew: {fileID: 0}
   addNew2: {fileID: 0}
   hair: {fileID: 1549139088491943881}
@@ -1158,7 +1160,6 @@ MonoBehaviour:
   dialogprefab: {fileID: 4565734257841698319, guid: f7f6bf247246d3442b464419d88700da, type: 3}
   xOffset: 3
   yOffset: 0
-  topperDialog: 1
   dialogDestroy: 6
   dialogChanger: {fileID: 3441626268956225491}
   say: {fileID: 8300000, guid: e1e774844015972459ba2a48a8cdd4c1, type: 3}
@@ -1198,7 +1199,6 @@ MonoBehaviour:
   - They talk more than they do!
   - Awesome service! They quickly replaced the charging board!
   - Everything is excellent, they quickly resolved my issue. Highly recommended!!!!
-  shotScreen: {fileID: 0}
 --- !u!1 &8239459865202241470
 GameObject:
   m_ObjectHideFlags: 0
@@ -1224,7 +1224,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8239459865202241470}
   m_LocalRotation: {x: 0, y: 0, z: 0.008639302, w: 0.9999627}
-  m_LocalPosition: {x: -0.0001, y: -0.9905, z: 0}
+  m_LocalPosition: {x: -0.0001, y: -1.02, z: 0}
   m_LocalScale: {x: 0.9338074, y: 1.1, z: 1.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
