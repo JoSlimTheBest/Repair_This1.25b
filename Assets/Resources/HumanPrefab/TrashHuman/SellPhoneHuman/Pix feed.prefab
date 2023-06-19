@@ -865,6 +865,7 @@ MonoBehaviour:
   minute: 0
   randomSex: 0
   random: 0
+  addPartBody: []
   addNew: {fileID: 6948325231824959395}
   addNew2: {fileID: 651148811057567747}
   hair: {fileID: 6931572758413358190}
@@ -1107,7 +1108,7 @@ MonoBehaviour:
   - ' Where can I sell a phone for spare parts?'
   - This is the latest model
   - My ex bought it for me
-  - ' I don''t want to see him anymore'
+  - I don't want to see him anymore
   dialogprefab: {fileID: 4565734257841698319, guid: f7f6bf247246d3442b464419d88700da, type: 3}
   denayOrderRus:
   - "\u041D\u0443 \u0438 \u043B\u0430\u0434\u043D\u043E, \u043D\u0430\u0439\u0434\u0443

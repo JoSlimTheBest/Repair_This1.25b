@@ -529,6 +529,7 @@ MonoBehaviour:
   minute: 22
   randomSex: 0
   random: 0
+  addPartBody: []
   addNew: {fileID: 0}
   addNew2: {fileID: 9197673709960543669}
   hair: {fileID: 6674366957134310565}
@@ -848,14 +849,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   starRUS:
   - "\u041E\u0442\u043A\u0430\u0437\u0430\u043B\u0438 \u0432 \u043E\u0431\u0441\u043B\u0443\u0436\u0438\u0432\u0430\u043D\u0438\u0438,
-    \u0431\u0435\u0437 \u043E\u0431\u044C\u044F\u0441\u043D\u0435\u0438\u044F!"
+    \u0431\u0435\u0437 \u043E\u0431\u044A\u044F\u0441\u043D\u0435\u043D\u0438\u044F!"
   - "\u0414\u043E\u0440\u043E\u0433\u043E, \u043D\u0435 \u0434\u043E\u0433\u043E\u0432\u043E\u0440\u0438\u043B\u0438\u0441\u044C!"
   - "\u0422\u0435\u0441\u043D\u043E\u0432\u0430\u0442\u043E \u0443 \u043D\u0438\u0445
     \u0442\u0430\u043C!"
   - "\u041F\u0440\u0438\u0434\u0443 \u0441\u044E\u0434\u0430 \u0435\u0449\u0435 \u0440\u0430\u0437,
     \u0435\u0441\u043B\u0438 \u043F\u043E\u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044F!"
   - "\u0427\u0435\u0441\u0442\u043D\u044B\u0439 \u0441\u0435\u0440\u0432\u0438\u0441,
-    \u0440\u0435\u043E\u043C\u0435\u043D\u0434\u0443\u044E!"
+    \u0440\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u0443\u044E!"
   starENG:
   - Denied service, no explanation!
   - Expensive, no deal!
@@ -877,7 +878,7 @@ MonoBehaviour:
   cop: {fileID: 4074066845833002680, guid: 8d50c6387f3c9ab43a5d110ec45ff3a7, type: 3}
   dialogprefab: {fileID: 6995824967119012598, guid: 0497f6da508e6ac408d7d72526f92446, type: 3}
   dialogChanger: {fileID: 3534484067160231593}
-  sayEnglish: Here were are again!
+  sayEnglish: I've got you now! I'm from the IRS!
   sayRussian: "\u0412\u043E\u0442 \u0442\u044B \u0438 \u043F\u043E\u043F\u0430\u043B\u0441\u044F!
     \u042F \u0438\u0437 \u043D\u0430\u043B\u043E\u0433\u043E\u0432\u043E\u0439!"
 --- !u!1 &4161994278306114514

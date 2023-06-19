@@ -670,9 +670,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77e5f7c73f284384f82a5b49ab3e2f64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  random: 0
   man: 0
-  randomSex: 0
+  IDperson: 0
   namePersonEng: name
   surnamePersonEng: surname
   _brokenPartPhone: -1
@@ -685,6 +684,9 @@ MonoBehaviour:
   day: 0
   hour: 0
   minute: 0
+  randomSex: 0
+  random: 0
+  addPartBody: []
   addNew: {fileID: 0}
   addNew2: {fileID: 0}
   hair: {fileID: 6105422354001863456}
@@ -1008,11 +1010,11 @@ MonoBehaviour:
   happyBuyerRus:
   - "\u0427\u0435\u0442\u043A\u043E!"
   happyBuyerEng:
-  - Good Anakyn! Goood!
+  - Good !
   dissapoinBuyerRus:
   - "\u041D\u0443 \u0431\u043B\u0438\u043D, \u044F \u0442\u0430\u043A \u043D\u0430\u0434\u0435\u044F\u043B\u0441\u044F"
   dissapoinBuyerEng:
-  - Fuck you
+  - Oh man, I was so hopeful.
   humanIndexPhone: 0
   dialogprefab: {fileID: 4565734257841698319, guid: f7f6bf247246d3442b464419d88700da, type: 3}
   xOffset: 3
