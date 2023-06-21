@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 using UnityEngine.UI;
 
 
@@ -11,6 +11,9 @@ public class DataMoneyGive : MonoBehaviour
     public GameObject mess;
     public MessageHolder holder;
     public GameObject newMessage;
+
+    public GameObject prefabMoney;
+    public GameObject moneyPlace;
 
     public void Start()
     {
@@ -25,5 +28,11 @@ public class DataMoneyGive : MonoBehaviour
        
 
         gameObject.SetActive(false);
+
+
+        GameObject pref = Instantiate(prefabMoney, moneyPlace.transform);
+        pref.transform.localPosition += new Vector3(0, 100, 0);
+        pref.GetComponent<TextMeshProUGUI>().text = "+"+money.ToString();
+        pref.GetComponent<TextMeshProUGUI>().color = Color.green;
     }
 }

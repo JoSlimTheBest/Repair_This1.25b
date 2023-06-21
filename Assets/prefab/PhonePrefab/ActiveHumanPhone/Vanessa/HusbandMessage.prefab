@@ -159,6 +159,8 @@ MonoBehaviour:
   passwordMessage: kozel
   nextMessage: {fileID: 6053217822294498507, guid: 45b47648ed35ac94988b84af2625dda2, type: 3}
   moneyPlus: 300
+  prefabMoney: {fileID: 6408250821041834366, guid: ca9ed348c8caa4f4cac984f1e61416af, type: 3}
+  moneyPlace: {fileID: 0}
 --- !u!114 &3258481303758858211
 MonoBehaviour:
   m_ObjectHideFlags: 0
