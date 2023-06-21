@@ -6,12 +6,23 @@ using SimpleLocalizator;
 
 public class LearnMiddleTime : MonoBehaviour
 {
-
+    private Color color;
 
     public void Start()
     {
         GetComponent<Button>().onClick.AddListener(Task);
+        color = GetComponent<Image>().color;
+    }
 
+    public void ChangeColor()
+    {
+        GetComponent<Image>().color = Color.red;
+        Invoke("OldColor",0.1f);
+    }
+
+    private void OldColor()
+    {
+        GetComponent<Image>().color = color;
     }
 
     public void Task()

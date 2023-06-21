@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class AppliqationQuit : MonoBehaviour
 {
     public void Start()
     {
-        GetComponent<Button>().onClick.AddListener(Quit);
+        GetComponent<Button>().onClick.AddListener(Task);
     }
 
-
-    private void Quit()
+    public void Task()
     {
-        Application.Quit();
+        SceneManager.LoadScene(0);
     }
 }
