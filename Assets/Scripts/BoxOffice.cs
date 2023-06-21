@@ -15,7 +15,7 @@ public class BoxOffice : MonoBehaviour
     public int dayMoney = 0;
     private void Start()
     {
-        GetComponent<Button>().onClick.AddListener(OpenBoxOffice);
+        //GetComponent<Button>().onClick.AddListener(OpenBoxOffice);
         player = GameObject.Find("Player").GetComponent<PlayerCharacter>();
     }
     public void OpenBoxOffice()

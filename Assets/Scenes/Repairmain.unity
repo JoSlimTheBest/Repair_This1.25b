@@ -11771,7 +11771,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 586035202}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -11807,19 +11807,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 586035205}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 391690633}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &586035205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11827,7 +11815,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 586035202}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -15245,7 +15233,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentGamer: 0
   ending: 0
-  timing: 
 --- !u!1 &800334806
 GameObject:
   m_ObjectHideFlags: 0
@@ -36770,6 +36757,7 @@ GameObject:
   - component: {fileID: 2042131128}
   - component: {fileID: 2042131130}
   - component: {fileID: 2042131129}
+  - component: {fileID: 2042131131}
   m_Layer: 0
   m_Name: box_office
   m_TagString: Untagged
@@ -36872,6 +36860,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.3408217, y: 1.7198898, z: 0.2000001}
   m_Center: {x: -0.008095016, y: -0.14567202, z: 0}
+--- !u!114 &2042131131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042131126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c80e54e957a14744ab8afebf9c372866, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BioImage: {fileID: 391690633}
+  box: {fileID: 586035207}
 --- !u!1 &2045115703
 GameObject:
   m_ObjectHideFlags: 0
