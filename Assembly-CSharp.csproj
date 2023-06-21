@@ -167,6 +167,7 @@
     <Compile Include="Assets\Scripts\BumBoxController.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\Data\Translation.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\Data\Label.cs" />
+    <Compile Include="Assets\Scripts\ChangeBackGround\LeaveMenu.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\Data\Language.cs" />
     <Compile Include="Assets\Scripts\FirstSceneMenu\SetVolume.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\ComponentsToUse\LabelsData.cs" />
@@ -187,7 +188,7 @@
     <Compile Include="Assets\Scripts\PrivateDevice\DataMoneyGive.cs" />
     <Compile Include="Assets\Scripts\HumanScripts\LandLord.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\Data\MultiLangTextBase.cs" />
-    <Compile Include="Assets\Scripts\ChangeBackGround\LeaveMenu.cs" />
+    <Compile Include="Assets\Scripts\StatisticPlayer\PlayerStatistic.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
