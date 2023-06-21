@@ -81,6 +81,8 @@ public class EnvelopLandLord : MonoBehaviour
     }
     private void LoseGame()
     {
+
+        GameObject.Find("Player").GetComponent<PlayerStatistic>().EndGame(1);
         SceneManager.LoadScene(3);
     }
 

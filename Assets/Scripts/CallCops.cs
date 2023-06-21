@@ -25,6 +25,7 @@ public class CallCops : MonoBehaviour
     public void SayIt()
     {
         Instantiate(cop);
+        GameObject.Find("Player").GetComponent<PlayerStatistic>().EndGame(2);
         GameObject currentDialog = Instantiate(dialogprefab, transform.position, transform.rotation, dialogChanger.transform);
         currentDialog.transform.localPosition += new Vector3(-3.5f, 0.3f);
         currentDialog.transform.Rotate(0, 0, Random.Range(-2, 3));

@@ -482,7 +482,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   man: 0
-  IDperson: 1002
+  IDperson: 0
   namePersonEng: name
   surnamePersonEng: surname
   _brokenPartPhone: -1
@@ -497,6 +497,7 @@ MonoBehaviour:
   minute: 0
   randomSex: 0
   random: 0
+  addPartBody: []
   addNew: {fileID: 65626483074727361}
   addNew2: {fileID: 5226435308908565078}
   hair: {fileID: 3957512683605557833}
@@ -736,32 +737,22 @@ MonoBehaviour:
   - Would you buy it for spare parts?
   dialogprefab: {fileID: 4565734257841698319, guid: f7f6bf247246d3442b464419d88700da, type: 3}
   denayOrderRus:
-  - "\u041D\u0443 \u0438 \u0445\u0440\u0435\u043D \u0441 \u0442\u043E\u0431\u043E\u0439!"
+  - "\u041C\u043E\u0433 \u0431\u044B \u0441\u044D\u043A\u043E\u043D\u043E\u043C\u0438\u0442\u044C
+    \u043D\u0430 \u0437\u0430\u043F\u0447\u0430\u0441\u0442\u044F\u0445"
   denayOrderEng:
   - Well, to hell with you!
   denayByTimeRus:
   - "\u0421\u043B\u0438\u0448\u043A\u043E\u043C \u0434\u043E\u043B\u0433\u043E, \u043C\u043D\u0435
     \u044D\u0442\u043E \u043D\u0435 \u043F\u043E\u0434\u0445\u043E\u0434\u0438\u0442!"
-  - "\u0427\u0435 \u0442\u0430\u043A \u0434\u043E\u043B\u0433\u043E \u0442\u043E? "
-  - "\u041C\u043D\u0435 \u043D\u0443\u0436\u043D\u043E \u0431\u044B\u0441\u0442\u0440\u0435\u0435"
   denayByTimeEng:
   - It's longer when i expected
-  - Why is it so long?
-  - i need faster
   denayByMoneyRus:
   - "\u0423 \u043C\u0435\u043D\u044F \u043D\u0435\u0442 \u0442\u0430\u043A\u0438\u0445
     \u0434\u0435\u043D\u0435\u0433"
-  - "\u0427\u0443\u0432\u0430\u043A, \u044D\u0442\u043E \u0441\u043B\u0438\u0448\u043A\u043E\u043C
-    \u0434\u043E\u0440\u043E\u0433\u043E"
-  - "\u0417\u0430 \u0442\u0430\u043A\u0438\u0435 \u0434\u0435\u043D\u044C\u0433\u0438
-    \u043B\u0435\u0433\u0447\u0435 \u043D\u043E\u0432\u044B\u0439 \u0442\u0435\u043B\u0435\u0444\u043E\u043D
-    \u043A\u0443\u043F\u0438\u0442\u044C"
   denayByMoneyEng:
   - ' I don''t have that kind of money'
-  - Dude this is too expensive
-  - Easier to buy a new phone. It's too expensive
-  agreedRus: 
-  agreedEng: 
+  agreedRus: "\u0421\u0443\u043F\u0435\u0440!"
+  agreedEng: Super!
   dialogChanger: {fileID: 8279119545230138580}
   xOffset: 3.5
   yOffset: 0.3
@@ -1111,7 +1102,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 36
   m_Sprite: {fileID: 412124075, guid: 9b80dd86820b6f241ae0ed2c1a988b91, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.46167082, b: 0.0047169924, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

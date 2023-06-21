@@ -1037,6 +1037,7 @@ MonoBehaviour:
   minute: 0
   randomSex: 0
   random: 0
+  addPartBody: []
   addNew: {fileID: 0}
   addNew2: {fileID: 141253691906878511}
   hair: {fileID: 2967170471474662482}
@@ -1333,7 +1334,7 @@ MonoBehaviour:
   - "\u0417\u0430\u0447\u0435\u043C \u0412\u044B \u0442\u044F\u043D\u0443\u043B\u0438
     \u0442\u043E? \u041E\u043D \u043D\u0435 \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442!"
   dissapoinBuyerEng:
-  - What the FUCK~!!!!!
+  - Why did you pull it? It doesn't work!
   humanIndexPhone: 0
   dialogprefab: {fileID: 4565734257841698319, guid: f7f6bf247246d3442b464419d88700da, type: 3}
   xOffset: 3

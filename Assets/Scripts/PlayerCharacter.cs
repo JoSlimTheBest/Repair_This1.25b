@@ -5,7 +5,7 @@ using TMPro;
 
 public class PlayerCharacter : MonoBehaviour
 {
-    public int money;
+    public int money = 0;
     public float raiting = 1;
     public int countPeopleRaitingVoice=1;
     public float allRaiting = 1;

@@ -34,6 +34,8 @@ public class NewDay : MonoBehaviour
             systemError.GetComponent<AutoDestroy>().DontKill();
             return;
         }
+       
+        player.GetComponent<PlayerStatistic>().TimeDayMoneySave();
 
         GetComponent<ManagerStock>().mess.DestroyAllMess();
         bool taxMen = Xrep.GetComponent<XReport>().taxM;

@@ -773,6 +773,7 @@ MonoBehaviour:
   minute: 0
   randomSex: 0
   random: 0
+  addPartBody: []
   addNew: {fileID: 5321078747403425970}
   addNew2: {fileID: 8383668958646153686}
   hair: {fileID: 8764551043301123957}
@@ -1016,7 +1017,7 @@ MonoBehaviour:
   - Hello! I'm short on time
   - Today we have a fashion show at the nearby bar
   - I have a couple of hours
-  - ' I need to manage to fix my phone'
+  - I need to manage to fix my phone
   - or else I won't be able to gather the contacts I need
   dialogprefab: {fileID: 4565734257841698319, guid: f7f6bf247246d3442b464419d88700da, type: 3}
   denayOrderRus:
@@ -1060,15 +1061,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogReRus:
   - "\u0410 \u0432\u043E\u0442 \u0438 \u044F \u043C\u0430\u043B\u044B\u0448"
+  - "\u041A\u0430\u043A \u0442\u044B \u0442\u0443\u0442?"
   - "\u0413\u043E\u0442\u043E\u0432\u043E?"
+  - "\u041D\u0435 \u0440\u0430\u0441\u0441\u0442\u0440\u0430\u0438\u0432\u0430\u0439
+    \u043C\u0435\u043D\u044F!"
   dialogReEng:
   - And here I am, baby
+  - How are you?
   - Is it ready?
+  - Don't upset me!
   happyBuyerRus:
   - "\u041D\u0443 \u0432\u043E\u0442 \u0434\u0440\u0443\u0433\u043E\u0435 \u0434\u0435\u043B\u043E!
     \u0414\u0435\u0440\u0436\u0438, \u0442\u044B \u0437\u0430\u0441\u043B\u0443\u0436\u0438\u043B"
   happyBuyerEng:
-  - 
+  - There you go! Here you go, you deserve it
   dissapoinBuyerRus:
   - "\u0410 \u0447\u0435\u0433\u043E \u044D\u043A\u0440\u0430\u043D \u043D\u0435
     \u043F\u043E\u043C\u0435\u043D\u044F\u043B\u0438? \u042F \u0437\u0430 \u0442\u0430\u043A\u043E\u0435
