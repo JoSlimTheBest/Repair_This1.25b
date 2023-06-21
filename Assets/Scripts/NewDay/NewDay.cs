@@ -97,6 +97,7 @@ public class NewDay : MonoBehaviour
 
         if(compT.currentDay == 7) //10
         {
+            player.GetComponent<PlayerStatistic>().EndGame(3);
             SceneManager.LoadScene(5);
         }
 
