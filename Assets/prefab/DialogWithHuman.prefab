@@ -98,10 +98,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73076c839c8ac1648bbb72cc106c50df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loseColor: 0.0025
+  loseColor: 0.0035
   randomRotate: 0.15
-  offer: 1
   energyTake: -1
+  fullColorTime: 2
 --- !u!1 &4565734257969605185
 GameObject:
   m_ObjectHideFlags: 0

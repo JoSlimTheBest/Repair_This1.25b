@@ -8,23 +8,32 @@ public class DialogRotate : MonoBehaviour
 {
     public float loseColor = 0.01f;
     public float randomRotate = 1;
-    public float offer = 1;
+    
     public int energyTake = -2;
-
+    public float fullColorTime = 2;
 
     private void Start()
     {
         GameObject.Find("Player").GetComponent<PlayerEnergy>().AddEnergy(energyTake);
     }
+
+    public void AddColor()
+    {
+
+    }
     void FixedUpdate()
     {
+       
         transform.Rotate(0, 0, Random.Range(-randomRotate, randomRotate));
-        GetComponent<SpriteRenderer>().color -= new Color(0, 0, 0, loseColor);
-        offer -= 1 * Time.deltaTime;
-        if (offer <= 0)
+        if (fullColorTime > 0)
         {
-            GetComponentInChildren<TextMeshPro>().color -= new Color(0, 0, 0, loseColor);
+            fullColorTime -= Time.deltaTime;
+            return;
         }
+        GetComponent<SpriteRenderer>().color -= new Color(0, 0, 0, loseColor);
+       
+        GetComponentInChildren<TextMeshPro>().color -= new Color(0, 0, 0, loseColor);
+       
         
     }
 }

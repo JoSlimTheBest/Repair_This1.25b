@@ -132,6 +132,7 @@
     <Compile Include="Assets\Scripts\BasketPhones.cs" />
     <Compile Include="Assets\Scripts\DeliveryController.cs" />
     <Compile Include="Assets\Scripts\MessageCharacter.cs" />
+    <Compile Include="Assets\Scripts\StudyScripts\AddAlfaChannelUI.cs" />
     <Compile Include="Assets\Scripts\AgentXSctipts\AgreedOffer.cs" />
     <Compile Include="Assets\Scripts\MoneyOnDisplay.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\ComponentsToUse\MultiLangMaterial.cs" />
@@ -186,6 +187,7 @@
     <Compile Include="Assets\Scripts\PrivateDevice\DataMoneyGive.cs" />
     <Compile Include="Assets\Scripts\HumanScripts\LandLord.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\Data\MultiLangTextBase.cs" />
+    <Compile Include="Assets\Scripts\ChangeBackGround\LeaveMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
