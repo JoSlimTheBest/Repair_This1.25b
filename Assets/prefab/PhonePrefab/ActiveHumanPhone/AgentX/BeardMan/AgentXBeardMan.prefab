@@ -391,6 +391,8 @@ MonoBehaviour:
   passwordMessage: house
   nextMessage: {fileID: 8985749944875475591, guid: df84f33b21203e34ba24d9403f2cd8d4, type: 3}
   moneyPlus: 250
+  prefabMoney: {fileID: 6408250821041834366, guid: ca9ed348c8caa4f4cac984f1e61416af, type: 3}
+  moneyPlace: {fileID: 0}
 --- !u!114 &7226762585196433836
 MonoBehaviour:
   m_ObjectHideFlags: 0

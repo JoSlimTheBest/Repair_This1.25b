@@ -25,6 +25,7 @@ public class MessageCharacter : MonoBehaviour
     public string passwordMessage = "D";
     public GameObject nextMessage;
     public int moneyPlus = 0;
+   
 
     public void Start()
     {
@@ -35,6 +36,8 @@ public class MessageCharacter : MonoBehaviour
         {
 
         }
+
+        
     }
     private void Task()
     {
@@ -62,7 +65,7 @@ public class MessageCharacter : MonoBehaviour
         buttonDelete.SetActive(true);
         buttonDelete.GetComponent<MessageDeleteButton>().currentmess = gameObject;
 
-
+       
     }
 
     

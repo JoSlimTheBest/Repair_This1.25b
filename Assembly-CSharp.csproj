@@ -74,9 +74,11 @@
     <Compile Include="Assets\Scripts\Dialog\MoneyTakeCharacter.cs" />
     <Compile Include="Assets\Scripts\Dialog\DialogRotate.cs" />
     <Compile Include="Assets\Scripts\PlayerCharacter.cs" />
+    <Compile Include="Assets\prefab\PhoneRepair\ListPartCheck.cs" />
     <Compile Include="Assets\Scripts\PhoneRepairDiscription.cs" />
     <Compile Include="Assets\Scripts\LightningBuyButton.cs" />
     <Compile Include="Assets\Scripts\CloseObject.cs" />
+    <Compile Include="Assets\prefab\PhoneRepair\PartInStockCheck.cs" />
     <Compile Include="Assets\Scripts\Dialog\MoveBuyer\HumanQueue.cs" />
     <Compile Include="Assets\Scripts\RepairNow.cs" />
     <Compile Include="Assets\Scripts\PhonePrivateInf.cs" />
@@ -97,6 +99,7 @@
     <Compile Include="Assets\Scripts\NewDay\AllStatsDayEnd.cs" />
     <Compile Include="Assets\Scripts\PrivateDevice\PrivateScreen2.cs" />
     <Compile Include="Assets\Scripts\StatisticPlayer\StatsOnScreen.cs" />
+    <Compile Include="Assets\Scripts\FlyTopUI.cs" />
     <Compile Include="Assets\Scripts\FirstSceneMenu\DontDestroy.cs" />
     <Compile Include="Assets\Scripts\AgentXSctipts\RejectOffer.cs" />
     <Compile Include="Assets\Scripts\FirstSceneMenu\StoryTaller.cs" />

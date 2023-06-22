@@ -48,7 +48,10 @@ public class DeliveryController : MonoBehaviour
 
     public int buyHour = 1;
 
-    public int buyCostDelivery;
+    public int buyCostDelivery = 0;
+
+    public GameObject flyMoney;
+    public GameObject moneyPlace;
 
     
     private void Start()
@@ -67,7 +70,7 @@ public class DeliveryController : MonoBehaviour
         deliverHourTime.Add(13);
         deliverHourTime.Add(1);
 
-        ChangeDelivery(1);
+        ChangeDelivery(-1);
     }
 
     public void DeliveryOption(string modPH,int partPH,int pricePH,Sprite imagePart)
@@ -95,6 +98,11 @@ public class DeliveryController : MonoBehaviour
 
     public void ChangeDelivery(int whatchange)
     {
+
+        if(whatchange == -1)
+        {
+            return;
+        }
         if(whatchange == 0)
         {
             buttonLong.color = new Color(0.7f, 1, 0.7f, 1);
@@ -111,10 +119,27 @@ public class DeliveryController : MonoBehaviour
             buyCostDelivery = priceOneHourDeliver;
         }
     }
+    public void ChangeColor()
+    {
+        buttonFast.color = Color.red;
+        buttonLong.color = Color.red;
+        Invoke("OldColor", 0.1f);
+    }
 
+    private void OldColor()
+    {
+        buttonFast.color = new Color(0.7f, 0.7f, 0.7f, 1);
+        buttonLong.color = new Color(0.7f, 0.7f, 0.7f, 1);
+    }
 
     public void Buy()
     {
+        if(buyCostDelivery == 0)
+        {
+            ChangeColor();
+            return;
+        }
+
         if (player.money - (pricePart + buyCostDelivery) >=0)
         {
             player.AddMoney(-(pricePart + buyCostDelivery));
@@ -146,6 +171,10 @@ public class DeliveryController : MonoBehaviour
             deliverMan.GetComponent<HumanCharacter>()._brokenModelPhone = model;
             deliverMan.GetComponent<HumanCharacter>()._brokenPartPhone = part;
             GameObject.Find("AudioEvent").GetComponent<AudioSource>().PlayOneShot(coin);
+            GameObject pref= Instantiate(flyMoney, moneyPlace.transform);
+            pref.transform.localPosition += new Vector3(0, 100, 0);
+            pref.GetComponent<TextMeshProUGUI>().color = Color.red;
+            pref.GetComponent<TextMeshProUGUI>().text = (-pricePart - buyCostDelivery).ToString();
         }
         else
         {
@@ -183,6 +212,18 @@ public class DeliveryController : MonoBehaviour
             }
 
         }
+        else
+        {
+            if (LanguageManager.currentLang == Language.English)
+            {
+                deliveryTimeOut += " Today";
+            }
+            else
+            {
+                deliveryTimeOut += " Сегодня";
+            }
+        }
+       
 
         richText.text = model + "\n" + namePart.GetName(part)   + "\n" + pricePart.ToString() + "\n"  + "\n" + deliveryTimeOut;
 
