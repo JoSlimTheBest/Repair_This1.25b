@@ -9,7 +9,7 @@ public class BGChangeColor : MonoBehaviour
 {
     public float changeColor = 0.025f;
     private Image bg;
-    public GameObject butNewDay;
+    
     public void Awake()
     {
         bg = GetComponent<Image>();
@@ -24,14 +24,7 @@ public class BGChangeColor : MonoBehaviour
     private void FixedUpdate()
     {
         bg.color = new Color(bg.color.r, bg.color.g, bg.color.b,bg.color.a + changeColor);
-        if(bg.color.a >= 0.95f)
-        {
-            butNewDay.SetActive(true);
-        }
-        else
-        {
-            butNewDay.SetActive(false);
-        }
+       
     }
 
     public void SetDay()

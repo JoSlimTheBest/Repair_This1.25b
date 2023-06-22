@@ -9,6 +9,8 @@ public class PureMoneyEndDay : MonoBehaviour
     public List<AdderMoneyCount> moneyMinus = new List<AdderMoneyCount>();
     private TextMeshProUGUI text;
 
+    public GameObject endDay;
+
     private void Awake()
     {
         text = GetComponent<TextMeshProUGUI>();
@@ -34,5 +36,7 @@ public class PureMoneyEndDay : MonoBehaviour
             text.text ="+" +MoneyAdd.ToString();
             text.color = new Color(0, 1, 0);
         }
+
+        endDay.SetActive(true);
     }
 }
