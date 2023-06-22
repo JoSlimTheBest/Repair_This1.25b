@@ -846,7 +846,7 @@ MonoBehaviour:
   _brokenModelPhone: 
   previewDetail: 2
   previewModel: 1
-  previewMoneyBuyer: 1
+  previewMoneyBuyer: 0
   moneyBuyer: 489
   clock: 5
   day: 0
