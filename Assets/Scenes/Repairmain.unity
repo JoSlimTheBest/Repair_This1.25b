@@ -8939,10 +8939,10 @@ MonoBehaviour:
   prefabBuyers: []
   prefabTrash: []
   endCountHuman: 0
-  ramdomHuman: 0
+  ramdomHuman: 1
   llord: 0
   prefabHuman: {fileID: 2434701530214473112, guid: a568d758ceba3ff4cbbf61670b23596a, type: 3}
-  llFg: {fileID: 6968866261969485155, guid: be5e8b25fd1d52041a1444fc8fcc7d50, type: 3}
+  llFg: {fileID: 3619185644611012172, guid: 4479da2fa3ddc4f43911690681406dc8, type: 3}
   doorOpenAudio: {fileID: 8300000, guid: a518a0ff1306c3947bd24e68bd663dac, type: 3}
   doorCloseAudio: {fileID: 8300000, guid: 1c50d000572b74a41b21708fa197a1d4, type: 3}
 --- !u!82 &436453862

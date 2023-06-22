@@ -588,8 +588,8 @@ MonoBehaviour:
   - "\u042D\u0442\u043E \u0434\u043E\u0440\u043E\u0433\u043E!"
   denayByMoneyEng:
   - It's expensive!
-  agreedRus: "\u0412\u0435\u0440\u044C\u043D\u0443\u0441\u044C \u043A\u0430\u043A
-    \u0431\u0443\u0434\u0435\u0442 \u0433\u043E\u0442\u043E\u0432\u043E"
+  agreedRus: "\u0412\u0435\u0440\u043D\u0443\u0441\u044C \u043A\u0430\u043A \u0431\u0443\u0434\u0435\u0442
+    \u0433\u043E\u0442\u043E\u0432\u043E"
   agreedEng: I'll be back once it's ready
   dialogChanger: {fileID: 8583585593880260300}
   xOffset: 3.5
@@ -1042,8 +1042,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6829630867899146247}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.0291, y: 1.019, z: 0}
+  m_LocalScale: {x: 0.91164047, y: 1.7677, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1018067596846447309}
@@ -1090,15 +1090,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 33
-  m_Sprite: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: -193405083, guid: 8da2180da99218c4ba0e4a670eb7b987, type: 3}
+  m_Color: {r: 0.9622642, g: 0.93595165, b: 0.73985404, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.61, y: 0.24}
+  m_Size: {x: 1.53, y: 0.62}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &7504910388056224814

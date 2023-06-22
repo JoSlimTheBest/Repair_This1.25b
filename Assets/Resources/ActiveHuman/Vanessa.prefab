@@ -352,7 +352,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2927500124173233689
 Transform:
   m_ObjectHideFlags: 0
@@ -681,7 +681,7 @@ MonoBehaviour:
   previewDetail: 2
   previewModel: 1
   previewMoneyBuyer: 1
-  moneyBuyer: 300
+  moneyBuyer: 400
   clock: 5
   day: 0
   hour: 16
