@@ -2404,7 +2404,7 @@ RectTransform:
   - {fileID: 586035203}
   - {fileID: 391690634}
   m_Father: {fileID: 1221929366}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12679,7 +12679,7 @@ RectTransform:
   m_Children:
   - {fileID: 819178544}
   m_Father: {fileID: 1221929366}
-  m_RootOrder: 17
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -17542,7 +17542,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2fdf155b2b9c602448b541d5684c779a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d24ea6458fc7f5941b0a5a33c3619430, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19874,7 +19874,7 @@ RectTransform:
   m_Children:
   - {fileID: 743836119}
   m_Father: {fileID: 1221929366}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -24135,7 +24135,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1221929366}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -25664,11 +25664,11 @@ RectTransform:
   - {fileID: 1281210840}
   - {fileID: 196876082}
   - {fileID: 216139468}
+  - {fileID: 572745630}
   - {fileID: 134290297}
   - {fileID: 2117316413}
   - {fileID: 1146082082}
   - {fileID: 963099396}
-  - {fileID: 572745630}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -28567,8 +28567,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0414\u0430\u043D\u043D\u044B\u0439 \u0440\u0430\u0437\u0434\u0435\u043B
-    \u0432 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0435"
+  m_text: "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0435 \u0440\u0430\u0431\u043E\u0442\u044B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cd94dadc0481b7042aa8a94894502193, type: 2}
   m_sharedMaterial: {fileID: 6923208571162867972, guid: cd94dadc0481b7042aa8a94894502193, type: 2}
@@ -43207,7 +43206,7 @@ RectTransform:
   m_Children:
   - {fileID: 892694041}
   m_Father: {fileID: 1221929366}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

@@ -37,12 +37,12 @@ public class PartInStockCheck : MonoBehaviour
     public void CheckPart()
     {
         
-        Debug.Log(numberPhone + " " + numberPart);
-        Debug.Log(part.partCount[numberPart]);
+        
         text.text = part.partCount[numberPart].ToString(); 
         if(part.partCount[numberPart] > 0)
         {
-            text.color = Color.red;
+            text.color = new Color(0.5f, 0.1f, 0.03f);
+           
 
         }
         else

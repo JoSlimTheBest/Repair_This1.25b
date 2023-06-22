@@ -74,9 +74,11 @@
     <Compile Include="Assets\Scripts\Dialog\MoneyTakeCharacter.cs" />
     <Compile Include="Assets\Scripts\Dialog\DialogRotate.cs" />
     <Compile Include="Assets\Scripts\PlayerCharacter.cs" />
+    <Compile Include="Assets\prefab\PhoneRepair\ListPartCheck.cs" />
     <Compile Include="Assets\Scripts\PhoneRepairDiscription.cs" />
     <Compile Include="Assets\Scripts\LightningBuyButton.cs" />
     <Compile Include="Assets\Scripts\CloseObject.cs" />
+    <Compile Include="Assets\prefab\PhoneRepair\PartInStockCheck.cs" />
     <Compile Include="Assets\Scripts\Dialog\MoveBuyer\HumanQueue.cs" />
     <Compile Include="Assets\Scripts\RepairNow.cs" />
     <Compile Include="Assets\Scripts\PhonePrivateInf.cs" />
@@ -194,8 +196,6 @@
     <Compile Include="Assets\Scripts\PrivateDevice\DataMoneyGive.cs" />
     <Compile Include="Assets\Scripts\HumanScripts\LandLord.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\Data\MultiLangTextBase.cs" />
-    <Compile Include="Assets\prefab\PhoneRepair\PartInStockCheck.cs" />
-    <Compile Include="Assets\prefab\PhoneRepair\ListPartCheck.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
