@@ -24,8 +24,9 @@ public class PartAdder : MonoBehaviour
 
     public void ChangeRentAdder(int Money)
     {
-        if(Money != 0)
+        if(Money > 100)
         {
+            
             rent.SetActive(true);
             stats.ChangerAdder(4, Money);
             text3.text = Money.ToString();
