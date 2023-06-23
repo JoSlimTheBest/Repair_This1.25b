@@ -681,7 +681,7 @@ MonoBehaviour:
   previewDetail: 2
   previewModel: 1
   previewMoneyBuyer: 1
-  moneyBuyer: 300
+  moneyBuyer: 400
   clock: 5
   day: 0
   hour: 16
