@@ -4237,14 +4237,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 5efcd9a212fada046b67f336070b4dcf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4527,7 +4527,7 @@ RectTransform:
   - {fileID: 2100935683}
   - {fileID: 117069678}
   m_Father: {fileID: 1221929366}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4681,7 +4681,7 @@ RectTransform:
   m_Children:
   - {fileID: 966460841}
   m_Father: {fileID: 1221929366}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -7917,7 +7917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b1d599c77229824cb44190b0661bf30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  current: 0.2
+  current: 0.004
   timeUnlimit: 0
 --- !u!65 &379976518
 BoxCollider:
@@ -9701,7 +9701,7 @@ MonoBehaviour:
   endCountHuman: 0
   ramdomHuman: 0
   llord: 0
-  prefabHuman: {fileID: 2225753457684208731, guid: d60996552d2eabd45b4dec939f249311, type: 3}
+  prefabHuman: {fileID: 8115872476301867058, guid: d0f30ca30baed7246baedb3703ae4501, type: 3}
   llFg: {fileID: 6968866261969485155, guid: be5e8b25fd1d52041a1444fc8fcc7d50, type: 3}
   doorOpenAudio: {fileID: 8300000, guid: a518a0ff1306c3947bd24e68bd663dac, type: 3}
   doorCloseAudio: {fileID: 8300000, guid: 1c50d000572b74a41b21708fa197a1d4, type: 3}
@@ -12770,7 +12770,7 @@ RectTransform:
   m_Children:
   - {fileID: 819178544}
   m_Father: {fileID: 1221929366}
-  m_RootOrder: 13
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -19678,7 +19678,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 946778959}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -25846,11 +25846,11 @@ RectTransform:
   - {fileID: 615141587}
   - {fileID: 1610956482}
   - {fileID: 872061645}
+  - {fileID: 572745630}
   - {fileID: 1660163644}
   - {fileID: 1281210840}
   - {fileID: 196876082}
   - {fileID: 216139468}
-  - {fileID: 572745630}
   - {fileID: 134290297}
   - {fileID: 2117316413}
   - {fileID: 1146082082}
@@ -28209,7 +28209,7 @@ RectTransform:
   - {fileID: 1587564886}
   - {fileID: 867571968}
   m_Father: {fileID: 1221929366}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -34866,7 +34866,7 @@ RectTransform:
   - {fileID: 1085097401}
   - {fileID: 1782490023}
   m_Father: {fileID: 1221929366}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
