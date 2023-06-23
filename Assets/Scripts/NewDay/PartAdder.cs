@@ -24,7 +24,7 @@ public class PartAdder : MonoBehaviour
 
     public void ChangeRentAdder(int Money)
     {
-        if(Money > 100)
+        if(Money < 0)
         {
             
             rent.SetActive(true);
