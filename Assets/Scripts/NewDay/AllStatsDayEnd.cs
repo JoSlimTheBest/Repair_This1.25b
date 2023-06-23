@@ -11,6 +11,7 @@ public class AllStatsDayEnd : MonoBehaviour
     public AdderMoneyCount taxesAdder;
     public AdderMoneyCount partsAdder;
     public AdderMoneyCount anotherAdder;
+    public AdderMoneyCount rentAdder;
 
     public List<AdderMoneyCount> adderList = new List<AdderMoneyCount>();
 
@@ -21,6 +22,7 @@ public class AllStatsDayEnd : MonoBehaviour
         adderList.Add(taxesAdder);
         adderList.Add(partsAdder);
         adderList.Add(anotherAdder);
+        adderList.Add(rentAdder);
 
     }
     public void ClearAdder()

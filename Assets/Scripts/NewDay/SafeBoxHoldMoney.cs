@@ -10,12 +10,15 @@ public class SafeBoxHoldMoney : MonoBehaviour
 
     public int partDeliveryDay = 0;
 
+    public int rentDay = 0;
+
 
     public void ClearAll()
     {
         dayMoney = 0;
         partDeliveryDay = 0;
             partMoneyDay = 0;
+        rentDay = 0;
     }
 
     public void AddMoneySafe(int money)
@@ -32,5 +35,10 @@ public class SafeBoxHoldMoney : MonoBehaviour
     public void MinusDelivery(int moneyP)
     {
         partDeliveryDay -= moneyP;
+    }
+
+    public void MinusRent(int moneyR)
+    {
+        rentDay -= moneyR;
     }
 }

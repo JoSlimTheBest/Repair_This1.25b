@@ -53,6 +53,7 @@ public class SBoxAdderOpen : MonoBehaviour
         partImage.GetComponent<PartAdder>().stats = stats;
         partImage.GetComponent<PartAdder>().ChangeAdderPart(moneyHolder.partMoneyDay);
         partImage.GetComponent<PartAdder>().ChangeAdderDelivery(moneyHolder.partDeliveryDay);
+        partImage.GetComponent<PartAdder>().ChangeRentAdder(moneyHolder.rentDay);
         Invoke("FinalCheck", 2f);
     }
 
