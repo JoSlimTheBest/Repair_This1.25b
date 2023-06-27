@@ -8,9 +8,15 @@ public class FlyTopUI : MonoBehaviour
     private TextMeshProUGUI text;
     public float goTop = 0.01f;
     public float loseColor = 0.01f;
-    private void Start()
+    private void Awake()
     {
         text = GetComponent<TextMeshProUGUI>();
+        text.color = new Color(text.color.r, text.color.g, text.color.b, 1);
+    }
+
+
+    public void GiveColor()
+    {
         text.color = new Color(text.color.r, text.color.g, text.color.b, 1);
     }
     private void FixedUpdate()

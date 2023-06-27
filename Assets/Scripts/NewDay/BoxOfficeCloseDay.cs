@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 public class BoxOfficeCloseDay : MonoBehaviour
 {
     public GameObject repX;
     public GameObject bg;
     public GameObject systemError;
+    public GameObject systemError2;
     public ComputerTime compT;
     public AudioClip checkOut;
     public void Start()
@@ -22,6 +24,13 @@ public class BoxOfficeCloseDay : MonoBehaviour
         {
 
             systemError.GetComponent<AutoDestroy>().DontKill();
+            
+            return;
+        }
+
+        if(compT.gameObject.GetComponent<HumanQueue>().block2place == true)
+        {
+            systemError2.GetComponent<AutoDestroy>().DontKill();
             return;
         }
         bg.SetActive(true);

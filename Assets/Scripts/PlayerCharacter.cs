@@ -20,6 +20,7 @@ public class PlayerCharacter : MonoBehaviour
     public GameObject moneyOnScreen;
     public GameObject safebox;
     public GameObject cashbox;
+    public bool creditTake = false;
 
     public void Start()
     {
@@ -35,6 +36,8 @@ public class PlayerCharacter : MonoBehaviour
 
         holderR.AddRewiew(rait, currentRewiew,human);
     }
+
+   
 
     public bool AddMoney(int countMoney)
     {

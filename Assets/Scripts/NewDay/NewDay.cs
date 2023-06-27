@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
+using SimpleLocalizator;
 
 public class NewDay : MonoBehaviour
 {
@@ -18,6 +20,8 @@ public class NewDay : MonoBehaviour
 
     public bool agentX;
     public bool nalogcheck;
+
+    public TextMeshProUGUI dayScreen;
 
     public void Start()
     {
@@ -54,6 +58,15 @@ public class NewDay : MonoBehaviour
         compT.currentDay += 1;
         compT.alarmClock = false;
         compT.GetComponent<ElectricBill>().EndDay();
+
+        if (LanguageManager.currentLang == Language.English)
+        {
+            dayScreen.text = "Day " + compT.currentDay;
+        }
+        else
+        {
+            dayScreen.text = "Δενό " + compT.currentDay;
+        }
 
         // 0 moneyallstats
         GameObject.Find("BoxButton").GetComponent<BoxOffice>().dayMoney = 0;

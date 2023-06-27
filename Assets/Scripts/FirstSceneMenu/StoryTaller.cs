@@ -23,6 +23,9 @@ public class StoryTaller : MonoBehaviour
     public AudioClip useKey;
     public float nextwindow = 12;
     public int whatThScene = 2;
+    private bool corActvie;
+
+    private string dataText;
  
     public void Start()
     {
@@ -33,8 +36,17 @@ public class StoryTaller : MonoBehaviour
     }
     public void NextStory()
     {
+        if(corActvie == true)
+        {
+            StopAllCoroutines();
+            text.text = dataText;
+            corActvie = false;
+            return;
+        }
+
+
         nextwindow = 12;
-        StopAllCoroutines();
+       
         text.text = " ";
         if(currentStory < spriteStory.Count)
         {
@@ -60,6 +72,7 @@ public class StoryTaller : MonoBehaviour
 
     IEnumerator showText(string tet)
     {
+        corActvie = true;
         int i = 0;
         while (i <= tet.Length)
         {
@@ -68,11 +81,12 @@ public class StoryTaller : MonoBehaviour
             audioS.PlayOneShot(useKey);
             yield return new WaitForSeconds(0.05f);
         }
+        corActvie = false;
     }
 
     public void TextEvent()
     {
-        string dataText;
+        
         if (LanguageManager.currentLang == Language.English)
         {
             dataText = engHold[currentStory];
