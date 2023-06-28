@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\HumanRewiew.cs" />
     <Compile Include="Assets\Scripts\FirstSceneMenu\Autors.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\ComponentsToUse\LanguageManager.cs" />
+    <Compile Include="Assets\Scripts\Credit\CreditOnline.cs" />
     <Compile Include="Assets\Scripts\PrivateDevice\PhotoChecker.cs" />
     <Compile Include="Assets\Scripts\BuyPhonePart.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\ComponentsToUse\MultiLangAudio.cs" />
@@ -196,7 +197,6 @@
     <Compile Include="Assets\Scripts\PrivateDevice\DataMoneyGive.cs" />
     <Compile Include="Assets\Scripts\HumanScripts\LandLord.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\Data\MultiLangTextBase.cs" />
-    <Compile Include="Assets\Scripts\Credit\CreditOnline.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
