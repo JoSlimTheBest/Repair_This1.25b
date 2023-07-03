@@ -8,11 +8,19 @@ public class PlayTime : MonoBehaviour
     private float timeSecond = 0; // время с начала запуска в секундах
     private float timeMinute = 0;
     private float timeHours = 0;
-    private TextMeshProUGUI liveTime;
+    public TextMeshProUGUI liveTime;
 
-    void Start()
+    void Awake()
     {
         liveTime = GetComponent<TextMeshProUGUI>();
+    }
+
+    public string StringTime()
+    {
+        string timing = timeHours.ToString("0.") + ":" + timeMinute.ToString("0.") + ":" + timeSecond.ToString("0.");
+
+
+        return timing;
     }
 
     // Update is called once per frame
@@ -31,6 +39,6 @@ public class PlayTime : MonoBehaviour
             timeMinute = 0;
         }
         // Debug.Log(timeHours + ":" + timeMinute + ":" + timeSecond);
-        liveTime.text = timeHours.ToString("0.") + ":" + timeMinute.ToString("0.") + ":" + timeSecond.ToString("0.");
+        liveTime.text = StringTime();
     }
 }

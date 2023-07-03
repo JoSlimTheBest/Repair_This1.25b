@@ -545,11 +545,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sayEng:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - You are under arrest!
+  - You have the right to remain silent
+  - But it won't help you anyway
+  - Anything you say
+  - Can be used against you in court
   sayRus:
   - "\u0412\u044B \u0430\u0440\u0435\u0441\u0442\u043E\u0432\u0430\u043D\u044B!"
   - "\u0412\u044B \u0438\u043C\u0435\u0435\u0442\u0435 \u043F\u0440\u0430\u0432\u043E
@@ -1097,7 +1097,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6319660056749106589
 Transform:
   m_ObjectHideFlags: 0

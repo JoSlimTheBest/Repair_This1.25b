@@ -687,6 +687,7 @@ MonoBehaviour:
   minute: 0
   randomSex: 0
   random: 0
+  addPartBody: []
   addNew: {fileID: 0}
   addNew2: {fileID: 0}
   hair: {fileID: 257425132060773987}
@@ -1033,7 +1034,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d04dd9fc503f8654db50076268257e28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RusHelp: "\u0422\u043E\u0436\u0435 \u043C\u043D\u0435 \u043A\u0440\u0430\u0441\u043E\u0442\u043A\u0430."
+  RusHelp: "\u0422\u043E\u0436\u0435 \u043C\u043D\u0435 \u043A\u0440\u0430\u0441\u043E\u0442\u043A\u0430"
   EngHelp: Wow, such a beauty we've got
 --- !u!1 &7664521571900992710
 GameObject:

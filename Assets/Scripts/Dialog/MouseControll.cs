@@ -52,6 +52,11 @@ public class MouseControll : MonoBehaviour
                
             }
 
+            if (hit.collider.GetComponent<OpenBpxOffice>() != null)
+            {
+                hit.collider.GetComponent<OpenBpxOffice>().Open();
+            }
+
           
 
             if (hit.collider.GetComponent<BrokenPhone>() != null)

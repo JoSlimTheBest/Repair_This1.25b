@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
+using SimpleLocalizator;
 
 public class NewDay : MonoBehaviour
 {
@@ -19,6 +21,8 @@ public class NewDay : MonoBehaviour
     public bool agentX;
     public bool nalogcheck;
 
+    public TextMeshProUGUI dayScreen;
+
     public void Start()
     {
         agentXPeople.Add(Resources.Load<GameObject>("ActiveHuman/Beardman"));
@@ -34,6 +38,8 @@ public class NewDay : MonoBehaviour
             systemError.GetComponent<AutoDestroy>().DontKill();
             return;
         }
+       
+        player.GetComponent<PlayerStatistic>().TimeDayMoneySave();
 
         GetComponent<ManagerStock>().mess.DestroyAllMess();
         bool taxMen = Xrep.GetComponent<XReport>().taxM;
@@ -52,6 +58,15 @@ public class NewDay : MonoBehaviour
         compT.currentDay += 1;
         compT.alarmClock = false;
         compT.GetComponent<ElectricBill>().EndDay();
+
+        if (LanguageManager.currentLang == Language.English)
+        {
+            dayScreen.text = "Day " + compT.currentDay;
+        }
+        else
+        {
+            dayScreen.text = "Δενό " + compT.currentDay;
+        }
 
         // 0 moneyallstats
         GameObject.Find("BoxButton").GetComponent<BoxOffice>().dayMoney = 0;

@@ -105,7 +105,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 37
   m_Sprite: {fileID: 1182942979, guid: 8da2180da99218c4ba0e4a670eb7b987, type: 3}
-  m_Color: {r: 0.8980392, g: 0.76176804, b: 0.4, a: 1}
+  m_Color: {r: 0.8018868, g: 0.45900345, b: 0.16264686, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -520,6 +520,7 @@ MonoBehaviour:
   minute: 0
   randomSex: 0
   random: 0
+  addPartBody: []
   addNew: {fileID: 1542546331805445154}
   addNew2: {fileID: 0}
   hair: {fileID: 4941758123987037964}
@@ -800,9 +801,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogReRus:
   - "\u041D\u0443 \u0447\u0435 \u0431\u0440\u0430\u0442\u044E\u043D\u044C "
+  - "\u041A\u0430\u043A\u0438\u0435 \u0434\u0435\u043B\u0430?"
   - "\u0421\u043F\u0440\u0430\u0432\u0438\u043B\u0441\u044F?"
   dialogReEng:
   - What's up, bro
+  - What's up?
   - did you make it?
   happyBuyerRus:
   - "\u0421\u043F\u0430\u0441\u0438\u0431\u043E \u0431\u0440\u0430\u0442\u044E\u043D\u044C!

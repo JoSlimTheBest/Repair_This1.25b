@@ -45,7 +45,7 @@ public class EnvelopLandLord : MonoBehaviour
             currentDialog.GetComponent<SpriteRenderer>().flipX = true;
             currentDialog.transform.Rotate(0, 0, Random.Range(-2, 3));
             Destroy(currentDialog, 6);
-            
+            GameObject.Find("safebox").GetComponent<SafeBoxHoldMoney>().MinusRent(billPay);
             if (LanguageManager.currentLang == Language.English)
             {
                 currentDialog.GetComponentInChildren<Transform>().GetComponentInChildren<TextMeshPro>().text = "Nice! Have a good day!";
@@ -81,6 +81,8 @@ public class EnvelopLandLord : MonoBehaviour
     }
     private void LoseGame()
     {
+
+        GameObject.Find("Player").GetComponent<PlayerStatistic>().EndGame(1);
         SceneManager.LoadScene(3);
     }
 

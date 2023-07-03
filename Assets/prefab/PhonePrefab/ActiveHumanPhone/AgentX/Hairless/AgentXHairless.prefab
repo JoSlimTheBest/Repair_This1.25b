@@ -394,6 +394,8 @@ MonoBehaviour:
   passwordMessage: hair
   nextMessage: {fileID: 83055913726212935, guid: ea2ad8d974685334ab5e7552dcf988d8, type: 3}
   moneyPlus: 250
+  prefabMoney: {fileID: 6408250821041834366, guid: ca9ed348c8caa4f4cac984f1e61416af, type: 3}
+  moneyPlace: {fileID: 0}
 --- !u!114 &8579294536978698186
 MonoBehaviour:
   m_ObjectHideFlags: 0

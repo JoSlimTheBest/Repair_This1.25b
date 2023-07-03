@@ -29,6 +29,8 @@ public class DismantlePhone : MonoBehaviour
     private HumanQueue queControll;
 
     public Image image;
+
+    public GameObject prefabFlyMoney;
     public void Start()
     {
         if(modelPhone == "A")
@@ -65,6 +67,11 @@ public class DismantlePhone : MonoBehaviour
         if (plMoney.money - price >= 0)
         {
             playe.GetComponent<PlayerCharacter>().AddMoney(-price);
+            GameObject safebox = GameObject.Find("safebox");
+            safebox.GetComponent<SafeBoxHoldMoney>().MinusMoneyPart(price);
+            GameObject fly = Instantiate(prefabFlyMoney, safebox.transform);
+            fly.GetComponent<TextMeshPro>().text = "-"+price.ToString();
+            fly.GetComponent<TextMeshPro>().color = Color.red;
             GameObject.Find("AudioEvent").GetComponent<AudioSource>().PlayOneShot(buying);
             manager.AddPart(modelPhone, part1, 1);
             manager.AddPart(modelPhone, part2, 1);

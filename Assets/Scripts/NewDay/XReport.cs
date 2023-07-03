@@ -26,11 +26,11 @@ public class XReport : MonoBehaviour
         string lineD = "----------------------";
         if (LanguageManager.currentLang == Language.English)
         {
-            text.text = "X-report" + "\n" + "Day" + day.ToString() + "\n" + "Time" + time + "\n" + lineD + "\n" + "Received " + currentMoney.ToString() + "\n" + lineD + "\n" + "Taxes " + (currentMoney / tax).ToString() + "\n" + lineD + "\n" +"Net Profit " + (currentMoney - (currentMoney / tax)).ToString() + "\n" + lineD + "\n";
+            text.text = "X-report" + "\n" + "Day" + day.ToString() + "\n" + "Time" + time + "\n" + lineD + "\n" + "Received " + currentMoney.ToString() + "\n" + lineD + "\n" + "Taxes " + (currentMoney / tax).ToString() + "\n" + lineD + "\n" +"Enterprise Profit " + (currentMoney - (currentMoney / tax)).ToString() + "\n" + lineD + "\n";
         }
         else
         {
-            text.text = "X-report" + "\n" + "Day" + day.ToString() + "\n" + "Время" + time + "\n" + lineD + "\n" + "Получено " + currentMoney.ToString() + "\n" + lineD + "\n" + "Налоги " + (currentMoney / tax).ToString() + "\n" + lineD + "\n" + "Чистая Прибыль " + (currentMoney - (currentMoney / tax)).ToString() + "\n" + lineD + "\n";
+            text.text = "X-report" + "\n" + "Day" + day.ToString() + "\n" + "Время" + time + "\n" + lineD + "\n" + "Получено " + currentMoney.ToString() + "\n" + lineD + "\n" + "Налоги " + (currentMoney / tax).ToString() + "\n" + lineD + "\n" + "Прибыль предприятия " + (currentMoney - (currentMoney / tax)).ToString() + "\n" + lineD + "\n";
         }
        
 

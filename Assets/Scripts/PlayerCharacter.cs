@@ -5,7 +5,7 @@ using TMPro;
 
 public class PlayerCharacter : MonoBehaviour
 {
-    public int money;
+    public int money = 0;
     public float raiting = 1;
     public int countPeopleRaitingVoice=1;
     public float allRaiting = 1;
@@ -20,6 +20,7 @@ public class PlayerCharacter : MonoBehaviour
     public GameObject moneyOnScreen;
     public GameObject safebox;
     public GameObject cashbox;
+    public bool creditTake = false;
 
     public void Start()
     {
@@ -35,6 +36,8 @@ public class PlayerCharacter : MonoBehaviour
 
         holderR.AddRewiew(rait, currentRewiew,human);
     }
+
+   
 
     public bool AddMoney(int countMoney)
     {
