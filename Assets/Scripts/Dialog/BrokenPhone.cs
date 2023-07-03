@@ -33,6 +33,8 @@ public class BrokenPhone : MonoBehaviour
 
     private GameObject device;
 
+    public float waitPhone = 30f;
+
     public Sprite humanPhotoHere;
     void Start()
     {
@@ -162,6 +164,21 @@ public class BrokenPhone : MonoBehaviour
     {
         Destroy(gameObject, 1f);
     }
-   
+
+    private void FixedUpdate()
+    {
+        if(activePhoneTake == true)
+        {
+            waitPhone -= Time.deltaTime;
+            if(waitPhone < 0)
+            {
+                HumanQueue queue = GameObject.Find("QueueControll").GetComponent<HumanQueue>();
+                queue.humanList[0].GetComponent<FirstDialog>().DialogDenayOrder();
+                queue.HumanExitAngry();
+                Destroy(gameObject);
+               
+            }
+        }
+    }
 
 }

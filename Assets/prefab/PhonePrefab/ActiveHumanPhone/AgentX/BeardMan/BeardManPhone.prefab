@@ -129,6 +129,7 @@ MonoBehaviour:
   index: 0
   moneyPaying: 0
   status: 0
+  waitPhone: 30
   humanPhotoHere: {fileID: 0}
 --- !u!114 &7671641303951247589
 MonoBehaviour:
