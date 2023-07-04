@@ -21,9 +21,9 @@ public class LightningBuyButton : MonoBehaviour
 
     private void Buy()
     {
-        if (player.AddMoney(-_price) == true)
+        if (player.AddMoney(-_price,true) == true)
         {
-            player.AddMoney(-_price);
+            player.AddMoney(-_price,true);
         }
         else
         {

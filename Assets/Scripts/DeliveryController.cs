@@ -142,7 +142,7 @@ public class DeliveryController : MonoBehaviour
 
         if (player.money - (pricePart + buyCostDelivery) >=0)
         {
-            player.AddMoney(-(pricePart + buyCostDelivery));
+            player.AddMoney(-(pricePart + buyCostDelivery), true);
             GameObject.Find("safebox").GetComponent<SafeBoxHoldMoney>().MinusMoneyPart(pricePart);
             GameObject.Find("safebox").GetComponent<SafeBoxHoldMoney>().MinusDelivery(buyCostDelivery);
             
@@ -171,10 +171,7 @@ public class DeliveryController : MonoBehaviour
             deliverMan.GetComponent<HumanCharacter>()._brokenModelPhone = model;
             deliverMan.GetComponent<HumanCharacter>()._brokenPartPhone = part;
             GameObject.Find("AudioEvent").GetComponent<AudioSource>().PlayOneShot(coin);
-            GameObject pref= Instantiate(flyMoney, moneyPlace.transform);
-            pref.transform.localPosition += new Vector3(0, 100, 0);
-            pref.GetComponent<TextMeshProUGUI>().color = Color.red;
-            pref.GetComponent<TextMeshProUGUI>().text = (-pricePart - buyCostDelivery).ToString();
+            
         }
         else
         {
