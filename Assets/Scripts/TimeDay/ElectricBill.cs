@@ -29,7 +29,7 @@ public class ElectricBill : MonoBehaviour
     {
         if(billOnScreen < GameObject.Find("Player").GetComponent<PlayerCharacter>().money && billOnScreen>0)
         {
-            GameObject.Find("Player").GetComponent<PlayerCharacter>().AddMoney(-billOnScreen);
+            GameObject.Find("Player").GetComponent<PlayerCharacter>().AddMoney(-billOnScreen,true);
             GameObject.Find("AudioEvent").GetComponent<AudioSource>().PlayOneShot(pay);
             billOnScreen = 0;
             countPay.text = billOnScreen.ToString();

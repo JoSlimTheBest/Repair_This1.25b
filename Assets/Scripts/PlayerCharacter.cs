@@ -17,7 +17,9 @@ public class PlayerCharacter : MonoBehaviour
     public DoorController door;
 
 
-    public GameObject moneyOnScreen;
+    public GameObject prefabMoneyRoom;
+    public GameObject prefabMoneyComputer;
+    public GameObject compTransf;
     public GameObject safebox;
     public GameObject cashbox;
     public bool creditTake = false;
@@ -39,11 +41,67 @@ public class PlayerCharacter : MonoBehaviour
 
    
 
-    public bool AddMoney(int countMoney)
+    public bool AddMoney(int countMoney,bool safer)
     {
         if(money + countMoney>= 0)
         {
             money += countMoney;
+            if(safer == true)
+            {
+
+                GameObject flyM = Instantiate(prefabMoneyRoom, safebox.transform);
+                GameObject monFly = Instantiate(prefabMoneyComputer, compTransf.transform);
+
+                if (countMoney > 0)
+                {
+                    flyM.transform.position += new Vector3(0, 0, 0);
+                    flyM.GetComponent<TextMeshPro>().text = "+" + countMoney.ToString() + "$";
+
+
+                    
+                    monFly.transform.localPosition += new Vector3(0, 100, 0);
+                    monFly.GetComponent<TextMeshProUGUI>().color = Color.green;
+                    monFly.GetComponent<TextMeshProUGUI>().text = "+" + countMoney.ToString() + "$";
+                }
+                else
+                {
+                    flyM.transform.position += new Vector3(1, 0, 0);
+                    flyM.GetComponent<TextMeshPro>().color = new Color(1, 0.5f, 0.5f, 1);
+                    flyM.GetComponent<TextMeshPro>().text = countMoney.ToString() + "$";
+
+                    monFly.transform.localPosition += new Vector3(0, 100, 0);
+                    monFly.GetComponent<TextMeshProUGUI>().color = Color.red;
+                    monFly.GetComponent<TextMeshProUGUI>().text = countMoney.ToString() + "$";
+                }
+
+                
+            }
+            else
+            {
+                GameObject flyM = Instantiate(prefabMoneyRoom, cashbox.transform);
+
+                GameObject monFly = Instantiate(prefabMoneyComputer, compTransf.transform);
+                if (countMoney > 0)
+                {
+                    flyM.transform.position += new Vector3(0, 0, 0);
+                    flyM.GetComponent<TextMeshPro>().text = "+" + countMoney.ToString() + "$";
+
+                    monFly.transform.localPosition += new Vector3(0, 100, 0);
+                    monFly.GetComponent<TextMeshProUGUI>().color = Color.green;
+                    monFly.GetComponent<TextMeshProUGUI>().text = "+" + countMoney.ToString() + "$";
+                }
+                else
+                {
+                    flyM.transform.position += new Vector3(2, 0, 0);
+                    flyM.GetComponent<TextMeshPro>().color = new Color(1, 0.5f, 0.5f, 1);
+                    flyM.GetComponent<TextMeshPro>().text = countMoney.ToString() + "$"; ;
+
+                    monFly.transform.localPosition += new Vector3(0, 100, 0);
+                    monFly.GetComponent<TextMeshProUGUI>().color = Color.red;
+                    monFly.GetComponent<TextMeshProUGUI>().text = countMoney.ToString() + "$";
+                }
+            }
+
             return true;
         }
         else
@@ -64,21 +122,17 @@ public class PlayerCharacter : MonoBehaviour
 
     public void TaxMoney()
     {
-        AddMoney(choiceMoneyAdd);
-        GameObject flyM =  Instantiate(moneyOnScreen, cashbox.transform);
-        flyM.transform.position += new Vector3(0, 0, 0);
-        flyM.GetComponent<TextMeshPro>().text = "+" + choiceMoneyAdd.ToString() + "$";
-        AddMoney(-choiceMoneyAdd / tax);
-        GameObject flyM2 = Instantiate(moneyOnScreen, cashbox.transform);
-        flyM2.transform.position += new Vector3(2, 0, 0);
-        flyM2.GetComponent<TextMeshPro>().color = new Color(1, 0.5f, 0.5f, 1);
-        flyM2.GetComponent<TextMeshPro>().text =(-choiceMoneyAdd / tax).ToString() + "$"; ;
+        AddMoney(choiceMoneyAdd,false);
+     
+        AddMoney(-choiceMoneyAdd / tax,false);
+       
+        
         GameObject.Find("QueueControll").GetComponent<HumanQueue>().HumanExit();
         GameObject.Find("BoxButton").GetComponent<BoxOffice>().dayMoney += choiceMoneyAdd;
     }
     public void NoTaxMoney()
     {
-        AddMoney(choiceMoneyAdd);
+        AddMoney(choiceMoneyAdd,true);
         HumanQueue queue = GameObject.Find("QueueControll").GetComponent<HumanQueue>();
         if(queue.humanList[0].GetComponent<CallCops>() != null)
         {
@@ -90,11 +144,10 @@ public class PlayerCharacter : MonoBehaviour
             queue.HumanExit();
         }
         
-        GameObject flyM = Instantiate(moneyOnScreen, safebox.transform);
+        
 
         safebox.GetComponent<SafeBoxHoldMoney>().AddMoneySafe(choiceMoneyAdd);
-        flyM.transform.position += new Vector3(0, 0, 0);
-        flyM.GetComponent<TextMeshPro>().text = "+" + choiceMoneyAdd.ToString() + "$"; ;
+        
     }
 
 

@@ -66,7 +66,7 @@ public class DismantlePhone : MonoBehaviour
         PlayerCharacter plMoney = GameObject.Find("Player").GetComponent<PlayerCharacter>();
         if (plMoney.money - price >= 0)
         {
-            playe.GetComponent<PlayerCharacter>().AddMoney(-price);
+            playe.GetComponent<PlayerCharacter>().AddMoney(-price,true);
             GameObject safebox = GameObject.Find("safebox");
             safebox.GetComponent<SafeBoxHoldMoney>().MinusMoneyPart(price);
             GameObject fly = Instantiate(prefabFlyMoney, safebox.transform);
