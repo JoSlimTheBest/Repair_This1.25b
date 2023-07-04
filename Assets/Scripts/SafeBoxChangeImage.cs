@@ -11,6 +11,8 @@ public class SafeBoxChangeImage : MonoBehaviour
     public AudioClip openA;
     public AudioClip closeA;
 
+    public GameObject moneySafeScreen;
+
     public void Start()
     {
        source = GameObject.Find("AudioEvent").GetComponent<AudioSource>();
@@ -20,11 +22,13 @@ public class SafeBoxChangeImage : MonoBehaviour
         GetComponent<SpriteRenderer>().sprite = open;
         Invoke("ComeBack", 0.6f);
         source.PlayOneShot(openA);
+        moneySafeScreen.SetActive(false);
     }
 
     private void ComeBack()
     {
         GetComponent<SpriteRenderer>().sprite = close;
         source.PlayOneShot(closeA);
+        moneySafeScreen.SetActive(true);
     }
 }

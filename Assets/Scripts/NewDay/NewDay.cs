@@ -70,7 +70,7 @@ public class NewDay : MonoBehaviour
         player.GetComponent<HolderMoneyDay>().ClearStats();
         // 0 moneyallstats
         GameObject.Find("BoxButton").GetComponent<BoxOffice>().dayMoney = 0;
-        GameObject.Find("safebox").GetComponent<SafeBoxHoldMoney>().ClearAll();
+       
 
 
         if (compT.currentDay == 3 || compT.currentDay == 6 || compT.currentDay == 9 || compT.currentDay == 12|| compT.currentDay==15)

@@ -20,7 +20,7 @@ public class PlayerCharacter : MonoBehaviour
     public GameObject prefabMoneyRoom;
     public GameObject prefabMoneyComputer;
     public GameObject compTransf;
-    public GameObject safebox;
+    public GameObject moneySafeBox;
     public GameObject cashbox;
     public bool creditTake = false;
 
@@ -50,12 +50,12 @@ public class PlayerCharacter : MonoBehaviour
             if(safer == true)
             {
 
-                GameObject flyM = Instantiate(prefabMoneyRoom, safebox.transform);
+                GameObject flyM = Instantiate(prefabMoneyRoom, moneySafeBox.transform);
                 
 
                 if (countMoney > 0)
                 {
-                    flyM.transform.position += new Vector3(0, 0, 0);
+                    flyM.transform.position += new Vector3(1f, 0.5f, 0);
                     flyM.GetComponent<TextMeshPro>().text = "+" + countMoney.ToString() + "$";
 
 
@@ -66,7 +66,7 @@ public class PlayerCharacter : MonoBehaviour
                 }
                 else
                 {
-                    flyM.transform.position += new Vector3(1, 0, 0);
+                    flyM.transform.position += new Vector3(1f, 0.5f, 0);
                     flyM.GetComponent<TextMeshPro>().color = new Color(1, 0.5f, 0.5f, 1);
                     flyM.GetComponent<TextMeshPro>().text = countMoney.ToString() + "$";
 
@@ -147,7 +147,7 @@ public class PlayerCharacter : MonoBehaviour
         
         
 
-        safebox.GetComponent<SafeBoxHoldMoney>().AddMoneySafe(choiceMoneyAdd);
+       // safebox.GetComponent<SafeBoxHoldMoney>().AddMoneySafe(choiceMoneyAdd);
         
     }
 
