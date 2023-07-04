@@ -142,7 +142,7 @@ public class DeliveryController : MonoBehaviour
 
         if (player.money - (pricePart + buyCostDelivery) >=0)
         {
-            player.AddMoney(-(pricePart + buyCostDelivery), true);
+            player.AddMoney(-(pricePart + buyCostDelivery), true,1);
             GameObject.Find("safebox").GetComponent<SafeBoxHoldMoney>().MinusMoneyPart(pricePart);
             GameObject.Find("safebox").GetComponent<SafeBoxHoldMoney>().MinusDelivery(buyCostDelivery);
             

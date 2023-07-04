@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4967383987278256688}
   - component: {fileID: 4967383987278256689}
   m_Layer: 0
-  m_Name: ImageCoin
+  m_Name: ImageMedal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: -200 $
+  m_text: +200 $
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 727c7b5f033ba5a45bdd643316c28f92, type: 2}
   m_sharedMaterial: {fileID: 686214989841936539, guid: 727c7b5f033ba5a45bdd643316c28f92, type: 2}
@@ -154,8 +154,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4283337143
-  m_fontColor: {r: 0.7169812, g: 0.53644276, b: 0.3077608, a: 1}
+    rgba: 4294901760
+  m_fontColor: {r: 0, g: 0, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -224,8 +224,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4967383987916375134}
   - component: {fileID: 4967383987916375133}
+  - component: {fileID: 3413737027683732408}
   m_Layer: 0
-  m_Name: Coin
+  m_Name: Medal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -272,6 +273,25 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3413737027683732408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4967383987916375135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97427240ee80be947943d6fbe620066f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  naming: 
+  current: {fileID: 0}
+  countMoney: 0
+  imgInit: {fileID: 4967383989135728019}
+  text: {fileID: 4967383987495332283}
+  stats: {fileID: 0}
+  hmd: {fileID: 0}
 --- !u!1 &4967383989135728021
 GameObject:
   m_ObjectHideFlags: 0
@@ -358,6 +378,10 @@ PrefabInstance:
     - target: {fileID: 1344314377593938, guid: 3dfbe6cf2019a46459262a14106a0d29, type: 3}
       propertyPath: m_Name
       value: DustStorm
+      objectReference: {fileID: 0}
+    - target: {fileID: 1344314377593938, guid: 3dfbe6cf2019a46459262a14106a0d29, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4701337305738002, guid: 3dfbe6cf2019a46459262a14106a0d29, type: 3}
       propertyPath: m_RootOrder

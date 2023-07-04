@@ -5,22 +5,24 @@ using TMPro;
 
 public class PureMoneyEndDay : MonoBehaviour
 {
-    public int MoneyAdd;
+    public int MoneyAdd = 0;
     public List<AdderMoneyCount> moneyMinus = new List<AdderMoneyCount>();
     private TextMeshProUGUI text;
 
     public GameObject endDay;
+
+    public AllStatsDayEnd stats;
 
     private void Awake()
     {
         text = GetComponent<TextMeshProUGUI>();
     }
 
-    public void MoneyOnScreen(int money)
+    public void MoneyOnScreen()
     {
-        MoneyAdd = money;
-
-        for(int i = 0; i < moneyMinus.Count; i++)
+        moneyMinus = stats.adderList;
+        MoneyAdd = 0;
+        for (int i = 0; i < moneyMinus.Count; i++)
         {
             MoneyAdd += moneyMinus[i].currentMoney;
         }
@@ -36,7 +38,7 @@ public class PureMoneyEndDay : MonoBehaviour
             text.text ="+" +MoneyAdd.ToString();
             text.color = new Color(0, 1, 0);
         }
-
+        
         endDay.SetActive(true);
     }
 }

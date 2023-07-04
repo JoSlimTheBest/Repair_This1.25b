@@ -16,6 +16,7 @@ public class XReport : MonoBehaviour
     public AllStatsDayEnd stats;
 
     public SBoxAdderOpen sbOpen;
+    public HolderMoneyDay hmd;
     public void CheckDay()
     {
         ComputerTime cT = GameObject.Find("QueueControll").GetComponent<ComputerTime>();
@@ -44,8 +45,7 @@ public class XReport : MonoBehaviour
     public void AdderOpen()
     {
         stats.gameObject.SetActive(true);
-        stats.ChangerAdder(0, currentMoney);
-        stats.ChangerAdder(1, -currentMoney / tax);
+        
 
         
         if (currentMoney == 0)
@@ -55,11 +55,17 @@ public class XReport : MonoBehaviour
         else
         {
             taxM = false;
+            stats.InstAdder("Money earned","Денег заработано", currentMoney);
+            stats.InstAdder("Tax","Налог", -currentMoney / tax);
         }
 
-        Invoke("SafeBoxOpen", 2f);
+        Invoke("HMDopen", 2f);
     }
 
+    public void HMDopen()
+    {
+        hmd.CheckLists();
+    }
 
     public void SafeBoxOpen()
     {

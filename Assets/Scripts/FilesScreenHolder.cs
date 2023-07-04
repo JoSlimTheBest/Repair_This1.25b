@@ -35,17 +35,20 @@ public class FilesScreenHolder : MonoBehaviour
         List<GameObject> contactsF = currPhoneFilesCheck.GetComponent<PhonePrivateInf>().contacts;
         for (int i = 0; i < contactsF.Count; i++)
         {
-            Instantiate(contactsF[i], contact.transform.position + new Vector3(0, -60 * i, 0), Quaternion.identity, contact.transform);
+            GameObject cont = Instantiate(contactsF[i], contact.transform.position + new Vector3(0, -60 * i, 0), Quaternion.identity, contact.transform);
+            cont.GetComponent<RectTransform>().localPosition = new Vector3(0, -60 * i, 0);
         }
         List<GameObject> messageF = currPhoneFilesCheck.GetComponent<PhonePrivateInf>().messages;
         for (int i = 0; i < messageF.Count; i++)
         {
-            Instantiate(messageF[i], message.transform.position + new Vector3(0, -60 * i, 0), Quaternion.identity, message.transform);
+            GameObject cont = Instantiate(messageF[i], message.transform.position + new Vector3(0, -60 * i, 0), Quaternion.identity, message.transform);
+            cont.GetComponent<RectTransform>().localPosition = new Vector3(0, -60 * i, 0);
         }
         List<GameObject> picturesF = currPhoneFilesCheck.GetComponent<PhonePrivateInf>().pictures;
         for (int i = 0; i < picturesF.Count; i++)
         {
-            Instantiate(picturesF[i], pictures.transform.position + new Vector3(0, -60 * i, 0), Quaternion.identity, pictures.transform);
+            GameObject cont = Instantiate(picturesF[i], pictures.transform.position + new Vector3(0, -60 * i, 0), Quaternion.identity, pictures.transform);
+            cont.GetComponent<RectTransform>().localPosition = new Vector3(0, -60 * i, 0);
         }
 
         contact.SetActive(false);

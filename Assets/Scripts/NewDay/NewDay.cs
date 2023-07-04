@@ -67,7 +67,7 @@ public class NewDay : MonoBehaviour
         {
             dayScreen.text = "Δενό " + compT.currentDay;
         }
-
+        player.GetComponent<HolderMoneyDay>().ClearStats();
         // 0 moneyallstats
         GameObject.Find("BoxButton").GetComponent<BoxOffice>().dayMoney = 0;
         GameObject.Find("safebox").GetComponent<SafeBoxHoldMoney>().ClearAll();

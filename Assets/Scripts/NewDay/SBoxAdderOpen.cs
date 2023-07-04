@@ -61,6 +61,6 @@ public class SBoxAdderOpen : MonoBehaviour
     {
         GameObject.Find("AudioEvent").GetComponent<AudioSource>().PlayOneShot(sound2);
         pure.gameObject.SetActive(true);
-        pure.MoneyOnScreen(stats.adderList[0].currentMoney);
+        pure.MoneyOnScreen();
     }
 }

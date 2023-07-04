@@ -7,31 +7,26 @@ using SimpleLocalizator;
 
 public class AllStatsDayEnd : MonoBehaviour
 {
-    public AdderMoneyCount moneyAdder;
-    public AdderMoneyCount taxesAdder;
-    public AdderMoneyCount partsAdder;
-    public AdderMoneyCount anotherAdder;
-    public AdderMoneyCount rentAdder;
+    
 
     public List<AdderMoneyCount> adderList = new List<AdderMoneyCount>();
+
+    public GameObject prefabAdder;
 
 
     public void Awake()
     {
-        adderList.Add(moneyAdder);
-        adderList.Add(taxesAdder);
-        adderList.Add(partsAdder);
-        adderList.Add(anotherAdder);
-        adderList.Add(rentAdder);
+        
 
     }
     public void ClearAdder()
     {
         for(int  i = 0; i < adderList.Count; i++)
         {
-            adderList[i].currentMoney = 0;
-            adderList[i].GetComponent<TextMeshProUGUI>().text = "0";
+            Destroy(adderList[i].gameObject);
         }
+
+        adderList = new List<AdderMoneyCount>();
 
         
     }
@@ -39,6 +34,45 @@ public class AllStatsDayEnd : MonoBehaviour
     public void ChangerAdder(int adder, int count)
     {
         adderList[adder].ChangeMoney(count);
+    }
+
+
+    public void InstAdder(string nameEng,string nameRus,int countMoney)
+    {
+        if(LanguageManager.currentLang == Language.English)
+        {
+            for(int i = 0; i < adderList.Count; i++)
+            {
+                if(adderList[i].discription.text == nameEng)
+                {
+                    ChangerAdder(i, countMoney);
+                    return;
+                }
+            }
+            GameObject adderOn = Instantiate(prefabAdder, transform);
+            adderOn.GetComponent<AdderMoneyCount>().discription.text = nameEng;
+            adderOn.transform.localPosition += new Vector3(0, -50 * adderList.Count, 0);
+            adderList.Add(adderOn.GetComponent<AdderMoneyCount>());
+            ChangerAdder(adderList.Count - 1, countMoney);
+
+
+        }
+        else
+        {
+            for (int i = 0; i < adderList.Count; i++)
+            {
+                if (adderList[i].discription.text == nameRus)
+                {
+                    ChangerAdder(i, countMoney);
+                    return;
+                }
+            }
+            GameObject adderOn = Instantiate(prefabAdder, transform);
+            adderOn.GetComponent<AdderMoneyCount>().discription.text = nameRus;
+            adderOn.transform.localPosition += new Vector3(0, -50 * adderList.Count, 0);
+            adderList.Add(adderOn.GetComponent<AdderMoneyCount>());
+            ChangerAdder(adderList.Count - 1, countMoney);
+        }
     }
     
 }

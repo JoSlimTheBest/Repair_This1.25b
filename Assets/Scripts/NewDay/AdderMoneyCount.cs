@@ -8,13 +8,15 @@ public class AdderMoneyCount : MonoBehaviour
     public int currentMoney;
     private int onScreenNumber;
 
-    private TextMeshProUGUI text;
+
+    public TextMeshProUGUI discription;
+    private TextMeshProUGUI countCurrentMoney;
     public AudioClip CoinCall;
     private AudioSource call;
 
     private void Awake()
     {
-        text = GetComponent<TextMeshProUGUI>();
+        countCurrentMoney = GetComponent<TextMeshProUGUI>();
         call = GetComponent<AudioSource>();
     }
     IEnumerator ChangeFloat(float v_start, float v_end, float duration)
@@ -25,13 +27,13 @@ public class AdderMoneyCount : MonoBehaviour
         {
             onScreenNumber = (int)Mathf.Lerp(v_start, v_end, elapsed / duration);
             elapsed += Time.deltaTime;
-            text.text = onScreenNumber.ToString();
+            countCurrentMoney.text = onScreenNumber.ToString();
            
             yield return null;
         }
         call.PlayOneShot(CoinCall);
         onScreenNumber = currentMoney;
-        text.text = onScreenNumber.ToString();
+        countCurrentMoney.text = onScreenNumber.ToString();
     }
     public void ChangeMoney(int countM)
     {
@@ -42,6 +44,18 @@ public class AdderMoneyCount : MonoBehaviour
             StartCoroutine(ChangeFloat(onScreenNumber, currentMoney, 1));
         }
     }
+
+
+    /* Money earned
+Taxes
+Purchase of spare parts
+Delivery
+Rent
+    Денег заработано
+Налоги
+Покупка запчастей
+Доставка
+Аренда*/
 
    
 }

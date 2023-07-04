@@ -23,7 +23,7 @@ public class CreditOnline : MonoBehaviour
     {
         if(_plChar.creditTake == false)
         {
-            _plChar.AddMoney(500,true);
+            _plChar.AddMoney(500,true,3);
             _plChar.creditTake = true;
 
             GameObject pref = Instantiate(flyMoney, moneyPlace.transform);

@@ -22,7 +22,7 @@ public class DataMoneyGive : MonoBehaviour
 
     public void Task()
     {
-        GameObject.Find("Player").GetComponent<PlayerCharacter>().AddMoney(money,true);
+        GameObject.Find("Player").GetComponent<PlayerCharacter>().AddMoney(money,true,0);
         holder.AddMessages(newMessage);
         holder.DestroyMessage(mess);
        

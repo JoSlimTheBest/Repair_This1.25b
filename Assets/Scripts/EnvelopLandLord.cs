@@ -37,7 +37,7 @@ public class EnvelopLandLord : MonoBehaviour
         PlayerCharacter pl = GameObject.Find("Player").GetComponent<PlayerCharacter>();
        if (pl.money >= billPay)
        {
-            pl.money -= billPay;
+            pl.AddMoney(-billPay,true,2);
             llord.GetComponent<LandLord>().ShutUpAndTakeMoney();
 
             GameObject currentDialog = Instantiate(dialogprefab, llord.transform.position, llord.transform.rotation, transform);

@@ -41,16 +41,17 @@ public class PlayerCharacter : MonoBehaviour
 
    
 
-    public bool AddMoney(int countMoney,bool safer)
+    public bool AddMoney(int countMoney,bool safer, int holder)
     {
         if(money + countMoney>= 0)
         {
             money += countMoney;
+            GetComponent<HolderMoneyDay>().StatsChange(holder, countMoney);
             if(safer == true)
             {
 
                 GameObject flyM = Instantiate(prefabMoneyRoom, safebox.transform);
-                GameObject monFly = Instantiate(prefabMoneyComputer, compTransf.transform);
+                
 
                 if (countMoney > 0)
                 {
@@ -59,9 +60,9 @@ public class PlayerCharacter : MonoBehaviour
 
 
                     
-                    monFly.transform.localPosition += new Vector3(0, 100, 0);
+                   /* monFly.transform.localPosition += new Vector3(0, 100, 0);
                     monFly.GetComponent<TextMeshProUGUI>().color = Color.green;
-                    monFly.GetComponent<TextMeshProUGUI>().text = "+" + countMoney.ToString() + "$";
+                    monFly.GetComponent<TextMeshProUGUI>().text = "+" + countMoney.ToString() + "$";*/
                 }
                 else
                 {
@@ -69,26 +70,26 @@ public class PlayerCharacter : MonoBehaviour
                     flyM.GetComponent<TextMeshPro>().color = new Color(1, 0.5f, 0.5f, 1);
                     flyM.GetComponent<TextMeshPro>().text = countMoney.ToString() + "$";
 
-                    monFly.transform.localPosition += new Vector3(0, 100, 0);
-                    monFly.GetComponent<TextMeshProUGUI>().color = Color.red;
-                    monFly.GetComponent<TextMeshProUGUI>().text = countMoney.ToString() + "$";
+                    /* monFly.transform.localPosition += new Vector3(0, 100, 0);
+                     monFly.GetComponent<TextMeshProUGUI>().color = Color.red;
+                     monFly.GetComponent<TextMeshProUGUI>().text = countMoney.ToString() + "$";*/
                 }
 
-                
+
             }
             else
             {
                 GameObject flyM = Instantiate(prefabMoneyRoom, cashbox.transform);
 
-                GameObject monFly = Instantiate(prefabMoneyComputer, compTransf.transform);
+                
                 if (countMoney > 0)
                 {
                     flyM.transform.position += new Vector3(0, 0, 0);
                     flyM.GetComponent<TextMeshPro>().text = "+" + countMoney.ToString() + "$";
 
-                    monFly.transform.localPosition += new Vector3(0, 100, 0);
-                    monFly.GetComponent<TextMeshProUGUI>().color = Color.green;
-                    monFly.GetComponent<TextMeshProUGUI>().text = "+" + countMoney.ToString() + "$";
+                    /*  monFly.transform.localPosition += new Vector3(0, 100, 0);
+                      monFly.GetComponent<TextMeshProUGUI>().color = Color.green;
+                      monFly.GetComponent<TextMeshProUGUI>().text = "+" + countMoney.ToString() + "$"; */
                 }
                 else
                 {
@@ -96,9 +97,9 @@ public class PlayerCharacter : MonoBehaviour
                     flyM.GetComponent<TextMeshPro>().color = new Color(1, 0.5f, 0.5f, 1);
                     flyM.GetComponent<TextMeshPro>().text = countMoney.ToString() + "$"; ;
 
-                    monFly.transform.localPosition += new Vector3(0, 100, 0);
-                    monFly.GetComponent<TextMeshProUGUI>().color = Color.red;
-                    monFly.GetComponent<TextMeshProUGUI>().text = countMoney.ToString() + "$";
+                    /* monFly.transform.localPosition += new Vector3(0, 100, 0);
+                      monFly.GetComponent<TextMeshProUGUI>().color = Color.red;
+                      monFly.GetComponent<TextMeshProUGUI>().text = countMoney.ToString() + "$"; */
                 }
             }
 
@@ -122,9 +123,9 @@ public class PlayerCharacter : MonoBehaviour
 
     public void TaxMoney()
     {
-        AddMoney(choiceMoneyAdd,false);
+        AddMoney(choiceMoneyAdd,false,-1);
      
-        AddMoney(-choiceMoneyAdd / tax,false);
+        AddMoney(-choiceMoneyAdd / tax,false,-1);
        
         
         GameObject.Find("QueueControll").GetComponent<HumanQueue>().HumanExit();
@@ -132,7 +133,7 @@ public class PlayerCharacter : MonoBehaviour
     }
     public void NoTaxMoney()
     {
-        AddMoney(choiceMoneyAdd,true);
+        AddMoney(choiceMoneyAdd,true,0);
         HumanQueue queue = GameObject.Find("QueueControll").GetComponent<HumanQueue>();
         if(queue.humanList[0].GetComponent<CallCops>() != null)
         {
