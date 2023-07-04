@@ -26,10 +26,7 @@ public class CreditOnline : MonoBehaviour
             _plChar.AddMoney(500,true,3);
             _plChar.creditTake = true;
 
-            GameObject pref = Instantiate(flyMoney, moneyPlace.transform);
-            pref.transform.localPosition += new Vector3(0, 100, 0);
-            pref.GetComponent<TextMeshProUGUI>().color = Color.green;
-            pref.GetComponent<TextMeshProUGUI>().text = "+500";
+           
         }
         else
         {
