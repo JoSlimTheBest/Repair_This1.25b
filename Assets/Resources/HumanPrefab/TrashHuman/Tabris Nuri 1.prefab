@@ -74,10 +74,11 @@ MonoBehaviour:
   moneyBuyer: 472
   clock: 19
   day: 0
-  hour: 0
-  minute: 0
+  hour: 21
+  minute: 14
   randomSex: 0
   random: 0
+  addPartBody: []
   addNew: {fileID: 4014852898649036087}
   addNew2: {fileID: 6832998471971256983}
   hair: {fileID: 4029335450696259322}

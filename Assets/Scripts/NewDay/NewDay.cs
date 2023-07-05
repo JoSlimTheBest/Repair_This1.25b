@@ -22,6 +22,7 @@ public class NewDay : MonoBehaviour
     public bool nalogcheck;
 
     public TextMeshProUGUI dayScreen;
+    public NewsChanger news;
 
     public void Start()
     {
@@ -58,7 +59,7 @@ public class NewDay : MonoBehaviour
         compT.currentDay += 1;
         compT.alarmClock = false;
         compT.GetComponent<ElectricBill>().EndDay();
-
+        news.ChangeNews();
         if (LanguageManager.currentLang == Language.English)
         {
             dayScreen.text = "Day " + compT.currentDay;

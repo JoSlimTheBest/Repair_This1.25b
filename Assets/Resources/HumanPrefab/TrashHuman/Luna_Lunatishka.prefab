@@ -934,10 +934,11 @@ MonoBehaviour:
   moneyBuyer: 511
   clock: 5
   day: 0
-  hour: 0
-  minute: 0
+  hour: 21
+  minute: 40
   randomSex: 0
   random: 0
+  addPartBody: []
   addNew: {fileID: 0}
   addNew2: {fileID: 0}
   hair: {fileID: 2939714640533299636}

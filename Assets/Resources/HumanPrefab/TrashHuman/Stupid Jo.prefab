@@ -850,10 +850,11 @@ MonoBehaviour:
   moneyBuyer: -1
   clock: -1
   day: 0
-  hour: 0
-  minute: 0
+  hour: 21
+  minute: 10
   randomSex: 0
   random: 0
+  addPartBody: []
   addNew: {fileID: 0}
   addNew2: {fileID: 0}
   hair: {fileID: 8472482865387817135}

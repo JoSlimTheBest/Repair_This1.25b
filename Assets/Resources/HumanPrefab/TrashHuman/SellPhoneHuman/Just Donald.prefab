@@ -333,9 +333,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77e5f7c73f284384f82a5b49ab3e2f64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  random: 0
   man: 1
-  randomSex: 0
+  IDperson: 0
+  namePersonEng: name
+  surnamePersonEng: surname
   _brokenPartPhone: -1
   _brokenModelPhone: 
   previewDetail: 0
@@ -344,8 +345,11 @@ MonoBehaviour:
   moneyBuyer: 424
   clock: 10
   day: 0
-  hour: 0
-  minute: 0
+  hour: 20
+  minute: 38
+  randomSex: 0
+  random: 0
+  addPartBody: []
   addNew: {fileID: 0}
   addNew2: {fileID: 0}
   hair: {fileID: 2504622426566867120}
@@ -646,7 +650,6 @@ MonoBehaviour:
   - 
   - 
   - 
-  shotScreen: {fileID: 0}
 --- !u!1 &2271678715712149753
 GameObject:
   m_ObjectHideFlags: 0

@@ -493,8 +493,8 @@ MonoBehaviour:
   moneyBuyer: 305
   clock: 30
   day: 0
-  hour: 0
-  minute: 0
+  hour: 21
+  minute: 7
   randomSex: 0
   random: 0
   addPartBody: []

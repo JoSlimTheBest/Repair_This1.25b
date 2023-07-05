@@ -851,8 +851,8 @@ MonoBehaviour:
   moneyBuyer: -1
   clock: -1
   day: 0
-  hour: 0
-  minute: 0
+  hour: 21
+  minute: 20
   randomSex: 0
   random: 0
   addPartBody: []
