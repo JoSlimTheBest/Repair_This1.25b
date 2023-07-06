@@ -26,7 +26,7 @@ public class MessageHolder : MonoBehaviour
 
 
    
-    public void AddMessages(GameObject mess)
+    public GameObject AddMessages(GameObject mess)
     {
         
 
@@ -50,8 +50,8 @@ public class MessageHolder : MonoBehaviour
 
         }
 
-       
 
+        return newM;
 
         
     }

@@ -156,10 +156,18 @@ public class PlayerCharacter : MonoBehaviour
     {
         if(raiting <= 1)
         {
-            for(int i =0; i < 3; i++)
+            if(door.ramdomHuman == true)
             {
                 door.HumanInsta();
             }
+            else
+            {
+                for (int i = 0; i < 3; i++)
+                {
+                    door.HumanInsta();
+                }
+            }
+            
            
         }
         else

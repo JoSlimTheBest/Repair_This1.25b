@@ -54,6 +54,26 @@ public class BasketPhones : MonoBehaviour
        
     }
 
+    public void Disamilate(int indexPeople)
+    {
+        for (int i = 0; i < repairPhone.Count; i++)
+        {
+            if(repairPhone[i].GetComponent<BrokenPhone>().peopleID == indexPeople)
+            {
+                Destroy(repairPhone[i], 1f);
+                repairPhone.Remove(repairPhone[i]);
+                repairHumanPhoto.Remove(repairHumanPhoto[i]);
+                if (list.activeNow == true)
+                {
+                    list.CloseTable();
+                    list.CheckRepairPhone();
+                }
+               
+            }
+        }
+
+    }
+
     public GameObject RemovePhone(int index)
     {
         for(int i = 0; i < repairPhone.Count; i++)

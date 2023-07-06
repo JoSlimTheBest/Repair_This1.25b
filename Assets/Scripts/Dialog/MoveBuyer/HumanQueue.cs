@@ -344,13 +344,17 @@ public class HumanQueue : MonoBehaviour
         humanList[0].GetComponent<HumanCharacter>().DRemove.enabled = true;
         humanList[0].GetComponent<HumanCharacter>().DRemove.humanIndexPhone = GameObject.Find("Player").GetComponent<TransNamePartPhone>().phoneIndex;
         humanList[0].GetComponent<HumanCharacter>().hour = GetComponent<ComputerTime>().hours + currentAddTime;
+        if (humanList[0].GetComponent<ChangeHumanTime>() != null)
+        {
+            humanList[0].GetComponent<ChangeHumanTime>().AddTimeHuman();
+        }
         if(humanList[0].GetComponent<HumanCharacter>().hour > 22)
         {
             humanList[0].GetComponent<HumanCharacter>().day += 1;
             humanList[0].GetComponent<HumanCharacter>().hour = Random.Range(11, 18);
         }
         humanList[0].GetComponent<HumanCharacter>().minute = (int)GetComponent<ComputerTime>().minute;
-        GameObject.Find("PlaceCheckPhone").GetComponentInChildren<BrokenPhone>().AgreeClientGoBoxPhone(currentMoney, humanList[0].GetComponent<HumanCharacter>().myFace);
+        GameObject.Find("PlaceCheckPhone").GetComponentInChildren<BrokenPhone>().AgreeClientGoBoxPhone(currentMoney, humanList[0].GetComponent<HumanCharacter>().myFace,humanList[0].GetComponent<HumanCharacter>().IDperson);
 
         Invoke("DoorExit", 1.25f);
         Invoke("HideHuman", 2f);

@@ -26,9 +26,11 @@ public class BrokenPhone : MonoBehaviour
 
     private CostChangerCharacter changers;
     public int index;
+    public int peopleID;
     public int moneyPaying;
 
     public bool status = false;
+    public bool desimilatephone = false;
 
 
     private GameObject device;
@@ -138,9 +140,10 @@ public class BrokenPhone : MonoBehaviour
     }
 
 
-    public void AgreeClientGoBoxPhone(int moneyCurrent, Sprite humanPhoto)
+    public void AgreeClientGoBoxPhone(int moneyCurrent, Sprite humanPhoto,int indexPeopleID)
     {
         moneyPaying = moneyCurrent;
+        peopleID = indexPeopleID;
         GameObject.Find("BasketBrokenPhone").GetComponent<BasketPhones>().AddRepairPhone(gameObject,humanPhoto);
         humanPhotoHere = humanPhoto;
         if (model == "A")
@@ -162,7 +165,7 @@ public class BrokenPhone : MonoBehaviour
 
     public void DisAgreePhone()
     {
-        Destroy(gameObject, 1f);
+        Destroy(gameObject);
     }
 
     private void FixedUpdate()

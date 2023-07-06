@@ -64,10 +64,10 @@ public class DoorController : MonoBehaviour
         llordy.GetComponent<HumanCharacter>().day = GameObject.Find("QueueControll").GetComponent<ComputerTime>().currentDay; 
     }
 
-    public void HumanInsta(GameObject human)
+    public GameObject HumanInsta(GameObject human)
     {
         GameObject humanNew = Instantiate(human, transform.position + new Vector3(-changerPos, 0, 0), transform.rotation);
-        Debug.Log(humanNew.transform.position);
+        
         changerPos += changeMin;
         if (humanNew.GetComponent<HumanCharacter>().day == 0)
         {
@@ -80,6 +80,7 @@ public class DoorController : MonoBehaviour
                 
             humanNew.GetComponent<HumanCharacter>().minute = Random.Range(0, 59);
         }
+        return humanNew;
     }
 
     public void HumanInsta()

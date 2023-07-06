@@ -101,6 +101,7 @@
     <Compile Include="Assets\Scripts\PrivateDevice\PrivateScreen2.cs" />
     <Compile Include="Assets\Scripts\StatisticPlayer\StatsOnScreen.cs" />
     <Compile Include="Assets\Scripts\FlyTopUI.cs" />
+    <Compile Include="Assets\Scripts\AgentXSctipts\ChangeHumanTime.cs" />
     <Compile Include="Assets\Scripts\FirstSceneMenu\DontDestroy.cs" />
     <Compile Include="Assets\Scripts\AgentXSctipts\RejectOffer.cs" />
     <Compile Include="Assets\Scripts\FirstSceneMenu\StoryTaller.cs" />
@@ -125,6 +126,7 @@
     <Compile Include="Assets\Scripts\OpenBpxOffice.cs" />
     <Compile Include="Assets\Scripts\NewDay\BGChangeColor.cs" />
     <Compile Include="Assets\Scripts\Dialog\FDhelper.cs" />
+    <Compile Include="Assets\Scripts\AgentXSctipts\NewsDesimilatePhone.cs" />
     <Compile Include="Assets\Scripts\PetSay.cs" />
     <Compile Include="Assets\Scripts\StarOnDisplay.cs" />
     <Compile Include="Assets\Scripts\NewDay\HolderMoneyDay.cs" />
@@ -163,12 +165,14 @@
     <Compile Include="Assets\Scripts\HumanCharacter.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\Data\MultiLangSimpleTextBase.cs" />
     <Compile Include="Assets\Scripts\PrivateDevice\PrivatePasswordGo.cs" />
+    <Compile Include="Assets\Scripts\News\NewsChanger.cs" />
     <Compile Include="Assets\Scripts\EasyBuyButton.cs" />
     <Compile Include="Assets\Scripts\AudioButton.cs" />
     <Compile Include="Assets\Scripts\NewDay\AdderMoneyCount.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\Data\TranslationsSaver.cs" />
     <Compile Include="Assets\Scripts\Dialog\BrokenPhone.cs" />
     <Compile Include="Assets\Scripts\SafeBoxChangeImage.cs" />
+    <Compile Include="Assets\Scripts\DesimilateNow.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\ComponentsToUse\MultiLangImage.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\ComponentsToUse\MultiLangSimpleTextUI.cs" />
     <Compile Include="Assets\Scripts\FlyTop.cs" />
@@ -178,6 +182,7 @@
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\Data\Translation.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\Data\Label.cs" />
     <Compile Include="Assets\Scripts\ChangeBackGround\LeaveMenu.cs" />
+    <Compile Include="Assets\Scripts\AgentXSctipts\KillVanessa.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\Data\Language.cs" />
     <Compile Include="Assets\Scripts\FirstSceneMenu\SetVolume.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\ComponentsToUse\LabelsData.cs" />
@@ -199,7 +204,6 @@
     <Compile Include="Assets\Scripts\PrivateDevice\DataMoneyGive.cs" />
     <Compile Include="Assets\Scripts\HumanScripts\LandLord.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\Data\MultiLangTextBase.cs" />
-    <Compile Include="Assets\Scripts\News\NewsChanger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
