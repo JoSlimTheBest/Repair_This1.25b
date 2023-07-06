@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 33
   m_Sprite: {fileID: -842805755, guid: 5aebdd8d26443f344b7d745a474b8b79, type: 3}
-  m_Color: {r: 0.8980392, g: 0.7921569, b: 0.80199015, a: 1}
+  m_Color: {r: 0.9716981, g: 0.85711104, b: 0.86984295, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -193,7 +193,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2010781863843356846}
   m_LocalRotation: {x: -0, y: -0, z: 0.020971505, w: 0.9997801}
-  m_LocalPosition: {x: 0.75, y: -1.08, z: 0}
+  m_LocalPosition: {x: 0.786, y: -1.078, z: 0}
   m_LocalScale: {x: 0.7670972, y: 0.7405728, z: 0.5442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -277,9 +277,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2218744363824009176}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.634, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -0.003, y: 0.666, z: 0}
+  m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5327563891458012557}
   m_RootOrder: 4
@@ -325,7 +325,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 39
-  m_Sprite: {fileID: -1674973782, guid: 5aebdd8d26443f344b7d745a474b8b79, type: 3}
+  m_Sprite: {fileID: 1667817301, guid: 5aebdd8d26443f344b7d745a474b8b79, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -361,7 +361,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2991259674544848796}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.008, y: 0.737, z: 0}
+  m_LocalPosition: {x: 0.001, y: 0.754, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -410,7 +410,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 43
   m_Sprite: {fileID: -1786951584, guid: 8da2180da99218c4ba0e4a670eb7b987, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.6313726}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.64705884}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -444,14 +444,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3065115875896981279}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.016, y: 0.139, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0050614406, w: 0.99998724}
+  m_LocalPosition: {x: 0.004, y: 0.148, z: 0}
   m_LocalScale: {x: 1.0033052, y: 0.89077705, z: 1.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5327563891458012557}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.58}
 --- !u!212 &3651656527432828881
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -494,7 +494,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 38
   m_Sprite: {fileID: 20449905, guid: 8da2180da99218c4ba0e4a670eb7b987, type: 3}
-  m_Color: {r: 0.3019608, g: 0.2, b: 0.1882353, a: 1}
+  m_Color: {r: 0.31132078, g: 0.22837618, b: 0.21880564, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -582,6 +582,7 @@ MonoBehaviour:
   minute: 0
   randomSex: 0
   random: 0
+  addPartBody: []
   addNew: {fileID: 8181465146506527631}
   addNew2: {fileID: 5606991054345808556}
   hair: {fileID: 2339330111448236193}
@@ -812,37 +813,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextDialogRus:
   - "\u0410\u0431\u0440\u0430\u043A\u0430\u0434\u0430\u0431\u0440\u0430!"
-  - "\u041F\u0440\u0438\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044E!"
-  - "\u0411\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u0438 \u0441\u0443\u0434\u044C\u0431\u0443
-    \u0437\u0430 \u0442\u043E, \u0447\u0442\u043E \u0412\u0435\u043B\u0438\u043A\u0438\u0439
-    \u0410\u043B\u044C\u0444\u043E\u043D\u0441\u043E!"
-  - "\u041F\u043E\u0441\u0435\u0442\u0438\u043B \u044D\u0442\u043E \u0443\u043D\u044B\u043B\u043E\u0435
+  - "\u041F\u0440\u0438\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044E! \u0411\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u0438
+    \u0441\u0443\u0434\u044C\u0431\u0443, \u044E\u043D\u043E\u0448\u0430"
+  - "\u0421\u0430\u043C \u0412\u0435\u043B\u0438\u043A\u0438\u0439 \u0410\u043B\u044C\u0444\u043E\u043D\u0441\u043E
+    \u043F\u043E\u0441\u0435\u0442\u0438\u043B \u044D\u0442\u043E \u0443\u043D\u044B\u043B\u043E\u0435
     \u043C\u0435\u0441\u0442\u043E!"
   - "\u0423 \u043C\u043E\u0435\u0433\u043E \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0430
-    \u043A\u0430\u043C\u0435\u0440\u0430 \u043D\u0435 \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442!"
-  - "\u0422\u0430\u043A \u044F \u043D\u0435 \u0441\u043C\u043E\u0433\u0443 \u0443
-    \u0441\u0432\u043E\u0438\u0445 \u043A\u043E\u043B\u043B\u0435\u0433 \u0444\u043E\u043A\u0443\u0441\u044B
-    \u0432\u043E\u0440\u043E\u0432\u0430\u0442\u044C!"
-  - "\u042D\u043C... \u042F \u0438\u043C\u0435\u043B \u0432\u0432\u0438\u0434\u0443
-    \u0444\u0438\u043A\u0441\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u043E\u0448\u0438\u0431\u043A\u0438"
-  - "\u0412\u0430\u043C \u0432\u044B\u043F\u0430\u043B \u0448\u0430\u043D\u0441 \u0443\u0441\u043B\u0443\u0436\u0438\u0442\u044C
-    \u0432\u0435\u043B\u0438\u043A\u043E\u043C\u0443 \u0410\u043B\u044C\u0444\u043E\u043D\u0441\u043E!"
+    \u043A\u0430\u043C\u0435\u0440\u0430 \u043D\u0435 \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442"
+  - "\u0422\u0430\u043A \u044F \u043D\u0435 \u0441\u043C\u043E\u0433\u0443 \u043F\u0440\u0438\u0441\u0432\u0430\u0438\u0432\u0430\u0442\u044C
+    \u0444\u043E\u043A\u0443\u0441\u044B \u0441\u0432\u043E\u0438\u0445 \u043A\u043E\u043B\u043B\u0435\u0433"
+  - "\u041E\u0439! \u042F \u0438\u043C\u0435\u043B \u0432\u0432\u0438\u0434\u0443
+    \u0444\u0438\u043A\u0441\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0438\u0445
+    \u043E\u0448\u0438\u0431\u043A\u0438"
+  - "\u0422\u0435\u0431\u0435 \u0432\u044B\u043F\u0430\u043B \u0448\u0430\u043D\u0441
+    \u0443\u0441\u043B\u0443\u0436\u0438\u0442\u044C \u0412\u0435\u043B\u0438\u043A\u043E\u043C\u0443
+    \u0410\u043B\u044C\u0444\u043E\u043D\u0441\u043E!"
   nextDialogEng:
   - Abracadabra!
-  - Greetings!
-  - Thank your lucky stars for the Great Alfonso!
-  - Visited this dreary place!
-  - The camera on my phone isn't working!
-  - So I won't be able to steal tricks from my colleagues!
-  - Hm... I meant to say, capture errors
-  - This is your chance to serve the great Alfonso!
+  - "Greetings! Thank fate, \u044E\u043D\u043E\u0448\u0430!"
+  - The Great Alfonso himself visited this gloomy place!
+  - The camera on my phone isn't working
+  - I won't be able to steal my colleagues' tricks
+  - Oh! I meant to fix their mistakes
+  - This is your chance to serve the Great Alfonso!
   dialogprefab: {fileID: 4565734257841698319, guid: f7f6bf247246d3442b464419d88700da, type: 3}
   denayOrderRus:
-  - "\u0421\u0440\u0430\u0437\u0443 \u0432\u0438\u0434\u043D\u043E, \u0442\u044B
-    \u043D\u0435 \u0431\u043B\u0430\u0433\u043E\u0440\u043E\u0434\u043D\u044B\u0445
+  - "\u0421\u0440\u0430\u0437\u0443 \u0432\u0438\u0434\u043D\u043E, \u0447\u0442\u043E
+    \u0442\u044B \u043D\u0435\u0431\u043B\u0430\u0433\u043E\u0440\u043E\u0434\u043D\u044B\u0445
     \u043A\u0440\u043E\u0432\u0435\u0439!"
   denayOrderEng:
-  - It's evident that you are not of noble blood!
+  - Obviously, you are of non-noble blood!
   denayByTimeRus:
   - "\u042D\u0442\u043E \u043F\u0440\u043E\u0441\u0442\u043E \u043D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E,
     \u044F \u043F\u0440\u043E\u043F\u0443\u0449\u0443 \u0432\u0441\u0435 \u0442\u0440\u044E\u043A\u0438!"
@@ -878,21 +878,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogReRus:
-  - "\u0410\u0431\u0440\u0430\u043A\u0430\u0434\u0430\u0431\u0440\u0430!"
-  - "\u0413\u043E\u0442\u043E\u0432 \u043B\u0438 \u043C\u043E\u0439 \u0442\u0435\u043B\u0435\u0444\u043E\u043D?"
+  - "\u0412\u0443\u0430\u043B\u044F! \u0418 \u043C\u043E\u0439 \u0442\u0435\u043B\u0435\u0444\u043E\u043D
+    \u0433\u043E\u0442\u043E\u0432!"
+  - "\u0413\u043E\u0442\u043E\u0432 \u0436\u0435?"
   dialogReEng:
-  - Abracadabra!
-  - My phone is ready?
+  - Voila! And my phone is ready!
+  - Isn't it?
   happyBuyerRus:
-  - "\u0410\u043B\u044C\u0444\u043E\u043D\u0441\u043E \u0431\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u0438\u0442
-    \u0442\u0435\u0431\u044F \u044E\u043D\u043E\u0448\u0430! "
+  - "\u0412\u0435\u043B\u0438\u043A\u0438\u0439 \u0410\u043B\u044C\u0444\u043E\u043D\u0441\u043E
+    \u0431\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u0438\u0442 \u0442\u0435\u0431\u044F,
+    \u044E\u043D\u043E\u0448\u0430!"
   happyBuyerEng:
   - Alfonso expresses his gratitude, young sir!
   dissapoinBuyerRus:
-  - "\u0422\u044B \u0441\u0438\u043B\u044C\u043D\u043E \u043F\u0440\u043E\u0433\u043D\u0435\u0432\u0430\u043B
-    \u0432\u0435\u043B\u0438\u043A\u043E\u0433\u043E \u0410\u043B\u044C\u0444\u043E\u043D\u0441\u043E!"
+  - "\u0422\u044B \u0444\u0430\u0442\u0430\u0441\u0442\u0438\u0447\u0435\u0441\u043A\u0438
+    \u0440\u0430\u0437\u0433\u043D\u0435\u0432\u0430\u043B \u0412\u0435\u043B\u0438\u043A\u043E\u0433\u043E
+    \u0410\u043B\u044C\u0444\u043E\u043D\u0441\u043E!"
   dissapoinBuyerEng:
-  - You have greatly angered the mighty Alfonso!
+  - You have fatally angered the Great Alfonso!
   humanIndexPhone: 0
   dialogprefab: {fileID: 4565734257841698319, guid: f7f6bf247246d3442b464419d88700da, type: 3}
   xOffset: 3
@@ -957,7 +960,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4312388363572691831}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0057, y: 0.96, z: 0}
+  m_LocalPosition: {x: 0.006, y: 0.96, z: 0}
   m_LocalScale: {x: 1.1006701, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1006,7 +1009,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 35
   m_Sprite: {fileID: 2035515099, guid: 5aebdd8d26443f344b7d745a474b8b79, type: 3}
-  m_Color: {r: 0.17442775, g: 0.28667504, b: 0.7743534, a: 1}
+  m_Color: {r: 0.9009434, g: 0.91971886, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1231,7 +1234,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8384626665921483537}
   m_LocalRotation: {x: -0, y: -0, z: 0.020971505, w: 0.9997801}
-  m_LocalPosition: {x: 0.022800054, y: -0.49920002, z: 0}
+  m_LocalPosition: {x: 0.01, y: -0.672, z: 0}
   m_LocalScale: {x: 1.4095869, y: 1.3608468, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1399,9 +1402,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8719068055597910590}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.01, y: 0.261, z: 0}
-  m_LocalScale: {x: 0.7547, y: 0.5267, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -0.01, y: 0.248, z: 0}
+  m_LocalScale: {x: 0.9, y: 0.6281039, z: 1.1925268}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5327563891458012557}
   m_RootOrder: 6
