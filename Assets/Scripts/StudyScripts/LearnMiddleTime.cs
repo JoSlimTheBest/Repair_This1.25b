@@ -27,6 +27,7 @@ public class LearnMiddleTime : MonoBehaviour
 
     public void Task()
     {
+        if(GameObject.Find("QueueControll").GetComponent<HumanQueue>().humanList[0].GetComponent<HumanCharacter>().clock < 3) { return; }
         if(LanguageManager.currentLang == Language.English)
         {
             GameObject.Find("HelperDevice").GetComponent<LariseHelper>().SayHelp("According to statistics, the majority agrees to 3 hours");

@@ -708,6 +708,7 @@ GameObject:
   - component: {fileID: 8691077216338442679}
   - component: {fileID: 8690913474042305997}
   - component: {fileID: -6151248046489690081}
+  - component: {fileID: 57527889302771578}
   m_Layer: 3
   m_Name: LandLordFirstGo
   m_TagString: Untagged
@@ -769,6 +770,7 @@ MonoBehaviour:
   minute: 30
   randomSex: 0
   random: 0
+  addPartBody: []
   addNew: {fileID: 0}
   addNew2: {fileID: 0}
   hair: {fileID: 6968866261912338278}
@@ -1070,6 +1072,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e341ed5d43bfab248afde2b5489ee1c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &57527889302771578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6968866261969485155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04dd9fc503f8654db50076268257e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RusHelp: "\u0417\u0430\u043C\u0435\u0447\u0430\u043B\u0438, \u0447\u0442\u043E
+    \u0435\u0441\u043B\u0438 \u043D\u0438\u043A\u043E\u0433\u043E \u043D\u0435\u0442,
+    \u0432\u0440\u0435\u043C\u044F \u0438\u0434\u0435\u0442 \u043A\u0430\u043A \u0431\u0443\u0434\u0442\u043E
+    \u0431\u044B\u0441\u0442\u0440\u0435\u0435?"
+  EngHelp: Have you noticed that if there is no one, time seems to go faster?
 --- !u!1 &6968866262307247968
 GameObject:
   m_ObjectHideFlags: 0

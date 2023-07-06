@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using SimpleLocalizator;
 
 public class Switcher : MonoBehaviour
 {
@@ -23,6 +24,7 @@ public class Switcher : MonoBehaviour
     public SpriteRenderer TV;
     public Sprite day;
     public Sprite night;
+    public bool helperSay;
 
     public void Start()
     {
@@ -30,6 +32,20 @@ public class Switcher : MonoBehaviour
     }
     public void ChangerA()
     {
+        if(helperSay == false)
+        {
+            if(LanguageManager.currentLang == Language.English)
+            {
+                GameObject.Find("HelperDevice").GetComponent<LariseHelper>().SayHelp("After 18:00, you should turn on the lights, otherwise customers may think that we are closed");
+            }
+            else
+            {
+                GameObject.Find("HelperDevice").GetComponent<LariseHelper>().SayHelp("¬ечером стоит включать свет, иначе клиенты могут подумать что мы закрыты");
+            }
+            helperSay = true;
+            
+        }
+
         if(change == false)
         {
             dirty.AlphaChanger(countDirtyON);
