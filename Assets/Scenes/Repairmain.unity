@@ -11010,7 +11010,7 @@ MonoBehaviour:
   endCountHuman: 0
   ramdomHuman: 0
   llord: 0
-  prefabHuman: {fileID: 5425248895563849421, guid: 00aa482bd848f2346b6391aff7c7bfc4, type: 3}
+  prefabHuman: {fileID: 8115872476301867058, guid: d0f30ca30baed7246baedb3703ae4501, type: 3}
   llFg: {fileID: 6968866261969485155, guid: be5e8b25fd1d52041a1444fc8fcc7d50, type: 3}
   doorOpenAudio: {fileID: 8300000, guid: a518a0ff1306c3947bd24e68bd663dac, type: 3}
   doorCloseAudio: {fileID: 8300000, guid: 1c50d000572b74a41b21708fa197a1d4, type: 3}
@@ -17008,7 +17008,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &743836119
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24716,7 +24716,7 @@ MonoBehaviour:
   currentDay: 1
   minute: 0
   hours: 10
-  speedTime: 22
+  speedTime: 6
   slowSpeedTime: 0.5
   slowTime: 0
   timeOncomputer: {fileID: 584274935}
@@ -29962,8 +29962,6 @@ MonoBehaviour:
     text: Repair
   - lang: 2
     text: "\u0420\u0435\u043C\u043E\u043D\u0442"
-  - lang: 3
-    text: not translated
   _currentLanguage: 2
 --- !u!114 &1334023074
 MonoBehaviour:
@@ -30397,7 +30395,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 200, y: -12}
+  m_AnchoredPosition: {x: 170, y: -12}
   m_SizeDelta: {x: 238.3, y: 71.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1339821159
@@ -30454,7 +30452,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -39735,7 +39733,7 @@ GameObject:
   - component: {fileID: 1903656904}
   - component: {fileID: 1903656905}
   m_Layer: 5
-  m_Name: place
+  m_Name: newsChanger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39788,6 +39786,8 @@ MonoBehaviour:
   - {fileID: 3938902749495150725, guid: 1a410709d69df694c8243697531200cb, type: 3}
   - {fileID: 6140204689769935179, guid: ccf9d32f6ef43de4581367149a251c4d, type: 3}
   currentNews: {fileID: 0}
+  nextNews: {fileID: 0}
+  bg: {fileID: 743836118}
 --- !u!1 &1907969411
 GameObject:
   m_ObjectHideFlags: 0

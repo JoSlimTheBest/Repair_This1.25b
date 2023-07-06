@@ -19,10 +19,11 @@ public class HusbandVaness : MonoBehaviour
 
     public void GoMess()
     {
-        messHold.AddMessages(messagePrefab);
-        GameObject vanessa = Resources.Load<GameObject>("ActiveHuman/Vanessa");
-        door.HumanInsta(vanessa);
-        
+        GameObject husMessage = messHold.AddMessages(messagePrefab);
+        GameObject vanessaLoad = Resources.Load<GameObject>("ActiveHuman/Vanessa");
+        GameObject instVanessa = door.HumanInsta(vanessaLoad);
+        husMessage.GetComponent<KillVanessa>().vanessa = instVanessa;
+        husMessage.GetComponent<KillVanessa>().take = 3;
 
         Destroy(gameObject, 2f);
     }

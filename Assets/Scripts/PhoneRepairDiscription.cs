@@ -14,6 +14,7 @@ public class PhoneRepairDiscription : MonoBehaviour
     public BrokenPhone currentPh;
     public GameObject buttonAction;
     public GameObject checkPhoneFiles;
+    public GameObject desimilatePhone;
    // public Image photoOnDisplay;
 
     private ManagerStock stock;
@@ -76,16 +77,31 @@ public class PhoneRepairDiscription : MonoBehaviour
             {
                 statusPhone.text = "Ready";
 
-                checkPhoneFiles.SetActive(true);
-                checkPhoneFiles.GetComponent<CheckFiles>().phoneCheckFiles = currentPh.gameObject;
             }
             else
             {
                 statusPhone.text = "Готов";
 
-                checkPhoneFiles.SetActive(true);
-                checkPhoneFiles.GetComponent<CheckFiles>().phoneCheckFiles = currentPh.gameObject;
             }
+            checkPhoneFiles.SetActive(true);
+            checkPhoneFiles.GetComponent<CheckFiles>().phoneCheckFiles = currentPh.gameObject;
+        }
+
+        if(phone.desimilatephone == true)
+        {
+            if (LanguageManager.currentLang == Language.English)
+            {
+                statusPhone.text = "Ready";
+
+            }
+            else
+            {
+                statusPhone.text = "Готов";
+
+            }
+
+            desimilatePhone.SetActive(true);
+
         }
 
 
@@ -102,5 +118,14 @@ public class PhoneRepairDiscription : MonoBehaviour
     {
         stock.AddPart(currentPh.model, currentPh.brockenPart, -1);
         currentPh.status = true;
+    }
+
+    public void DesimilateIt()
+    {
+        for(int i = 0; i < 6; i++)
+        {
+            stock.AddPart(currentPh.model, i, 1);
+        }
+        GameObject.Find("BasketBrokenPhone").GetComponent<BasketPhones>().Disamilate(currentPh.peopleID);
     }
 }

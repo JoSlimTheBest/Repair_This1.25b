@@ -30,9 +30,10 @@ public class DataMoneyGive : MonoBehaviour
         gameObject.SetActive(false);
 
 
-        GameObject pref = Instantiate(prefabMoney, moneyPlace.transform);
+        /*GameObject pref = Instantiate(prefabMoney, moneyPlace.transform);
         pref.transform.localPosition += new Vector3(0, 100, 0);
         pref.GetComponent<TextMeshProUGUI>().text = "+"+money.ToString();
         pref.GetComponent<TextMeshProUGUI>().color = Color.green;
+        */
     }
 }

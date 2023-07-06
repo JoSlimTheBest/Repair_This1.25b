@@ -56,6 +56,11 @@ public class MessageCharacter : MonoBehaviour
             dataGet.GetComponent<DataMoneyGive>().money = moneyPlus;
             dataGet.GetComponent<DataMoneyGive>().mess = gameObject;
             dataGet.GetComponent<DataMoneyGive>().newMessage = nextMessage;
+            if (GetComponent<KillVanessa>() != null)
+            {
+                GetComponent<KillVanessa>().Kill();
+            }
+
         }
         else
         {

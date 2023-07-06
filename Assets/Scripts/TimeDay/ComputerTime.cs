@@ -85,8 +85,18 @@ public class ComputerTime : MonoBehaviour
         {
             return;
         }
-        for(int i =0; i < heroes.Count; i++)
+        for (int i = 0; i < heroes.Count; i++)
         {
+
+            if (heroes[i] == null)
+            {
+                heroes.Remove(heroes[i]);
+            }
+        }
+        for (int i =0; i < heroes.Count; i++)
+        {
+            
+
             if(heroes[i].day == currentDay)
             {
                 if (heroes[i].hour <= hours)

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 755480751059557584}
   - component: {fileID: 2196501524828192488}
   - component: {fileID: 3258481303758858211}
+  - component: {fileID: -4089259061963585251}
   m_Layer: 0
   m_Name: HusbandMessage
   m_TagString: Untagged
@@ -159,8 +160,6 @@ MonoBehaviour:
   passwordMessage: kozel
   nextMessage: {fileID: 6053217822294498507, guid: 45b47648ed35ac94988b84af2625dda2, type: 3}
   moneyPlus: 300
-  prefabMoney: {fileID: 6408250821041834366, guid: ca9ed348c8caa4f4cac984f1e61416af, type: 3}
-  moneyPlace: {fileID: 0}
 --- !u!114 &3258481303758858211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,6 +173,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: da596694eda2eec45a03c65e90ed3158, type: 3}
+--- !u!114 &-4089259061963585251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4036544468184164838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ae8504ce3d686e48814c98072fd6b62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vanessa: {fileID: 0}
+  newsKill: {fileID: 4945224919087899160, guid: 65001be0ff1dc714ea72a2af258fbb67, type: 3}
+  ct: {fileID: 0}
 --- !u!1 &4515035959631995021
 GameObject:
   m_ObjectHideFlags: 0
