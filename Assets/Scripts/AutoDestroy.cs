@@ -12,7 +12,7 @@ public class AutoDestroy : MonoBehaviour
     {
         if (alive == true)
         {
-            startPosition = transform.position;
+            startPosition = transform.localPosition;
         }
         else
         {
@@ -23,7 +23,7 @@ public class AutoDestroy : MonoBehaviour
 
     public void DontKill()
     {
-        transform.position = startPosition;
+        transform.localPosition = startPosition;
         gameObject.SetActive(true);
         Invoke("SetFalse", timeDestroy);
        

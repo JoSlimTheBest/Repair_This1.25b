@@ -11,6 +11,8 @@ public class AlarmClock : MonoBehaviour
 
     public List<string> dayEndEng;
     public List<string> dayEndRus;
+
+    public GameObject buttonAlarm;
      
     public void AlarmActive()
     {
@@ -26,7 +28,16 @@ public class AlarmClock : MonoBehaviour
         {
             console.SayHelp(dayEndRus[say]);
         }
-        
+
+
+        buttonAlarm.SetActive(true);
+
+        Invoke("End", 3f);
+    }
+
+    private void End()
+    {
+        buttonAlarm.SetActive(false);
     }
 
   

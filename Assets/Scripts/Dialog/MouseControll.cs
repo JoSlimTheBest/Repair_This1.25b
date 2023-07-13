@@ -121,6 +121,8 @@ public class MouseControll : MonoBehaviour
                 hit.collider.GetComponent<OutlineShaderTake>().OutlineActive();
 
             }
+
+          
             // Do something with the object that was hit by the raycast.
         }
     }

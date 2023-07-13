@@ -793,7 +793,6 @@ GameObject:
   - component: {fileID: 5037756600445310895}
   - component: {fileID: 6766565864135312996}
   - component: {fileID: 5114173222376264775}
-  - component: {fileID: 6132029395753147331}
   m_Layer: 3
   m_Name: Beardman
   m_TagString: Untagged
@@ -840,7 +839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   man: 1
-  IDperson: 501
+  IDperson: 303
   namePersonEng: name
   surnamePersonEng: surname
   _brokenPartPhone: -1
@@ -851,8 +850,8 @@ MonoBehaviour:
   moneyBuyer: 350
   clock: 4
   day: 0
-  hour: 17
-  minute: 24
+  hour: 0
+  minute: 0
   randomSex: 0
   random: 0
   addPartBody: []
@@ -1130,7 +1129,7 @@ MonoBehaviour:
   topperDialog: 1.2
   dialogDestroy: 6
   saySome: {fileID: 8300000, guid: e1e774844015972459ba2a48a8cdd4c1, type: 3}
-  gift: {fileID: 3453472952834858277, guid: 4819b93a3214b04418322783811dfbd7, type: 3}
+  gift: {fileID: 8411453335616048423, guid: a2ce8b2bc4973314db6b512b64cc6aa2, type: 3}
   readySpeak: 0
 --- !u!114 &6766565864135312996
 MonoBehaviour:
@@ -1203,19 +1202,6 @@ MonoBehaviour:
   - It's a bit pricey, but it works! Next time, I'll look for something cheaper
   - The cashier looked at me strangely, but at least they fixed the phone
   - The staff knows their job, everything is top-notch!
---- !u!114 &6132029395753147331
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9087908826241654638}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed0f4178ffa4c6e4b953373811f95c97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  messagePrefab: {fileID: 8175795831645183913, guid: 6da44ac03a8f36f46997d26645c80068, type: 3}
 --- !u!1 &9122283065680165111
 GameObject:
   m_ObjectHideFlags: 0

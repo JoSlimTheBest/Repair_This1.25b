@@ -29,6 +29,7 @@ public class DoorController : MonoBehaviour
     private int changerPos = 80;
     private int changeMin = 5;
 
+    public int lastDay = 0;
     public void Start()
     {
         CloseDoor();
@@ -75,10 +76,27 @@ public class DoorController : MonoBehaviour
 
             if(humanNew.GetComponent<HumanCharacter>().hour == 0)
             {
-                humanNew.GetComponent<HumanCharacter>().hour = Random.Range(10, 19);
+                if(lastDay != humanNew.GetComponent<HumanCharacter>().day)
+                {
+                   
+                    lastDay = humanNew.GetComponent<HumanCharacter>().day;
+
+                    humanNew.GetComponent<HumanCharacter>().hour = Random.Range(11, 13);
+                }
+                else
+                {
+                    
+                    humanNew.GetComponent<HumanCharacter>().hour = Random.Range(11, 19);
+                }
+
+                
+            }
+            if(humanNew.GetComponent<HumanCharacter>().minute == 0)
+            {
+                humanNew.GetComponent<HumanCharacter>().minute = Random.Range(0, 59);
             }
                 
-            humanNew.GetComponent<HumanCharacter>().minute = Random.Range(0, 59);
+            
         }
         return humanNew;
     }
@@ -94,7 +112,18 @@ public class DoorController : MonoBehaviour
                 humanNew.GetComponent<HumanCharacter>().day = GameObject.Find("QueueControll").GetComponent<ComputerTime>().currentDay;
                 if (humanNew.GetComponent<HumanCharacter>().hour == 0)
                 {
-                    humanNew.GetComponent<HumanCharacter>().hour = Random.Range(10, 19);
+                    if (lastDay != humanNew.GetComponent<HumanCharacter>().day)
+                    {
+                        Debug.Log("real" + humanNew.name);
+                        lastDay = humanNew.GetComponent<HumanCharacter>().day;
+
+                        humanNew.GetComponent<HumanCharacter>().hour = Random.Range(11, 13);
+                    }
+                    else
+                    {
+
+                        humanNew.GetComponent<HumanCharacter>().hour = Random.Range(11, 19);
+                    }
                 }
                 humanNew.GetComponent<HumanCharacter>().minute = Random.Range(0, 59);
             }
@@ -114,7 +143,22 @@ public class DoorController : MonoBehaviour
             if (humanNew.GetComponent<HumanCharacter>().day == 0)
             {
                 humanNew.GetComponent<HumanCharacter>().day = GameObject.Find("QueueControll").GetComponent<ComputerTime>().currentDay;
-                humanNew.GetComponent<HumanCharacter>().hour = Random.Range(10, 19);
+
+                if (humanNew.GetComponent<HumanCharacter>().hour == 0)
+                {
+                    if (lastDay != humanNew.GetComponent<HumanCharacter>().day)
+                    {
+                        Debug.Log("real" + humanNew.name);
+                        lastDay = humanNew.GetComponent<HumanCharacter>().day;
+
+                        humanNew.GetComponent<HumanCharacter>().hour = Random.Range(11, 13);
+                    }
+                    else
+                    {
+
+                        humanNew.GetComponent<HumanCharacter>().hour = Random.Range(11, 19);
+                    }
+                }
                 humanNew.GetComponent<HumanCharacter>().minute = Random.Range(0, 59);
             }
         }

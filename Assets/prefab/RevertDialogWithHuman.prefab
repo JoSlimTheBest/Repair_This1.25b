@@ -78,7 +78,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 242
+  m_SortingOrder: 8100
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &6995824966978523462
 MonoBehaviour:
@@ -248,7 +248,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 222
+  m_SortingOrder: 8000
   m_Sprite: {fileID: 21300000, guid: 6b6f4e3ea6dcec44191c3406d64fa3a2, type: 3}
   m_Color: {r: 0.9198113, g: 1, b: 0.9820187, a: 1}
   m_FlipX: 1
@@ -274,8 +274,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loseColor: 0.0025
   randomRotate: 0.15
-  offer: 1
   energyTake: -1
+  fullColorTime: 2
 --- !u!82 &-4025474745742362524
 AudioSource:
   m_ObjectHideFlags: 0

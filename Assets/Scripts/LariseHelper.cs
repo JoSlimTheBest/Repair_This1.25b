@@ -3,14 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using SimpleLocalizator;
+
 public class LariseHelper : MonoBehaviour
 {
     public GameObject sayPrefab;
     public List<GameObject> said = new List<GameObject>();
+    public ComputerTime ct;
 
     private void Start()
     {
-        Invoke("SayHello", 2f);
+        if(ct.currentDay == 1)
+        {
+            Invoke("SayHello", 2f);
+        }
+        
     }
 
     private void SayHello()
@@ -38,7 +44,11 @@ public class LariseHelper : MonoBehaviour
 
             for(int i =0; i < said.Count; i++)
             {
-                said[i].transform.position += new Vector3(0, 1f, 0);
+                if (said[i] != null)
+                {
+                    said[i].transform.position += new Vector3(0, 1f, 0);
+                }
+               
             }
         }
 

@@ -137,6 +137,7 @@
     <Compile Include="Assets\Scripts\NewDay\XReport.cs" />
     <Compile Include="Assets\Scripts\NewDay\SBoxAdderOpen.cs" />
     <Compile Include="Assets\Scripts\PrivateDevice\PasswordHolder.cs" />
+    <Compile Include="Assets\Scripts\OutLineShaderImage.cs" />
     <Compile Include="Assets\Scripts\ChangeBackGround\Switcher.cs" />
     <Compile Include="Assets\Scripts\PlayerEnergy.cs" />
     <Compile Include="Assets\Scripts\RedCountMessages.cs" />
