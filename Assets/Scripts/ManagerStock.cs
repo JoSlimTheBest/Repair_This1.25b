@@ -15,6 +15,7 @@ public class ManagerStock : MonoBehaviour
     public BuyPhonePart modelSBuy;
 
     public GameObject CheckFiles;
+    public DeliverQue deliverQue;
 
     private void Awake()
     {

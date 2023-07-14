@@ -12,6 +12,8 @@ public class BoxDelivery : MonoBehaviour
     private void Start()
     {
         transform.position += new Vector3(placeforgiftX, 0, 0);
+
+        GameObject.Find("ManagerStock").GetComponent<ManagerStock>().deliverQue.GetComponent<DeliverQue>().deliverBoy.Remove(deliverMan);
     }
     public void GivePart()
     {

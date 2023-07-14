@@ -455,6 +455,7 @@ GameObject:
   - component: {fileID: 4721406674218750535}
   - component: {fileID: 6946567911605717741}
   - component: {fileID: 6946681316834782871}
+  - component: {fileID: 4258437122891836872}
   m_Layer: 3
   m_Name: DeliveryBoy
   m_TagString: Untagged
@@ -516,6 +517,7 @@ MonoBehaviour:
   minute: 0
   randomSex: 0
   random: 1
+  addPartBody: []
   addNew: {fileID: 0}
   addNew2: {fileID: 0}
   hair: {fileID: 8668761780686163004}
@@ -794,6 +796,19 @@ MonoBehaviour:
   saySome: {fileID: 8300000, guid: e1e774844015972459ba2a48a8cdd4c1, type: 3}
   gift: {fileID: 6625952942645919368, guid: cb0228b45a1b00540b16a7f5d0e09a82, type: 3}
   readySpeak: 0
+--- !u!114 &4258437122891836872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8668761780745408057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba827823e09037d4c81116a5c4f5899e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deliverQ: {fileID: 0}
 --- !u!1 &8668761780869623571
 GameObject:
   m_ObjectHideFlags: 0
