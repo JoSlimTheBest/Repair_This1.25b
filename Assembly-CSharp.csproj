@@ -166,6 +166,7 @@
     <Compile Include="Assets\Scripts\HumanCharacter.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\Data\MultiLangSimpleTextBase.cs" />
     <Compile Include="Assets\Scripts\PrivateDevice\PrivatePasswordGo.cs" />
+    <Compile Include="Assets\Scripts\Delivery\DeliverCharacter.cs" />
     <Compile Include="Assets\Scripts\News\NewsChanger.cs" />
     <Compile Include="Assets\Scripts\EasyBuyButton.cs" />
     <Compile Include="Assets\Scripts\AudioButton.cs" />
@@ -173,6 +174,7 @@
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\Data\TranslationsSaver.cs" />
     <Compile Include="Assets\Scripts\Dialog\BrokenPhone.cs" />
     <Compile Include="Assets\Scripts\SafeBoxChangeImage.cs" />
+    <Compile Include="Assets\Scripts\Delivery\DeliverQue.cs" />
     <Compile Include="Assets\Scripts\DesimilateNow.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\ComponentsToUse\MultiLangImage.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\ComponentsToUse\MultiLangSimpleTextUI.cs" />
@@ -203,11 +205,9 @@
     <Compile Include="Assets\Scripts\Shader\ChangeColorShader.cs" />
     <Compile Include="Assets\Scripts\TimeDay\DayGoing.cs" />
     <Compile Include="Assets\Scripts\PrivateDevice\DataMoneyGive.cs" />
+    <Compile Include="Assets\Scripts\Delivery\DeliverBoyTime.cs" />
     <Compile Include="Assets\Scripts\HumanScripts\LandLord.cs" />
     <Compile Include="Assets\Unity-Simple-Localizator-master\Unity-Simple-Localizator-master\Data\MultiLangTextBase.cs" />
-    <Compile Include="Assets\Scripts\Delivery\DeliverQue.cs" />
-    <Compile Include="Assets\Scripts\Delivery\DeliverBoyTime.cs" />
-    <Compile Include="Assets\Scripts\Delivery\DeliverCharacter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -7,8 +7,8 @@ public class AutoDestroy : MonoBehaviour
 
     public bool alive = false;
     public float timeDestroy;
-    private Vector3 startPosition;
-    private void Start()
+    public Vector3 startPosition;
+    private void Awake()
     {
         if (alive == true)
         {
